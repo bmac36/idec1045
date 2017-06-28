@@ -1,0 +1,4 @@
+{
+  "DisplayTitle": "IDEC1045 - Fabric and Window Treatments",
+  "AccentHexCode": "F15343"
+}

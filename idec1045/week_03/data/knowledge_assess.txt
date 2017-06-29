@@ -1,0 +1,49 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "feedBackType": "both",
+    "forceCorrect": false,
+    "repeatOnComplete": false,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "showQuestions": "10",
+    "preQuizText": "Let's check your knowledge by identifying textures! You will be presented with 10 randomly selected multiple choice questions from a bank of 25 questions. Each question will contain the image of a texture you have learned about and a choice of options for the answer. Pick which one you think it is and then check your answer! When you are done, you may repeat the quiz again to check your knowledge on textures that may not have come up the first time. Good luck!  ",
+    "preQuizMedia": "none",
+    "postQuizText": "You have completed the activity.",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which of the following is an example of rough edge tile?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "<img src=\"img/plain_tile.png\" style=\"width:200px; max-width:100%\">",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "<img src=\"img/rough_edge_tile.png\" style=\"width:200px; max-width:100%\">",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "<img src=\"img/slate.png\" style=\"width:200px; max-width:100%\">",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "<img src=\"img/granite.png\" style=\"width:200px; max-width:100%\">",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "Slides": [
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "pinch_pleat2.jpg"
+      },
+      "Content": {
+        "Title": "Pinch Pleat",
+        "Body": "<p>Pinch pleat, sometimes known as a French pleat, is the most common traditional kind of pleat. This pleat can be used for all styles of décor except for ultra-modern. Pleats are often folded three times, however, there are varying styles of this pleat in drapery books that give you more individual ideas.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Pinch"
+      }
+    },
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "goblet_pleat2.jpg"
+      },
+      "Content": {
+        "Title": "Goblet Pleat",
+        "Body": "<p class=\"card-text\">The goblet pleat is very similar to the pinch pleat and is actually made the same way. The difference is instead of showing the three prongs of the pleat, the pleat is pushed out and rounded like a goblet to create a soft curve and a more feminine appearance. This is a great traditional look.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Goblet"
+      }
+    },
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "cinch_pleat.jpg"
+      },
+      "Content": {
+        "Title": "The Cinch Pleat",
+        "Body": "<p class=\"card-text\">This pleat style is a more modern pleat style where the pleat starts at the very top of the treatment and gives the treatment great folds and a fuller look.  For this treatment you must use a decorative rod.  This is a wonderful pleat style for all styles.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Cinch"
+      }
+    },
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "ring_top_pleat2.jpg"
+      },
+      "Content": {
+        "Title": "The Ring Top Pleat",
+        "Body": "<p class=\"card-text\">The ring top pleat is a treatment that has no structured pleating but at uniform spacing across the top, rings are clipped or attached to the back of a flat fabric so that when they are gathered they form pleats.  This treatment is able to be used for all styles of d&eacute;cor.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Ring Top"
+      }
+    },
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "tab_tie.jpg"
+      },
+      "Content": {
+        "Title": "The Tab and Tie Pleat",
+        "Body": "<p class=\"card-text\">Tab and tie top pleating is using a fabric band at the top of a flat fabric that when gathered creates casual folds. This kind of pleat is not meant to operate but should only be used for stationary treatments as the tab or tie will not lay evenly on the rod when moved. It is mostly used for more causal styles like urban country, or a casual traditional style but is not recommended for more contemporary styles.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Tab &amp; Tie"
+      }
+    },
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "grommet_pleat.jpg"
+      },
+      "Content": {
+        "Title": "The Grommet Pleat",
+        "Body": "<p class=\"card-text\">The grommet pleat is very popular for many styles using a ring called a grommet one inch down from the top of the treatment and actually cut into the fabric. The treatment easily slides on a rod to create folds. This style can be used for all styles except for very formal looks.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Grommet"
+      }
+    },
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "pocket_pleat2.jpg"
+      },
+      "Content": {
+        "Title": "The Pocket Pleat",
+        "Body": "<p class=\"card-text\">A pocket pleat is when a fabric is gathered to make a hole or pocket for the rod to pass through. When the fabric is gathered it creates the pleats. This can have fabric above the pocket to create a ruffle for more country looks or can have the pocket with no ruffle for use in rather casual use of style from traditional to casual contemporary.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Pocket"
+      }
+    },
+    {
+      "Type": "Full",
+      "Background": {
+        "Media": "Image",
+        "FolderPath": "img/",
+        "FileName": "box_pleat2.jpg"
+      },
+      "Content": {
+        "Title": "The Box Pleat",
+        "Body": "<p class=\"card-text\">The box pleat is a tailored pleat style that can be used for all styles of d&eacute;cor. It can be made with each flat box being from about 12&quot; wide to almost any width across the window. Seen often on bed skirts in the larger width, it is adaptable to give a more traditional to more contemporary effect.</p>"
+      },
+      "Navigation": {
+        "Icon": "None",
+        "Text": "Box"
+      }
+    }
+  ]
+}

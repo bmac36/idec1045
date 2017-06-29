@@ -1,0 +1,178 @@
+{
+	"ActivityName" : "Hot Spot Activity Template",
+	"HeadingLevel" : 1,
+	"Randomize" : false,
+	"ShowScenes" : "1",
+	"visible" : true,
+	"visibleStyle" : {
+			"colour" : "#FFFFFF",
+			"opacity" : "1%",
+			"stroke" : true,
+			"strokeColour" : "#F15343",
+			"strokeWidth" : "2"
+	},
+	"highlight" : false,
+	"highlightStyle" : {
+			"colour" : "#FFFFFF",
+			"opacity" : "50%",
+			"stroke" : true,
+			"strokeColour" : "#8f984c",
+			"strokeWidth" : "5"
+	},
+	"Scenes" : [
+		{
+			"SceneName" : "Whole Home Colour Examples",
+			"Instructions" : "<br>Select all the highlighted rooms to see some great examples of whole home colour schemes. Notice the colours of the inspiration painting were used in various rooms of the home but in different values and intensities.  The home is not boring or repetitive and the use of neutrals was used in each room as well.  This can be done with any kind of inspiration to create your home colour scheme.",
+			"Background" : {
+					"src" : "../demo_module/img/Hotpspot-sample.png",
+					"alt" : "Floor Plan",
+					"imgWidth" : "753",
+					"imgHeight" : "465"
+			},
+			"HotSpots": [ 
+				{
+					"id" : "one",
+					"shapeType" : "rectangle",
+					"desc" : "Nursery",
+					"xPos" : "58",
+					"yPos" : "48",
+					"shapeWidth" : "232",
+					"shapeHeight" : "222"	
+				},
+				{
+					"id" : "two",
+					"shapeType" : "rectangle",
+					"desc" : "Bedroom",
+					"xPos" : "290",
+					"yPos" : "48",
+					"shapeWidth" : "258",
+					"shapeHeight" : "222"	
+				},
+				{
+					"id" : "three",
+					"shapeType" : "rectangle",
+					"desc" : "Kitchen",
+					"xPos" : "548",
+					"yPos" : "48",
+					"shapeWidth" : "398",
+					"shapeHeight" : "222"	
+				},
+				{
+					"id" : "four",
+					"shapeType" : "rectangle",
+					"desc" : "Hall",
+					"xPos" : "58",
+					"yPos" : "270",
+					"shapeWidth" : "628",
+					"shapeHeight" : "65"	
+				},
+				{
+					"id" : "five",
+					"shapeType" : "rectangle",
+					"desc" : "Bathroom",
+					"xPos" : "237",
+					"yPos" : "336",
+					"shapeWidth" : "128",
+					"shapeHeight" : "236"	
+				},
+				{
+					"id" : "six",
+					"shapeType" : "rectangle",
+					"desc" : "Living Room",
+					"xPos" : "428",
+					"yPos" : "336",
+					"shapeWidth" : "258",
+					"shapeHeight" : "236"	
+				},
+				{
+					"id" : "seven",
+					"shapeType" : "rectangle",
+					"desc" : "Den",
+					"xPos" : "686",
+					"yPos" : "270",
+					"shapeWidth" : "260",
+					"shapeHeight" : "302"	
+				}
+			],
+			"HotSpotContent": [
+				{
+					"key" : "one",
+					"activityType" : "presentation",
+					"popUpName" : "Nursery",
+					"hotSpotMedia": [
+						{
+							"type": "text",
+							"content": "<img src=\"../demo_module/img/nursery.jpg\" alt=\"\" class=\"\"><br><br>The nursery is mostly pastel pink and with white and touches of green<br><br>Book: <em>Creative Homeowner can’t fail color schemes</em> page 190"
+						}
+					]
+				},
+				{
+					"key" : "two",
+					"activityType" : "presentation",
+					"popUpName" : "Bedroom",
+					"hotSpotMedia": [
+				        {
+							"type": "text",
+							"content": "<img src=\"../demo_module/img/bedroom.jpg\" alt=\"\" class=\"\"><br><br>Master bedroom in pastel blue and white<br><br>Book: <em>Creative Homeowner can’t fail color schemes</em> page 111"
+						}
+					]
+				},
+				{
+					"key" : "three",
+					"activityType" : "presentation",
+					"popUpName" : "Kitchen",
+					"hotSpotMedia": [
+				        {
+							"type": "text",
+							"content": "<img src=\"../demo_module/img/kitchen.jpg\" alt=\"\" class=\"\"><br><br>This kitchen is Monochromatic mid-range green<br><br>Book: <em>Creative Homeowner can’t fail color schemes</em> page 29"
+						}
+					]
+				},
+				{
+					"key" : "four",
+					"activityType" : "presentation",
+					"popUpName" : "Hall",
+					"hotSpotMedia": [
+				        {
+							"type": "text",
+							"content": "<img src=\"../demo_module/img/hall.jpg\" alt=\"\" class=\"\"><br><br>This piece of art is the colour inspiration for the whole home.  You do not have to use every colour in the inspiration.  This hall has gold walls and red accents<br><br>Book: <em>Creative Homeowner can’t fail color schemes</em> page 42"
+						}
+					]
+				},
+				{
+					"key" : "five",
+					"activityType" : "presentation",
+					"popUpName" : "Bathroom",
+					"hotSpotMedia": [
+				        {
+							"type": "text",
+							"content": "<img src=\"../demo_module/img/bathroom.jpg\" alt=\"\" class=\"\"><br><br>This bathroom is deep blue with brown accents<br><br>Book: <em>Creative Homeowner can’t fail color schemes</em> page 129"
+						}
+					]
+				},
+				{
+					"key" : "six",
+					"activityType" : "presentation",
+					"popUpName" : "Living Room",
+					"hotSpotMedia": [
+				        {
+							"type": "text",
+							"content": "<img src=\"../demo_module/img/living-room.jpg\" alt=\"\" class=\"\"><br><br>The living room has green walls with gold accents and brown<br><br>Book: <em>Creative Homeowner can’t fail color schemes</em> page 44"
+						}
+					]
+				},
+				{
+					"key" : "seven",
+					"activityType" : "presentation",
+					"popUpName" : "Den",
+					"hotSpotMedia": [
+				        {
+							"type": "text",
+							"content": "<img src=\"../demo_module/img/den.jpg\" alt=\"\" class=\"\"><br><br>The den has mostly red with yellow accents<br><br>Book: <em>Creative Homeowners can’t fail color schemes</em> page 27"
+						}
+					]
+				}
+			]
+		}
+	]	
+}

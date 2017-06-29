@@ -1,0 +1,165 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "Teacher asks learners what they find the most difficult about getting around their new neighbourhood. They talk about not knowing where things are and being anxious to ask for directions for fear that they won’t understand the directions.  The teacher creates a large, simplified map of the neighbourhood with large pictures on the board.  She describes where different buildings are in relation to each other, using the commands “turn left” “turn right” and ”go straight”, as well as the phrases “on the left”, “on the right”, “between” and “across from” as part of her description of the neighbourhood.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "A. Concrete Experience"
+        },
+        {
+          "Val": "B",
+          "Text": "B. Observation and Reflection"
+        },
+        {
+          "Val": "C",
+          "Text": "C. Abstract Conceptualization"
+        },
+        {
+          "Val": "D",
+          "Text": "D. Active Experimentation"
+        },
+        {
+          "Val": "E",
+          "Text": "E. Evaluation"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is A. Concrete Experience.",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "The teacher asks the learners to describe where things are on the map on the board.  As they suggest directions, she writes the key terms on the board, including “turn left”, “turn right”, “go straight” in one column and “on the left”, “on the right, ” “between” and “across from” in another column.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "A. Concrete Experience"
+        },
+        {
+          "Val": "B",
+          "Text": "B. Observation and Reflection"
+        },
+        {
+          "Val": "C",
+          "Text": "C. Abstract Conceptualization"
+        },
+        {
+          "Val": "D",
+          "Text": "D. Active Experimentation"
+        },
+        {
+          "Val": "E",
+          "Text": "E. Evaluation"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is B. Observation and Reflection.",
+        "Correct": [
+          "B"
+        ]
+      }
+    },
+    {
+      "Text": "The teacher explains how to give commands in English for directions using the column with the imperatives.  She points out that imperatives consist of the base form of the verb with no subject. She does not use much grammatical language in her explanation. <br><br>The teacher explains how to say where things are using “on the right”, “on the left” “between” and “across from”. <br><br>The teacher then gives the learners a dialogue with directions for them to practice reading to each other. The dialogue includes the key language.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "A. Concrete Experience"
+        },
+        {
+          "Val": "B",
+          "Text": "B. Observation and Reflection"
+        },
+        {
+          "Val": "C",
+          "Text": "C. Abstract Conceptualization"
+        },
+        {
+          "Val": "D",
+          "Text": "D. Active Experimentation"
+        },
+        {
+          "Val": "E",
+          "Text": "E. Evaluation"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is C. Abstract Conceptualization.",
+        "Correct": [
+          "C"
+        ]
+      }
+    },
+    {
+      "Text": "On the back of the handout with the dialogue, learners find a map of the neighbourhood which corresponds to the map on the board.  Working in partners, they take turns giving directions until their partners arrive at a location and name the location.<br><br>After everyone has practiced, volunteer pairs give directions using the board as the map so that the class can follow along.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "A. Concrete Experience"
+        },
+        {
+          "Val": "B",
+          "Text": "B. Observation and Reflection"
+        },
+        {
+          "Val": "C",
+          "Text": "C. Abstract Conceptualization"
+        },
+        {
+          "Val": "D",
+          "Text": "D. Active Experimentation"
+        },
+        {
+          "Val": "E",
+          "Text": "E. Evaluation"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is D. Active Experimentation",
+        "Correct": [
+          "D"
+        ]
+      }
+    },
+    {
+      "Text": "The teacher listens to the learners as they are giving instructions. She helps as needed. When the volunteers have completed giving instructions in front of the class, she provides global feedback on their use of language for giving directions.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "A. Concrete Experience"
+        },
+        {
+          "Val": "B",
+          "Text": "B. Observation and Reflection"
+        },
+        {
+          "Val": "C",
+          "Text": "C. Abstract Conceptualization"
+        },
+        {
+          "Val": "D",
+          "Text": "D. Active Experimentation"
+        },
+        {
+          "Val": "E",
+          "Text": "E. Evaluation"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is E. Evaluation.",
+        "Correct": [
+          "E"
+        ]
+      }
+    }
+  ]
+}

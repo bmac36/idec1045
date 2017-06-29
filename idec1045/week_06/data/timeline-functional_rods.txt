@@ -1,0 +1,65 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "I-Beam",
+      "Body": "<p class=\"bottom-space\">The I-beam is a simple rod that has small rings slid onto it to allow to hook a treatment on to open and close.  This is a good rod to use if the drape is mostly closed or hidden under a valance or cornice.  It is versatile as it can be hung on a wall or ceiling and is sold by the foot.  Most installers carry I beam that they can cut to the appropriate length when installing. It is also useful if you have a treatment that needs a curve as it can be bent to go around corners or curves in the window. An I beam usually is hung about 1\" from the ceiling so the treatment has room to slide without touching the ceiling. </p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/i_beam.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of an I-Beam rod showing curtains being hung<br>\n                        <cite>© iStock.com/Art-Of-Photo</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Pocket Rod",
+      "Body": "<p class=\"bottom-padding\">A \"pocket rod\" is found in a lot of stores for ready-made drapery or valances and is a flat or small round kind of metal rod, usually white, with small brackets that hold it to the wall. Some are tension rods used between window trim similar to a shower curtain. The pocket rod is very inexpensive, comes in expandable sizes for simple and light treatments with a pocket rod pleat style and can be found in many types of stores like hardware and general merchandise stores.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/pocket_rod.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of a Pocket rod.<br>\n                        <cite>© iStock.com/momcilog</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "img/",
+        "FileName": ""
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Velcro Board",
+      "Body": "<p class=\"bottom-padding\">A \"velcro board\" is no an actual rod but a piece of wod (2’ by 4’ or larger) that is covered in either lining or fabric matching the treatment and is used to hang some valance styles. It has velcro attached to the edges that allow a swag or flat treatment, such as a roman valance or shade, to be attached. They can be made in any size and can be placed on a ceiling or wall using \"L\" brakets. This is a great applicaton that allows the treatment to be easily removed for clieaning. Some heavy swag treatments may be stapled to the board if they are too heavy for the velcro.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/velcro_board.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>This photo shows an example of a Velcro board<br>\n                        <cite>© Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/velcro_board2.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>This photo shows an example of a Velcro board<br>\n                        <cite>© Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>\n <p>Velcro boards can also be used to hang multiple treatments such as a tailored valance, side panels and sheers by attaching three I-Beam rods to the velcro board.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/velcro_board3.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>This photo shows an example of a Velcro board with i-beam rods attached<br>\n                        <cite>© Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "img/",
+        "FileName": ""
+      }
+    }
+  ]
+}

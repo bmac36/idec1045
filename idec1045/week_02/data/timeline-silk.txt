@@ -1,0 +1,145 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "The Eggs:",
+      "Body": "<p>Silk production begins with the moth lying about <strong>500 eggs</strong> in 4-6 days and then dies. The only purpose of the moth is to lay eggs what will produce the next generation of silkworms. </p><p>The eggs are so tiny that the 500 eggs weigh under two ounces.  It takes 30,000 silk worms to produce twelve pounds of raw silk.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "20px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "The worm:",
+      "Body": "<p>The <strong>silkworm</strong> feeds on mulberry leaves and form a covering around it by secreting a protein like substance through its head.  This covering becomes the cocoon.  <strong>Silk filaments</strong> are long continuous strands that can be measured in yards or even miles long.  Cultivated silk filaments have a higher luster, are smoother and more even than wild silk. They can be cut shorted to blend with other kinds of materials like synthetics.</p><div class=\"row bottom-space\"><div class=\"col-xs-12\"><figure class=\"cap-bot top-space center-block\"><img src=\"img/cocoons.jpg\" alt=\" \" class=\"img-responsive center-block\"><figcaption>This photo shows cultivated silk worms creating cocoons.<br><cite class=\"pull-right\">&copy; iStock.com/laughingmango</cite></figcaption></figure></div></div><p>The most special kind of silkworm is called the Bombyx Mori moth.  There are other commercial varieties of natural silk however most of the supply is from the Bombyx Mori moth which is domesticated.  The other varieties are known as wild silk that grow in remote forests and under natural conditions.</p><p><strong>Tussah silk</strong> is wild silk that is uneven and less lustrous and more course than <strong>cultivated silk</strong (also known as domestic silk) which is long.  With Tussah silk you will see slubs where the shorter filament has been tied together and look like tiny bumps while cultivated silk is smooth.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "The Cocoon:",
+      "Body": "<p>The cocoons are raised by the farmer and delivered to the factory.  </p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Sorting:",
+      "Body": "<p>These cocoons are sorted by colour, size, shape and texture that determine the quality of the silk.  Colours can range from white and yellow to grayish tones. </p><div class=\"row bottom-space\"><div class=\"col-xs-12\"><figure class=\"cap-bot top-space center-block\"><img src=\"img/cocoon_sorting.jpg\" alt=\" \" class=\"img-responsive center-block\"><figcaption>These are silk cocoons sorted into colour and quality.<br><cite class=\"pull-right\">&copy; iStock.com/fototrav</cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Immersions:",
+      "Body": "<p>The next step is a series of hot and cold immersions that soften the cocoon and allows the filament to be unwound as one continuous thread.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Reeling and Unwinding:",
+      "Body": "<p>Reeling is the process of unwinding the filaments and combing them to make a thread that is called raw silk.  It takes 3-10 strands to make one thread of silk and can be up to 600 yards long.</p><div class=\"row bottom-space\"><div class=\"col-xs-12\"><figure class=\"cap-bot top-space center-block\"><img src=\"img/silk_unwinding.jpg\" alt=\" \" class=\"img-responsive center-block\"><figcaption>This photo shows the filament being released from the cocoon.<br><cite class=\"pull-right\">&copy; iStock.com/petekarici</cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Baling:",
+      "Body": "<p>These strands are packed into small bundles that are from 4-6 pounds called books.  The books are then put into bales that weigh about 130 pounds and shipped to textile mills all over the world.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

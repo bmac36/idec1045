@@ -1,0 +1,62 @@
+{
+	"ActivityName": "My Sequencing Activity",
+	"FeedbackType" : "report",
+	"Instructions" : "Throughout this unit, you have learned about the major steps in developing a production plan. In this activity you will find all of the key steps in a scrambled order. Select each step and move into the correct sequence to verify that you have a broad understanding of this process.",
+	"PreActivityText" : "Throughout this unit, you have learned about the major steps in developing a production plan.  In this activity you will find all of the key steps in a scrambled order.  Select each step and move into the correct sequence to verify that you have a broad understanding of this process.",
+	"PreActivityMedia": "none",
+	"PostActivityText" : "",
+	"PostActivityMedia" : "none",
+	"layoutStyle":"vertical",
+	"placholderTitleStyle":"arrow",
+	"correctOrder":["step1","step2","step3","step4","step5"],
+	"sortOrder":"random",
+	"showSortTitle": true,
+	"sortItemsType":"image",
+	"sortItems":[
+		{
+			"id":"step1",
+			"imageSrc":"img/user-item-c1.jpg",
+			"text":"Forecast how much the market wants and how much you can produce.",
+			"altText":"Image of the earth with a mangifying glass over it.",
+			"placeHolderText":"Demand Estimation & Capacity Planning",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step2",
+			"imageSrc":"img/user-item-c2.jpg",
+			"text":"Devise a production plan.",
+			"altText":"Image of a laptop.",
+			"placeHolderText":"Aggregate Production Planning",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step3",
+			"imageSrc":"img/user-item-c3.jpg",
+			"text":"Set monthly and weekly goals that are attainable.",
+			"altText":"Image of a schedule chart.",
+			"placeHolderText":"Master Production Scheduling",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step4",
+			"imageSrc":"img/user-item-c4.jpg",
+			"text":"Determine how much material you’ll need.",
+			"altText":"Image of a delivery truck.",
+			"placeHolderText":"Material Requirement Planning",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step5",
+			"imageSrc":"img/user-item-c5.jpg",
+			"text":"Determine the daily activities that will help accomplish your plan.",
+			"altText":"Image of an activity chart.",
+			"placeHolderText":"Short-Range Scheduling",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		}
+	]  
+}

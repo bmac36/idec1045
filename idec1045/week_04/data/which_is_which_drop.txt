@@ -1,0 +1,401 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "<img src=\"img/basic_weave.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is A. This is a sample of a Basic weave.",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/satin_weave.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is B. This is a sample of a Satin weave.",
+        "Correct": [
+          "B"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/twill.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is C. This is a sample of a Twill weave",
+        "Correct": [
+          "C"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/jacquard.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is D. This is a sample of a Jacquard weave",
+        "Correct": [
+          "D"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/basket.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is E. This is a sample of a Basket weave.",
+        "Correct": [
+          "E"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/rib.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is F. This is an example of a Rib weave.",
+        "Correct": [
+          "F"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/dobby.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is G. This is an example of a Dobby weave.",
+        "Correct": [
+          "G"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/velvet.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is H. This is an example of a Pile weave.",
+        "Correct": [
+          "H"
+        ]
+      }
+    },
+    {
+      "Text": "<img src=\"img/velour.jpg\" class=\"center-block\" style=\"width:200px; max-width:100%\">",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Basic"
+        },
+        {
+          "Val": "B",
+          "Text": "Satin"
+        },
+        {
+          "Val": "C",
+          "Text": "Twill"
+        },
+        {
+          "Val": "D",
+          "Text": "Jacquard"
+        },
+        {
+          "Val": "E",
+          "Text": "Basket"
+        },
+				{
+					"Val": "F",
+					"Text": "Rib"
+				},
+				{
+					"Val": "G",
+					"Text": "Dobby"
+				},
+				{
+					"Val": "H",
+					"Text": "Pile"
+				}
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is H. This is an example of a Pile weave.",
+        "Correct": [
+          "H"
+        ]
+      }
+    }
+  ]
+}

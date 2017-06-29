@@ -1,0 +1,260 @@
+{
+	"ActivityName" : " Identifying Trends in History",
+    "HeadingLevel" : 1,
+	"QuestionDisplay" : "all",
+	"ProvideContinuous" : true,
+	"ProvideQuestionReport" : true,
+	"ProvideEndReport" : true,
+	"VisualFeedback" : true,
+	"AllowPrevious" : false,
+	"Randomize" : false,
+	"Instructions" : "",
+    "PreActivityText" :  "none",
+	"PreActivityMedia":  "none",
+	"PostActivityText" :  "none",
+	"PostActivityMedia" :  "none",
+	"TableHeading" : "Eras",
+	"Answers" : [
+		{
+			"imgSrc" : "img/victorian-125.jpg",
+			"alt" : "",
+			"text" : "Victorian"
+		},
+		{
+			"imgSrc" : "img/sixties_decor-125.jpg",
+			"alt" : "",
+			"text" : "Post WWII"
+		},
+		{
+			"imgSrc" : "img/modern_kitchen-125.jpg",
+			"alt" : "",
+			"text" : "Modern"
+		}
+	],
+	"Questions" : [
+		{
+			"text" : "Kitchen is central to family life",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Great! Since cooking is more than just a means of survival these days, we include the whole family during meal preparation."
+				      	}
+					]
+				}
+			]
+		},
+		{
+			"text" : "Only rich could afford to decorate",
+			"answers" : [
+				{
+					"check" : true,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Since furniture was all hand-made, your average worker couldn’t afford custom made pieces."
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				}
+			]
+		},
+		{
+			"text" : "Houses started being built in the suburbs of cities",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "After WWII, cities began building out in the farming communities to allow for single family homes with  property, and the suburbs were born!"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				}
+			]
+		},
+        {
+			"text" : "There was only one style option for everyone",
+			"answers" : [
+				{
+					"check" : true,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "In the past there were very few choices in decorating.  Aren’t you glad that is not the case today?"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				}
+			]
+		},
+        {
+			"text" : "Family room moved to ground floor",
+			"answers" : [
+            {
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Good! The increase in leisure time developed the family room often behind the garage and off the kitchen.  This gave a dedicated space to relax."
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				}
+			]
+		},
+        {
+			"text" : "Open concept became more popular",
+			"answers" : [
+            {
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Fewer halls and separate rooms made for more informal homes that suit group enjoyment.  Many homes today do not have a formal living room or dining room as a result."
+				      	}
+					]
+				}
+			]
+		},
+        {
+			"text" : "Higher ceilings in homes became standard",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+                {
+					"check" : true,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Homes built on narrow lots started the increase of ceiling height to 9’, and up to full 2 stories to increase the feeling of space."
+				      	}
+					]
+				}
+			]
+		}
+	]	
+}

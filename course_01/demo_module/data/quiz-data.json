@@ -1,0 +1,133 @@
+{
+  "General":{
+    "QuizName": "Look at the drawing, and answer basic questions about the objects and features you see.",
+    "HeadingLevel": 1,
+    "instructions": "none",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": false,
+    "subtractWrong": false,
+    "preQuizText":"none",
+    "preQuizMedia":"none",
+    "postQuizText":"none",
+    "postQuizMedia":"none"
+  },
+  "Questions":[
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<img src=\"../demo_module/img/drawing.jpg\" alt=\"Room Diagram\" class=\"img-responsive\"><br>What kind of a room do you think this is?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Living room",
+          "feedBack": "Correct! This is a living room with lots of seating ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Kitchen",
+          "feedBack": "Incorrect! Not so as there are no cabinets and appliances"
+        },
+        {
+          "answerText": "Family room",
+          "feedBack": "Incorrect! Most family rooms have multiple uses like games areas or craft centres."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<img src=\"../demo_module/img/drawing.jpg\" alt=\"Room Diagram\" class=\"img-responsive\"><br>Can you identify overall room size?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "6’ x 16’",
+          "feedBack": "Incorrect! Sorry…this is only showing part of the width and length"
+        },
+        {
+          "answerText": "12’ x 16’",
+          "feedBack": "Incorrect! Oh not this one. The full width is correct but not the full length"
+        },
+        {
+          "answerText": "12’ x 20’",
+          "feedBack": "Correct! Good for you! The overall measurements are shown in a long line that runs the full width and length of the room",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<img src=\"../demo_module/img/drawing.jpg\" alt=\"Room Diagram\" class=\"img-responsive\"><br>How many electrical wall plugs do you find?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "5",
+          "feedBack": "Correct! Yes! The electrical plugs are found on each wall and are used for plugging in lamps, TV’s and other electrical items",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "6",
+          "feedBack": "Incorrect! Sorry but there are 5 plugs and one switch.  The switch turns on the ceiling light and is usually found beside a door"
+        },
+        {
+          "answerText": "3",
+          "feedBack": "Incorrect! Oh no…too few."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<img src=\"../demo_module/img/drawing.jpg\" alt=\"Room Diagram\" class=\"img-responsive\"><br>There is a door coming into the room in the corner.  What way is the door swing?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "The door is opening against the wall",
+          "feedBack": "Correct! Good for you!  Most single doors coming into a room are in a corner opening to the wall.  This way it does not interfere with the flow of the room.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The door is opening into the room",
+          "feedBack": "Incorrect! Not the best choice for a room.  If a door opens into the room, you must be able to fully open it to the wall beside it to not have to walk around the door to get into the room."
+        },
+        {
+          "answerText": "There is no door",
+          "feedBack": "Incorrect! You can tell if there is a door in an opening because it will show the door and the arch swing showing the way the door opens and closes."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<img src=\"../demo_module/img/drawing.jpg\" alt=\"Room Diagram\" class=\"img-responsive\"><br>Can you find the window in the room?  What wall is it located on?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "There is no window",
+          "feedBack": "Incorrect! When a room has no window you will see all the walls shaded in solid."
+        },
+        {
+          "answerText": "There is no window but there is a railing",
+          "feedBack": "Incorrect! We know this is not a railing because it is on an outside wall. The same symbol is used on an interior wall that is not as thick as the outside wall."
+        },
+        {
+          "answerText": "The window is located on the left wall",
+          "feedBack": "Correct! Yes! The window is on an outside wall and on the left wall.  It is shown by not shading in the window size",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+
+}

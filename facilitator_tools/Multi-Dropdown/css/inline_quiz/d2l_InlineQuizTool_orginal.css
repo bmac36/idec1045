@@ -1,0 +1,436 @@
+#ILQ_container{
+	width:70%;
+	margin-left:auto;
+	margin-top:20px;
+	margin-right:auto;
+	border-top: 5px solid #00a1af;
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	background: #f9f9f9;
+}
+
+@media (max-width: 400px) {
+    #ILQ_container{
+		width:100%;
+	}
+	.ILQ_MediaEmbeddedVideo{
+		height: 200px;
+	}
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 16%;
+	}
+/*	#ILQ_ContinuousResponceCont{
+		padding-top: 35%;
+	}*/
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+    #ILQ_container{
+		width:100%;
+	}
+	.ILQ_MediaEmbeddedVideo{
+		height: 200px;
+	}
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 11%;
+	}
+/*	#ILQ_ContinuousResponceCont{
+		padding-top: 35%;
+	}*/
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+    #ILQ_container{
+		width:95%;
+	}
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 11%;
+	}
+/*	#ILQ_ContinuousResponceCont{
+		padding-top: 25%;
+	}*/
+}
+
+@media (min-width: 701px) and (max-width: 939px) {
+    #ILQ_container{
+		width:95%;
+	}
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 11%;
+	}
+/*	#ILQ_ContinuousResponceCont{
+		padding-top: 15%;
+	}*/
+}
+@media (min-width: 940px) {
+    #ILQ_container{
+		width: 900px
+	}
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 11%;
+	}
+/*	#ILQ_ContinuousResponceCont{
+		padding-top: 10%;
+	}*/
+}
+
+#ILQ_header h1 {
+	color: #323232;
+	min-height: 1em;
+	font-size:1.75em;
+	text-align: center;
+}
+
+.ILQ_questionHeader,
+.ILQ_hintHeader,
+#ILQ_ContinuousResponceHeader {
+	margin: 2% auto;
+	min-height: 1em;
+	font-size:1.3em;
+}
+
+.ILQ_questionHeader {
+	width: 95%;
+}
+
+
+#ILQ_content{
+	color: #000;
+	min-height: 200px;
+	height: 100%;
+	border: 1px solid #c6c8ca;
+	background: #f9f9f9;
+	padding: 15px;
+	overflow-y: auto;
+	font-size: 16px;
+	font-weight: normal;
+	font-family:  Arial,"Helvetica Neue",Helvetica,sans-serif;
+	text-shadow:none;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+}
+
+.ILQ_AccessOnly{
+	font-size: 0px;
+	width: 0px;
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+	opacity: 0;
+}
+
+.ILQ_Description {
+	min-height: 200px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.ILQ_Media {
+	width: 100%;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.ILQ_MediaLink,
+.ILQ_MediaAltLink {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.ILQ_MediaImage,
+.ILQ_MediaImage > img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ILQ_MediaEmbeddedVideo {
+	max-width: 100%;
+}
+
+.ILQ_fullReport > .ILQ_miniReport {
+	margin-left: 2%;
+	padding-bottom: 10px;
+}
+
+.ILQ_questionText{
+	min-height:  40px;
+	margin: 0 auto;
+	width: 95%;
+}
+
+.ILQ_quizFeild {
+	border: none;
+	margin: 0 auto;
+	width: 95%;
+}
+
+.ILQ_AnswerSlot{
+	display: block;
+	position: relative;
+	cursor: pointer;
+	padding: 12px 0px;
+	margin-bottom: 2px;
+}
+
+.ILQ_AnswerSlot.over{
+	background:#EDEDED;
+}
+
+.ILQ_AnswerSlot.down{
+	background: #e5e5e5;
+}
+
+.ILQ_AnswerSlot.AnsCorrect{
+	border:1px solid #00B44F;
+}
+
+.ILQ_AnswerSlot.AnsIncorrect{
+	border:1px solid #EC0044;
+}
+
+/*.ILQ_AnswerSlot.AnsPartial{
+	background:#F9D832;
+}*/
+
+.ILQ_AnswerSlot.correct > .ILQ_impCont {
+	background-image: url(../graphics/Right_24.png);
+	background-size: contain;
+	background-position: 0px 0px !important;
+	cursor: default;
+}
+
+.ILQ_AnswerSlot.incorrect > .ILQ_impCont {
+	background-image: url(../graphics/Wrong_24.png);
+	background-size: contain;
+	background-position: 0px 0px !important;
+	cursor: default;
+}
+
+.ILQ_AnswerSlot.partial > .ILQ_impCont {
+	background-image: url(../graphics/Partially-Correct.png);
+	background-size: contain;
+	background-position: 0px 0px !important;
+	cursor: default;
+}
+
+.ILQ_impCont {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 0.5em;
+	margin-right: .5em;
+	top: 10px;
+	position: absolute;
+	float: left;
+
+	background-image: url(../graphics/Radio-Icons.png);
+	background-repeat: no-repeat;
+}
+
+.ILQ_impCont.radio{
+	background-position: -1px -20px;
+}
+
+.ILQ_impCont.check{
+	background-position: -1px 0px;
+}
+
+
+.ILQ_impCont.radio.selected{
+	background-position: -20px -20px;
+}
+
+.ILQ_impCont.check.selected{
+	background-position: -20px 0px;
+}
+
+.ILQ_AnswerSlot > .ILQ_answerLable {
+	display: inline-block;
+}
+
+.ILQ_answerLable {
+	margin-left: 50px;
+}
+
+#ILQ_buttonSet {
+/*	display: inline;*/
+	text-align:right;
+	width: 100%;
+/*	max-width: 95%;
+  	margin: 0 auto;*/
+
+/*	cursor: pointer;*/
+}
+
+.ILQ_BaseButtonContainer.FullButton,
+.ILQ_BaseButtonContainer.RightHalfButton,
+.ILQ_BaseButtonContainer.LeftHalfButton,
+#ILQ_HintButton.ILQ_GenericButtonContainer,
+.ILQ_GenericButtonContainer.Generic {
+	background-color: #ffffff;
+	color: #656565;
+	border-radius:6px;
+	height:40px;
+	display: inline-block;
+	white-space: normal;
+	border:1px solid #A0AAB2;
+	cursor:pointer;
+	max-width:120px;
+	width: 30%;
+	margin-top: 1em;
+	margin-bottom: 2%;
+	margin-right: 2.5%;
+}
+
+.ILQ_BaseButtonContainer.FullButton.over,
+.ILQ_BaseButtonContainer.RightHalfButton.over,
+.ILQ_BaseButtonContainer.LeftHalfButton.over,
+#ILQ_HintButton.ILQ_GenericButtonContainer.over,
+.ILQ_GenericButtonContainer.Generic.over {
+	background-color: #EDEDED;
+}
+
+.ILQ_BaseButtonContainer.FullButton.active,
+.ILQ_BaseButtonContainer.RightHalfButton.active,
+.ILQ_BaseButtonContainer.LeftHalfButton.active,
+#ILQ_HintButton.ILQ_GenericButtonContainer.active,
+.ILQ_GenericButtonContainer.Generic.active {
+	background-color: #D8D8D8;
+}
+
+#ILQ_HintButton {
+	float: left;
+	margin-left: 2.5%;
+}
+
+.ILQ_BaseButtonDisabled, .ILQ_GenericButtonDisabled {
+	background:#FFFFFF !important;
+	border: 1px solid #C1C1C1 !important;; 
+	color: #C1C1C1 !important;
+	cursor: default;
+}
+
+.ILQ_BaseButtonContainer.LeftHalfButton.hidden {
+	display:none;
+}
+
+.ILQ_BaseButtonContainer.RightHalfButton.hidden {
+	display: none;
+}
+
+#ILQ_NextButton {
+	float: right;
+	margin-right: 0px;	
+}
+
+.ILQ_GenericButtonContainer.Generic.hidden {
+	display:none;
+}
+
+.ILQ_BaseButtonLable,
+.ILQ_GenericLable {
+	display: block;
+	font-size:.7em;
+	font-weight: bold;
+	font-family: Arial;
+	text-align: center;
+}
+
+#ILQ_ContinuousResponceCont{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.ILQ_continusResponceGraphic, .ILQ_RecapResponceGraphic{
+	width: 20px;
+	vertical-align: middle;
+	padding-right: 15px;
+	margin-top: -3px;
+}
+
+.ILQ_continusResponceText{
+	color:red;
+	padding-top: 10px;
+
+}
+
+.ILQ_RecapResponceText{
+	color:#000;
+
+}
+
+.ILQ_miniReport{
+	color:#000;
+}
+
+/*.ILQ_miniReport > .ILQ_miniReportContent{
+	margin-left: 20px
+}*/
+
+.ILQ_ContinuousResponceText{
+	/* width handled in JS  InlineQuizApp.HandleWindowAdjust*/
+	/* float handled in JS  InlineQuizApp.HandleWindowAdjust*/
+}
+
+#ILQ_NextButton{
+	/* margin handled in JS  InlineQuizApp.HandleWindowAdjust*/
+	/* float handled in JS  InlineQuizApp.HandleWindowAdjust*/
+}
+
+.ILQ_RightHighlight {
+/*	background-color:rgba(0, 255, 0, 0.7);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+.ILQ_WrongHighlight {
+/*	background-color:rgba(255, 0, 0, 0.7);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+.ILQ_SimilarHighlight {
+/*	background-color:rgba(255, 255, 0, 0.7);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+.ILQ_ReferenceHighlight {
+/*	background-color:rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+ul {
+	line-height: 160%;
+}
+
+input.blank {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100%;
+    transition: width 0.25s; 
+    margin-left: -50px;   
+}
+
+input.number {
+    width: 30px;
+    min-width: 30px;
+    max-width: 100%;
+    transition: width 0.25s;
+    margin-left: -50px;    
+}
+
+.blankLabel {
+	position: relative;
+	left: -9999px;
+}

@@ -1,0 +1,728 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Area Rug Exercise</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fuelux/3.15.11/css/fuelux.css" />
+
+<style>
+	
+	.fuelux .wizard {
+		border-radius: 0px;	
+	}
+	
+	#drawspace {
+		text-align:center;
+		border:1px solid #cccccc;
+		padding:30px;
+	}
+	
+	p.errortext {
+		color:#ec0044;
+	}
+	
+	#btn-rotate {
+		display:block;
+		margin:20px 0px;
+	}
+	
+	#patternselect {
+		max-height:150px;
+		overflow:auto;
+	}
+	
+	a.patternpreview {
+		width:50px;
+		height:50px;
+		display:inline-block;
+		margin:10px;
+		border:3px solid #000000;
+	}
+	
+	a.patternpreview.selected {
+		border-color:#00b44f;
+	}
+	
+	#pattern0 {
+		background-color:#FFFFFF;
+	}
+	
+	#hiddenelement, #pdfgeneration {
+		position:absolute;
+		top:0px;
+		left:0px;
+		visibility:collapse;
+		padding:20px 60px 20px 60px;
+		background-color:#FFFFFF;
+		color:#000000;
+		font-family: Arial, sans-serif;
+		width:720px;
+	}
+	
+	#hiddenelement h1, #pdfgeneration h1 {
+		font-size:18px;
+		font-weight:bold;
+	}
+
+	#hiddenelement h2, #pdfgeneration h2 {
+		font-size:15px;
+		font-weight:bold;
+	}
+	
+	#hiddenelement, #pdfgeneration h3 {
+		font-size:12px;
+	}
+
+	.container {
+		width:920px;
+	}	
+
+</style>
+
+</head>
+
+<body class="fuelux">
+
+
+<div class="container">
+	<div class="wizard" data-initialize="wizard" id="myWizard">
+		<div class="steps-container">
+			<ul class="steps">
+				<li data-step="1" data-name="rugvalue" class="active">
+					<span class="badge">1</span>Size
+					<span class="chevron"></span>
+				</li>
+				<li data-step="2" data-name="rugplace">
+					<span class="badge">2</span>Placement 
+					<span class="chevron"></span>
+				</li>
+				<li data-step="3" data-name="rugmaterial">
+					<span class="badge">3</span>Material
+					<span class="chevron"></span>
+				</li>
+				<li data-step="4" data-name="rugcolour">
+					<span class="badge">4</span>Colour
+					<span class="chevron"></span>
+				</li>
+				<li data-step="5" data-name="rugpattern">
+					<span class="badge">5</span>Pattern
+					<span class="chevron"></span>
+				</li>
+			</ul>
+		</div>
+		<div class="actions">
+			<button type="button" class="btn btn-default btn-prev">
+				<span class="glyphicon glyphicon-arrow-left"></span>Prev</button>
+			<button type="button" class="btn btn-primary btn-next" data-last="Save PDF">Next
+				<span class="glyphicon glyphicon-arrow-right"></span>
+			</button>
+		</div>
+		<div class="step-content">
+			<div class="step-pane active bg-info alert" data-step="1">
+				<h4>Area Rug Size</h4>
+				<div class="row">
+					<div class="col-sm-5">
+						<p><strong>Length:</strong> <input class="rugvalue" id="length1" type="number" min="0" max="17" value="2"> feet <input class="rugvalue" id="length2" type="number" min="0" max="11" value="0"> inches</p>
+						<p><strong>Width:</strong> <input class="rugvalue" id="width1" type="number" min="0" max="17" value="2"> feet <input class="rugvalue" id="width2" type="number" min="0" max="11" value="0"> inches</p>
+						<p><button id="btn-rotate" class="btn btn-primary" onClick="rotaterug()">Rotate</button></p>
+					</div>
+					<div id="explain1" class="col-sm-7">
+						<div class="form-group">
+						  <label for="comment1">Explanation:</label>
+						  <textarea class="form-control" rows="5" id="comment1"></textarea>
+						</div>
+						<p class="errortext" id="error1"></p>
+					</div>
+				</div>
+
+			</div>
+			<div class="step-pane bg-info alert" data-step="2">
+				<h4>Area Rug Placement</h4>
+				<div class="row">
+					<div class="col-sm-5">
+						<p>Distance from the top-left corner of the overhead view of the bedroom.</p>
+						<p><strong>From Top:</strong> <input class="rugvalue" id="top1" type="number" min="0" max="17" value="2"> feet <input class="rugvalue" id="top2" type="number" min="0" max="11" value="0"> inches</p>
+						<p><strong>From Left:</strong> <input class="rugvalue" id="left1" type="number" min="0" max="17" value="2"> feet <input class="rugvalue" id="left2" type="number" min="0" max="11" value="0"> inches</p>
+					</div>
+					<div id="explain2" class="col-sm-7">
+						<div class="form-group">
+						  <label for="comment2">Explanation:</label>
+						  <textarea class="form-control" rows="5" id="comment2"></textarea>
+						</div>
+						<p class="errortext" id="error2"></p>
+					</div>			
+				</div>
+			</div>
+			<div class="step-pane bg-info alert" data-step="3">
+				<h4>Area Rug Material</h4>
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="form-group">
+						  <label for="sel1">Material:</label>
+						  <select class="form-control" id="sel1">
+							<option>Olefin</option>
+							<option>Nylon</option>
+							<option>Wool</option>
+							<option>Leather</option>
+						  </select>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="form-group">
+						  <label for="comment3">Explanation:</label>
+						  <textarea class="form-control" rows="5" id="comment3"></textarea>
+						</div>
+						<p class="errortext" id="error3"></p>
+					</div>			
+				</div>
+			</div>
+			<div class="step-pane bg-info alert" data-step="4">
+				<h4>Area Rug Colour</h4>
+				<div class="row">
+					<div class="col-sm-5">
+						<p><strong>Color: </strong><input id="color1" class="jscolor rugvalue" value="FFFFFF"></p>
+					</div>
+					<div class="col-sm-7">
+						<div class="form-group">
+						  <label for="comment4">Explanation:</label>
+						  <textarea class="form-control" rows="5" id="comment4"></textarea>
+						</div>
+						<p class="errortext" id="error4"></p>
+					</div>			
+				</div>
+			</div>
+			<div class="step-pane bg-info alert" data-step="5">
+				<h4>Area Rug Pattern</h4>
+				<div class="row">
+					<div class="col-sm-5">
+						<div id="patternselect">
+
+						</div>
+					</div>
+					<div id="explain5" class="col-sm-7">
+						<div class="form-group">
+						  <label for="comment5">Explanation:</label>
+						  <textarea class="form-control" rows="5" id="comment5"></textarea>
+						</div>
+						<p class="errortext" id="error5"></p>
+					</div>			
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div id="drawspace">
+
+	</div>
+
+	<div id="hiddenelement">
+		<div class="pdfsection">
+			<h1>My Area Rug Specifications</h1>	
+		</div>
+		<div class="pdfsection">
+			<h2>My Size Selection</h2>
+			<div id="input-size"></div>
+		</div>
+		<div class="pdfsection">
+			<h2>My Placement Selection</h2>
+			<div id="input-placement"></div>
+		</div>
+		<div class="pdfsection">
+			<h2>My Material Selection</h2>
+			<div id="input-material"></div>
+		</div>
+		<div class="pdfsection">
+			<h2>My Colour Selection</h2>
+			<div id="input-colour"></div>
+		</div>
+		<div class="pdfsection">
+			<h2>My Pattern Selection</h2>
+			<div id="input-pattern"></div>
+		</div>
+	</div>
+
+	<div id="pdfgeneration">
+	
+	</div>
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuelux/3.15.11/js/fuelux.js"></script>
+<script type="text/javascript" src="jscolor/jscolor.js"></script>
+
+
+<script src="jsPDF-master/dist/jspdf.debug.js"></script>
+<script src="jsPDF-master/libs/html2pdf.js"></script>
+
+
+<script>
+var roomdata = 
+{
+  "Rooms": [
+    {
+      "canvasid": "bedroom1",
+      "background": "Bedroom-Wood-17x17.png",
+      "pixelwidth": 817,
+      "pixellength": 793,
+      "units": "feet",
+      "roomwidth": 17,
+      "roomheight": 17,
+      "Objects": [
+        {
+          "objectname": "Bed",
+          "image": "Bedroom_HeaderAndFooterBed.png",
+          "pixelwidth": 300,
+          "pixellength": 232,
+          "pixelx": 60,
+          "pixely": 270
+        },
+        {
+          "objectname": "NightStand",
+          "image": "Bedroom_NightStand.png",
+          "pixelwidth": 142,
+          "pixellength": 266,
+          "pixelx": 60,
+          "pixely": 520
+        },
+        {
+          "objectname": "Drawers",
+          "image": "Bedroom_ChestofDrawers.png",
+          "pixelwidth": 249,
+          "pixellength": 150,
+          "pixelx": 500,
+          "pixely": 600
+        }
+      ]
+    }
+  ]
+}
+
+var patterndata = [
+	"none","pattern1.png","pattern2.png","pattern3.png","pattern4.png"
+]
+
+var ctx;
+var c;
+
+var rug_width = 100;
+var rug_length = 100;
+var rug_posx = 100;
+var rug_posy = 100;
+var rug_colour = "FFFFFF";
+var rug_pattern = "none";
+
+var isrotated = false;
+
+var activeSteps = [1];
+var currentStep = 1;	
+
+var imgData1;
+var imgDataHTML = [];
+
+var canvasdone = false;	
+var inputsdone = false;
+	
+var pdf;
+var canvas;
+var width;
+var maxheight = 760;
+
+var firstload = true;
+	
+
+function downloadpdf() {    
+	
+	pdf = new jsPDF('p', 'pt', 'letter');
+	canvas = pdf.canvas;
+	width = 720;
+	
+	imgDataHTML = [];
+	
+	$("#input-size").html("<strong>Length: </strong>"+$("#length1").val()+"&rsquo; "+$("#length2").val()+"&rdquo;<br><strong>Width: </strong>"+$("#width1").val()+"&rsquo; "+$("#width2").val()+"&rdquo;<br><strong>Explanation: </strong>"+$("#comment1").val());
+	$("#input-placement").html("<strong>From Top: </strong>"+$("#top1").val()+"&rsquo; "+$("#top2").val()+"&rdquo;<br><strong>From Left: </strong>"+$("#left1").val()+"&rsquo; "+$("#left2").val()+"&rdquo;<br><strong>Explanation: </strong>"+$("#comment2").val());
+	$("#input-material").html("<strong>Material: </strong>"+$("#sel1").val()+"<br><strong>Explanation: </strong>"+$("#comment3").val());
+	$("#input-colour").html("<strong>Colour: </strong>"+$("#color1").val()+"<div style='width:20px;height:20px;display:inline-block;margin-left:20px;background-color:#"+$("#color1").val()+";border:2px solid #000'></div><br><strong>Explanation: </strong>"+$("#comment4").val());
+	if(rug_pattern == "none") {
+		$("#input-pattern").html("<strong>Pattern: </strong><div style='width:50px;height:50px;display:inline-block;border:2px solid #000'></div><br><strong>Explanation: </strong>"+$("#comment5").val());
+	}
+	else {
+		$("#input-pattern").html("<strong>Pattern: </strong><div style='width:50px;height:50px;display:inline-block;background-image:url(img/"+rug_pattern+");border:2px solid #000'></div><br><strong>Explanation: </strong>"+$("#comment5").val());
+	}
+	
+	
+	html2canvas($("#"+roomdata.Rooms[0].canvasid), {
+		onrendered: function(canvas) {         
+			imgData1 = canvas.toDataURL('image/PNG');
+			downloadpdf2(0);
+		}
+	});
+
+}
+	
+function downloadpdf2(sectionindex) {
+	
+	$("#pdfgeneration").html("");
+	var totalheight = $("#hiddenelement").outerHeight();
+	var thisindex = sectionindex;
+	
+	if(totalheight > maxheight) {
+		$(".pdfsection").each(function( index ) {
+			
+			if(index >= sectionindex) {
+				
+				if(($("#pdfgeneration").outerHeight() + $(this).outerHeight()) <= maxheight) {
+					thisindex++;
+					$("#pdfgeneration").append($(this).html());
+				}
+			}
+		});
+		
+		html2canvas($("#pdfgeneration"), {
+			allowTaint: true,
+        	taintTest: false,
+			onrendered: function( canvas ) {
+				var imgDataPage = canvas.toDataURL('image/PNG');
+				imgDataHTML.push(imgDataPage);
+				if((thisindex) < $(".pdfsection").length) {
+					downloadpdf2(thisindex);
+				}
+				else {
+					downloadpdf3();
+				}
+			}
+		});
+	}
+	else {
+		html2canvas($("#hiddenelement"), {
+			allowTaint: true,
+        	taintTest: false,
+			onrendered: function(canvas) {
+				var imgDataPage = canvas.toDataURL('image/PNG');
+				imgDataHTML.push(imgDataPage);
+				downloadpdf3();
+			}
+		});
+	}
+}
+	
+function downloadpdf3() {
+	for(i=0; i<imgDataHTML.length; i++) {
+		pdf.addImage(imgDataHTML[i], 'PNG', 15, 15);
+		pdf.addPage();
+	}
+	pdf.addImage(imgData1, 'PNG', 20, 20, 555, 555);
+	pdf.save('MyAreaRug-Bedroom1.pdf');
+}
+
+
+function rotaterug() {
+	isrotated = !isrotated;
+	drawroom();
+}
+
+
+$(".rugvalue").change(function(){
+	
+	if($(this)[0].type == "number") {
+		var thisval = parseInt($(this)[0].value);
+		
+		if(isNaN(thisval)) {
+			$(this)[0].value = 2;
+			thisval = 2;
+		}
+		if(thisval > $(this)[0].max) {
+			$(this)[0].value = $(this)[0].max;
+		}
+		if(thisval < $(this)[0].min) {
+		   	$(this)[0].value = $(this)[0].min;
+		}
+	}
+	drawroom();
+});
+
+
+function selectpattern(index) {
+	$(".patternpreview").removeClass("selected");
+	$("#pattern"+index).addClass("selected");
+	rug_pattern = patterndata[index];
+	drawroom();
+}
+
+	
+function isHexaColor(sNum){
+  return (typeof sNum === "string") && sNum.length === 6 
+         && ! isNaN( parseInt(sNum, 16) );
+}
+
+
+function convertpix(feet, inches, roompixels, roomwidth) {
+	var inchestofeet = inches / 12;
+	var feetandinches = feet + inchestofeet;
+
+	var percentroom = feetandinches / roomwidth;
+	var pixelroom = percentroom * roompixels;
+	
+	return(Math.round(pixelroom));
+}	
+	
+	
+function drawrug(posx, posy, width, length, colour, pattern) {
+
+	if(isrotated) {
+      var imageObj = new Image();
+      imageObj.onload = function() {
+		  
+		ctx.beginPath();
+        var rugend = ctx.createPattern(imageObj, 'repeat');
+        ctx.rect((posx-10), posy, width+20, length);
+        ctx.fillStyle = rugend;
+        ctx.fill();
+
+		ctx.beginPath();
+		ctx.rect(posx,posy,width,length);
+		ctx.fillStyle = "#"+colour;
+		ctx.fill();
+
+		if(pattern !== "none") {
+			var imageObj2 = new Image();
+			imageObj2.onload = function() {
+				var rugpattern = ctx.createPattern(imageObj2, 'repeat');
+				ctx.rect(posx,posy,width,length);
+				ctx.fillStyle = rugpattern;
+				ctx.fill();
+				
+				for(var o=0; o<roomdata.Rooms[0].Objects.length; o++) {
+					drawobj(roomdata.Rooms[0].Objects[o].pixelx, roomdata.Rooms[0].Objects[o].pixely, roomdata.Rooms[0].Objects[o].image);
+				}
+
+			}
+			
+			imageObj2.src = 'img/'+pattern;
+			
+		}
+		  
+		else {
+			for(var o=0; o<roomdata.Rooms[0].Objects.length; o++) {
+				drawobj(roomdata.Rooms[0].Objects[o].pixelx, roomdata.Rooms[0].Objects[o].pixely, roomdata.Rooms[0].Objects[o].image);
+			}
+		}
+		  
+		if(firstload) {
+			highlightrug(posx+(width/2), posy+(length/2));
+			firstload = false;
+		}
+		  
+      };
+	
+      imageObj.src = 'img/Rug-End-Rotate.png';	
+	}
+	else {
+      var imageObj = new Image();
+      imageObj.onload = function() {
+        var rugend = ctx.createPattern(imageObj, 'repeat');
+        ctx.rect(posx, (posy-10), width, length+20);
+        ctx.fillStyle = rugend;
+        ctx.fill();
+
+		ctx.beginPath();
+		ctx.rect(posx,posy,width,length);
+		ctx.fillStyle = "#"+colour;
+		ctx.fill();
+
+		if(pattern !== "none") {
+			var imageObj2 = new Image();
+			imageObj2.onload = function() {
+				var rugpattern = ctx.createPattern(imageObj2, 'repeat');
+				ctx.rect(posx,posy,width,length);
+				ctx.fillStyle = rugpattern;
+				ctx.fill();
+
+				for(var o=0; o<roomdata.Rooms[0].Objects.length; o++) {
+					drawobj(roomdata.Rooms[0].Objects[o].pixelx, roomdata.Rooms[0].Objects[o].pixely, roomdata.Rooms[0].Objects[o].image);
+				}		  
+				
+			}
+			
+			imageObj2.src = 'img/'+pattern;
+			
+		}
+		else {
+			for(var o=0; o<roomdata.Rooms[0].Objects.length; o++) {
+				drawobj(roomdata.Rooms[0].Objects[o].pixelx, roomdata.Rooms[0].Objects[o].pixely, roomdata.Rooms[0].Objects[o].image);
+			}		  
+		}
+		   
+		if(firstload) {
+			highlightrug(posx+(width/2), posy+(length/2));
+			firstload = false;
+		}
+		  
+      };
+      imageObj.src = 'img/Rug-End.png';	
+	}	
+	
+	//
+}	
+
+	
+function highlightrug(xpos, ypos) {
+	ctx.font = "16px Arial";
+	ctx.fillStyle = "#000";
+	ctx.textAlign = "center";
+	ctx.fillText("My Rug", xpos, ypos);
+}
+
+
+function drawobj(posx, posy, img) {
+	var imageObj = new Image();
+	imageObj.onload = function() {
+		ctx.drawImage(imageObj, posx, posy);
+	};
+	imageObj.src = 'img/'+img;
+}
+
+
+function drawroom() {
+
+  $("#drawspace").html('<canvas id="'+roomdata.Rooms[0].canvasid+'" width="'+roomdata.Rooms[0].pixelwidth+'" height="'+roomdata.Rooms[0].pixellength+'" style="border:1px solid #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas>')
+
+  c = document.getElementById(roomdata.Rooms[0].canvasid);
+  ctx = c.getContext("2d");			
+	
+  var imageBG = new Image();
+
+    imageBG.onload = function() {
+	ctx.drawImage(imageBG, 0, 0);
+	
+	var rug_width_feet = parseInt($("#width1").val());
+	var rug_width_inches = parseInt($("#width2").val());
+	var rug_length_feet = parseInt($("#length1").val());
+	var rug_length_inches = parseInt($("#length2").val());
+
+	var rug_top_feet = parseInt($("#top1").val());
+	var rug_top_inches = parseInt($("#top2").val());
+	var rug_left_feet = parseInt($("#left1").val());
+	var rug_left_inches = parseInt($("#left2").val());
+
+	rug_width = convertpix(rug_width_feet, rug_width_inches, roomdata.Rooms[0].pixelwidth, roomdata.Rooms[0].roomwidth);
+	rug_length = convertpix(rug_length_feet, rug_length_inches, roomdata.Rooms[0].pixellength, roomdata.Rooms[0].roomheight);		
+		
+	if(isrotated) {
+		var tempsave = rug_width;
+		rug_width = rug_length;
+		rug_length = tempsave;
+	}	
+		
+	rug_posx = convertpix(rug_left_feet, rug_left_inches, roomdata.Rooms[0].pixelwidth, roomdata.Rooms[0].roomwidth);
+	rug_posy = convertpix(rug_top_feet, rug_top_inches, roomdata.Rooms[0].pixellength, roomdata.Rooms[0].roomheight);
+	
+	var rug_colour_hex = $("#color1").val();
+	if(isHexaColor(rug_colour_hex)) {
+		rug_colour = rug_colour_hex;
+	}
+
+	drawrug(rug_posx, rug_posy, rug_width, rug_length, rug_colour, rug_pattern);
+	  
+  };
+
+  imageBG.src = 'img/'+roomdata.Rooms[0].background;
+	
+}
+
+	
+
+$( document ).ready(function() {
+	$('#myWizard').wizard();	
+
+	
+	$('#myWizard').on('stepclicked.fu.wizard', function (evt,data) {
+
+		evt.preventDefault();
+		currentStep = data.step;
+		$('#myWizard').wizard('selectedItem', {
+			step: currentStep
+		});
+		
+		$( "ul.steps li" ).each(function() {
+			  if(activeSteps.indexOf(parseInt($(this).attr("data-step"))) > -1) {
+			   		//$(this).addClass("active");
+				    $(this).addClass("complete");
+			   }	
+
+		});
+	});
+	
+	
+	$('#myWizard').on('actionclicked.fu.wizard', function (evt,data) {
+
+		//Check the current step 
+		currentStep = data.step;
+		evt.preventDefault();
+		
+		if(data.direction == "next") {
+			if($("#comment"+currentStep).val()=="") {
+				$("#error"+currentStep).text("You must provide an explanation before you continue!");
+			}
+			else {
+				$("#error"+currentStep).text("");
+				if(currentStep == 5) {
+					downloadpdf();
+				}
+				else {
+					currentStep++;
+					if(activeSteps.indexOf(currentStep) == -1) {
+						activeSteps.push(currentStep);
+					}
+					$('#myWizard').wizard('selectedItem', {
+						step: currentStep
+					});
+				}
+			}
+		}
+		else {
+			currentStep--;
+			$('#myWizard').wizard('selectedItem', {
+				step: currentStep
+			});
+		}
+
+		$( "ul.steps li" ).each(function() {
+			  if(activeSteps.indexOf(parseInt($(this).attr("data-step"))) > -1) {
+			   		//$(this).addClass("active");
+				    $(this).addClass("complete");
+			   }	
+
+		});		
+
+	});
+	
+	drawroom();
+	
+	for(var p=0; p<patterndata.length; p++) {
+		$("#patternselect").append('<a class="patternpreview" id="pattern'+p+'" href="javascript:selectpattern('+p+')"></a>');
+		if(patterndata[p] !== "none") {
+			$("#pattern"+p).css("background-image","url(img/"+patterndata[p]+")");
+		}
+		else {
+			$("#pattern"+p).addClass("selected");
+		}
+	}
+	
+});
+	
+
+	
+
+	
+</script>
+
+
+
+</body>
+</html>

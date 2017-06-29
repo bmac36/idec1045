@@ -1,0 +1,105 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Materials in Relation to Location",
+      "Body": "<p>Showing samples in this way divides the room from top to bottom. Notice in the example that the samples on the top are the ceiling and windows, the walls and furnishing in the middle and the flooring at the bottom.</p><div class=\"row bottom-space\"><div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot\"> <img src=\"img/Materials_In_Relation_To_Location.png\" class=\"img-responsive\" alt=\"Sample Materials in relation to location display layout\" /><figcaption>Sample Materials in relation to location display layout<br><cite></cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Materials in Relation to Proximity",
+      "Body": "        <p class=\"bottom-padding\">Samples in this example are showing what samples are in physical contact or proximity to each other.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                <figure class=\"cap-bot\"> <img src=\"img/Materials_In_Relation_To_Proximity.png\" class=\"img-responsive\" alt=\"Sample Materials in relation to proximity display layout\" />\n          <figcaption>Sample Materials in relation to location display layout<br /><cite></cite> </figcaption>\n        </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Visual Impact",
+      "Body": "                <p class=\"bottom-padding\">Visual impact layout shows by largest proportion in the room to the smallest. For example, if the flooring takes up the most room then it is the largest sample and continuing on throughout the room. It is by % of impact in the room.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                <figure class=\"cap-bot\"> <img src=\"img/Visual_Impact.png\" class=\"img-responsive\" alt=\"Sample Visual impact display layout\" />\n          <figcaption>Sample Visual impact display layout<br /><cite></cite> </figcaption>\n        </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Graphic Element",
+      "Body": "                <p class=\"bottom-padding\">A graphic element is like a focal point. It would show as the focal point on the board. This could be anything like a painting, carpet, area rug, or upholstery for example. All other samples are the supporting case to this main focus as shown in the example.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                <figure class=\"cap-bot\"> <img src=\"img/Graphic_Element.png\" class=\"img-responsive\" alt=\"Sample Graphic element display layout\" />\n          <figcaption>Sample Graphic element display layout<br /><cite></cite> </figcaption>\n        </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Grid",
+  "Body": "                <p class=\"bottom-padding\">A grid is very organized like hanging pictures on a wall. Each sample is the same size and laid in squares on the board. This works well for boards that have a lot of samples to show at the same time.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                <figure class=\"cap-bot\"> <img src=\"img/grid_layout.png\" class=\"img-responsive\" alt=\"Sample Grid display layout\" />\n          <figcaption>Sample Grid display layout<br /><cite></cite> </figcaption></figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

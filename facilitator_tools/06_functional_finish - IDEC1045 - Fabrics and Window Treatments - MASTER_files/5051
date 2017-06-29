@@ -1,0 +1,136 @@
+#d2l_navbar .d2l-navbar-title {
+	font-size:2.20em;
+	color:#666666;
+	font-weight:normal;
+	text-transform: none;
+	font-style: normal;
+	text-decoration: none;
+	text-align:left;
+	margin:10px;
+}
+.d2l-homepage-title .d2l-page-title {
+	color:#d0c090;
+}
+#d2l_navbar div.d_nb_pLinks1 {
+	float:right;
+	text-align:right;
+}
+#d2l_navbar div.d_nb_pLinks1 div.d_nb_pd div.d_nb_i {
+	min-height:0px;
+}
+#d2l_navbar div.d_nb_pLinks1 div.d_nb_pd {
+	padding:16px 16px 3px 3px;
+}
+#d2l_navbar div.d_nb_pLinks1 .d2l-navbar-sep {
+	padding-right:2px;padding-left:2px;
+}
+#d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:visited, #d2l_navbar div.d_nb_pLinks1 span.d2l-navbar-text span, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:hover, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:focus, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:active {
+}
+#d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link span, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:visited span, #d2l_navbar div.d_nb_pLinks1 span.d2l-navbar-text span, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:hover span, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:focus span, #d2l_navbar div.d_nb_pLinks1 a.d2l-navbar-link:active span {
+	font-size:1.20em;
+	color:#ffffff;
+	font-weight:normal;
+	text-transform: none;
+	font-style: normal;
+	text-decoration: none;
+}#d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  a.d2l-menuflyout-opener span, #d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  a.d2l-menuflyout-opener:visited span {
+	font-size:1.20em;
+	font-weight:normal;
+	text-transform: none;
+	font-style: normal;
+	text-decoration: none;
+}#d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-closed a.d2l-menuflyout-opener, #d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-closed a.d2l-menuflyout-opener:visited {
+	border:1px solid transparent;
+}
+#d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-closed a.d2l-menuflyout-opener span, #d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-closed a.d2l-menuflyout-opener:visited span {
+	font-size:1.20em;
+	color:#ffffff;
+	font-weight:normal;
+	text-transform: none;
+	font-style: normal;
+	text-decoration: none;
+}#d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-closed a.d2l-menuflyout-opener:hover, #d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-closed a.d2l-menuflyout-opener:focus, #d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-closed a.d2l-menuflyout-opener:active {
+	background-color: transparent;
+	border:1px solid transparent;
+}
+#d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-open a.d2l-menuflyout-opener, #d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-open a.d2l-menuflyout-opener:visited {
+	border-top:1px solid #999999;border-right:1px solid #999999;border-bottom:1px solid transparent;border-left:1px solid #999999;
+}
+#d2l_navbar div.d_nb_pLinks1 .d2l-navbar-group  .d2l-menuflyout-contents {
+	margin-top:-1px;
+	font-size:1em;
+}
+#d2l_navbar div.d_nb_cFull {
+	background-repeat:no-repeat;
+	background-position: 0% 0%;
+	
+	padding:0px;
+}
+#d2l_navbar div.d_nb_cGlobal {
+	background-repeat:repeat;
+	background-position: 0% 0%;
+	
+	padding:0px;
+}
+#d2l_navbar div.d_nb_cLinks {
+	background-repeat:no-repeat;
+	background-position: 0% 0%;
+	
+	padding:0px;
+}
+#d2l_navbar img.d2l-navbar-image-left {
+	padding:15px 0px 10px 17px;
+}
+.d2l-background-global {
+	z-index: -102;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-color:transparent;
+}
+.d2l-background-global > div {
+	height:100%;
+	background-image:url('/d2l/lp/navbars/6606/theme/viewimage/1118373/view?v=10.7.0.6364-139');
+	background-repeat:repeat;
+	background-position: 0% 0%;
+}
+.d2l-background-left > div {
+	background-color:transparent;
+}
+.d2l-background-left > div > div {
+	background-image:url('/d2l/lp/navbars/6606/theme/viewimage/1102695/view?v=10.7.0.6364-139');
+	background-repeat:no-repeat;
+	background-position: 0% 50%;
+}
+.d2l-background-right > div {
+	background-color:transparent;
+}
+.d2l-background-right > div > div {
+	background-repeat:no-repeat;
+	background-position: 0% 0%;
+}
+.d2l-home {
+	position:Relative;
+}
+.d2l-background-homepage {
+	z-index: -99;
+	position:Absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:0px;
+	background-color:transparent;
+	filter: alpha(opacity=100);
+-moz-opacity: 1;
+-khtml-opacity: 1;
+opacity: 1;
+	
+	margin:0px;
+}
+.d2l-background-homepage > div {
+	background-repeat:no-repeat;
+	background-position: 0% 0%;
+	height:100%;
+	width:100%;
+}

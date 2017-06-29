@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+      <title>Activity: Identifying Light trends</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="../../assets/css/main.min.css">
+        <link href="css/multiselect.min.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <!--Header-->
+            <div class="row top-space">
+                <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 primary-bg header-bg"></div>
+
+                <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+              <section id="dbox"></section>
+              </div>
+          </div>
+          <!--Header Ends-->
+          <div class="row">
+            <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+      </div>
+
+            </div>
+            <!--Header Ends-->
+            <div class="row">
+                <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/multiselect.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            application = new GraphicSelectApp;
+            application.setupApp("data/06_activity_identifying.txt", "dbox");
+        });
+    </script>
+    <noscript>This activity will only load in an online environment with JavaScript enabled.</noscript>
+</body>
+
+</html>

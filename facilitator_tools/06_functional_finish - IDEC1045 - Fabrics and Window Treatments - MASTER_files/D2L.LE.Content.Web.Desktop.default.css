@@ -1,0 +1,12 @@
+.daylight #ContentNavigator .vui-list > li {
+	border-top-color: #d3d9e3;
+	padding: 0 5px 0 5px;
+}
+
+.daylight #ContentNavigator .vui-list > li:last-child {
+	border-bottom: 1px solid #d3d9e3;
+}
+
+.daylight #ContentNavigator .vui-list > .vui-selected {
+	background: #e6eaf0;
+}

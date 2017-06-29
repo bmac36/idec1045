@@ -1,0 +1,125 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Wood and Vinyl",
+      "Body": "<p>Wood and Vinyl blinds are also known as venetian blinds.  Wood blinds come in different slat sizes.  The most common is 2” depth or deeper. This is when you have to make sure you have enough recess in the window to accommodate this depth and still be able to operate the blind. Wood comes in stain finishes from light to dark as well as whites and in some cases can be custom coloured for an extra fee.</p>  <p class=\"bottom-space\">This kind of blind is very attractive in a window and can be opened or closed by the slats or raised up and down by cords. The blind slats are held together with cords or band attachments. These blinds can get very heavy to raise when used on Patio doors or large windows.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1\">\n                    <figure class=\"cap-bot\"> <img src=\"img/wooden_blinds.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>This photo shows what wooden blinds look like<br>\n                        <cite>© iStock.com/studiocasper</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Metal",
+      "Body": "<p class=\"bottom-padding\">Metal blinds are often the least expensive of all blinds and are very commonly found in ready-made.  They can be custom made in a variety of colours, however I only order them in neutral whites or metallic.  The metallic like gold, silver and copper are very attractive and modern looking and the whites are versatile when changing colours in a room.  These blinds come in 1inch called mini blinds and &frac12; inch called micro mini blinds.    They can come wider now as well in 2 inch blinds and are offered in many finishes. Metal blinds are relatively inexpensive compared to some other kinds of blinds and are good great choices for budget conscious selections.  They also provide a great deal of light when the slats are opened.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1\">\n                    <figure class=\"cap-bot\"> <img src=\"img/metal_blinds.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of a metal blinds.<br>\n                        <cite>© iStock.com/Bibica</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "img/",
+        "FileName": ""
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Pleated/Cellular",
+      "Body": "<p>Pleated blinds are small pleats that come in simple pleats or honeycomb style in various textures and colours. These blinds are also called cellular blinds. It is also possible to get a blackout lining installed, however all backs of blinds facing the exterior of the window usually are a neutral white or ivory backing in good quality makes.</p>  <p>Pleated blinds usually operate on cords, however some  manufacturers also offer some cordless styles.  Pleated blinds stack up very small and can be mounted to be almost invisible on a window when wanting a very open look in a room. These blinds are available in a regular operating style where the blind when down covers the entire window or in a \"top/down\" fashion when the blinds can be closed on the bottom and open on the top to any level desired. This top/down use is great to provide privacy on the bottom level while allowing light coming into the room from the top.</p> <p><strong>Note:</strong> Many master bathrooms today have large almost picture-size windows and often in front of the tub. I use these blinds with the top/down style on those windows for privacy. Not one wants to be visible from the outside when climbing into the tub!</p> <p class=\"bottom-padding\">Available in horizontal up/down style or now vertical (left/right) operation, they are an excellent choice when the user wants a treatment to give privacy yet take up very little stacking when fully open. The blinds are made of various fabrics that can be easily spot cleaned and can be professionally cleaned by checking with dealers in your area if necessary.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1\">\n                    <figure class=\"cap-bot\"> <img src=\"img/pleated_blinds.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>This photo shows an example of a pleated blinds<br>\n                        <cite>© iStock.com/yenwen</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>\n                ",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "img/",
+        "FileName": ""
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Woven Wood",
+      "Body": "<p class=\"bottom-padding\">Woven woods are very popular now as they provide a great amount of texture to a window.  They can be used on their own and also look wonderful when used with a soft treatment like side panels. They can be roller (rolling down from a headrail) or roman style (fold down from a headrail) and come in many colours from light to dark. Some have fabric woven into them in patterns as well in custom orders. These can be readily found in ready-made in wood tones or neutral white. Most woven woods are not totally opaque and allow some light to enter at all times of the day or night but are a great choice for those who enjoy filtered light and privacy on the window.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1\">\n                    <figure class=\"cap-bot\"> <img src=\"img/woven_wood.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>This photo shows an example of a woven wood blinds<br>\n                        <cite>© iStock.com/cr8tivguy</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>\n                ",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "img/",
+        "FileName": ""
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Mesh",
+      "Body": "<p>Mesh blinds are seen frequently in restaurants to block sunlight while still being able to view outside. They are a great contemporary and minimal look in homes offering a variety of colours, textures and levels of opaqueness. They usually operate with metal cords on one side of the blind and can be used on many sizes of windows for a modern and clean look.</p> <p class=\"bottom-padding\"><strong>Note:</strong> They have a tendency to skew to one side when placed on very wide windows and operated up and down frequently.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1\">\n                    <figure class=\"cap-bot\"> <img src=\"img/mesh_blinds.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>This photo shows an example of a mesh blind<br>\n                        <cite>© iStock.com/omersukrugoksu</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>\n                ",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "img/",
+        "FileName": ""
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Sheer",
+      "Body": "<p>Sheer blinds can take the place of soft sheer drapery for a nmore modern look in a room.  Some names for this style are known as silhouette that have a sheer and a fabric in the center that can open and close the blind so that you can have a sheer at some times of the day and then close to have privacy as needed. Usually found in a neutral colour so as to not change the colour of furniture and walls in a room, they can be a modern and interesting take on a sheer treatment.</p> <p class=\"bottom-padding\"><strong>Note:</strong> You need a minimum of 2 inch recess for inside mounts due to the size of the header used for this treatment.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "img/",
+        "FileName": ""
+      }
+    }
+  ]
+}

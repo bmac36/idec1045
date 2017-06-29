@@ -1,0 +1,136 @@
+{
+  "General": {
+    "QuizName": "Terminology Recall",
+    "HeadingLevel": 2,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": false,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>Let's check how much you remember from the first four topics. You will be presented with a series of definitions. Fill in the blank with the the correct answer for each one. Answers much match correctly (spelling and wording) to be marked correct. This quiz is not part of your final mark, but it is instrumental in reinforcing the learning thus far and I recommend you take it as often as necessary to master the definitions. Good luck!</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 2,
+      "questionText": "To determine the softness and durability of a fabric, we use BLANK1 BLANK2 as one of the determining factors.",
+      "hintText": "The higher the value, the softer the fabric will feel.",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "THREAD",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "COUNT",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 1,
+      "questionText": "BLANK1 refers to the unfinished ends of a roll of fabric.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "SELVAGE",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 2,
+      "questionText": "The finished fabric distance across a roll of fabric, perpendicular to the selvages and not including the selvage edge, is referred to as the BLANK1 BLANK2.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "FABRIC",
+          "feedBack": "none",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "WIDTH",
+          "feedBack": "none",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 3,
+      "questionText": "BLANK1 the BLANK2 refers to a pattern that is vertical between the selvage edges and BLANK3 refers to how the fabric is printed either vertical or horizontal.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "UP",
+          "feedBack": "none",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "ROLL",
+          "feedBack": "none",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "RAILROADING",
+          "feedBack": "none",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 2,
+      "questionText": "BLANK1 BLANK2 is the measurement of the distance between any given point in a design and where that exact point first appears again.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "PATTERN",
+          "feedBack": "none",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "REPEAT",
+          "feedBack": "none",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 2,
+      "questionText": "It is important to ensure you order more than enough of a fabric to complete the window treatment as BLANK1 BLANK2 can change between manufacturing runs of a fabric.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "DYE",
+          "feedBack": "none",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "LOTS",
+          "feedBack": "none",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

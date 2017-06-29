@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>Hotspot Example</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="../../assets/css/main.min.css">
+		<link rel="stylesheet" href="../../facilitator_tools/Hotspot/css/hotspot.css">
+		
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <div class="wrapper">
+		<div class="container-fluid">
+		<!--Header-->
+                    <div class="row top-space">
+                        <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 primary-bg header-bg"></div>
+
+                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+                            <h1>Hotspot Example</h1>
+                        </div>
+
+                    </div>
+                    <!--Header Ends-->
+			<div class="row">
+				<div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+					<section id="dbox">
+						<a id="HS_screenAlt" href="accessible.html">This activity is not fully optimized for screen readers. Click here for an alternate version.</a>
+					</section>
+				</div>
+			</div>
+		</div>
+        </div>
+      <script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../../facilitator_tools/Hotspot/thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')</script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	   <script src="../../facilitator_tools/Hotspot/thirdpartylib/jquery/jquery.browser.min.js"></script>
+	   <script src="../../facilitator_tools/Hotspot/thirdpartylib/jquery/jquery.imagemapster.min.js"></script>
+	   <script src="../../facilitator_tools/Hotspot/js/hotspot.min.js"></script>
+	   <script>
+	      $(document).ready(function() {
+	         HotSpotApp.setupApp("data/hotspot-data.json", "dbox");
+	      });
+
+	      $(window).resize(function(){
+	         HotSpotApp.fitImage();
+	      });
+	   </script>
+      <noscript>This activity will only load in an online environment with JavaScript enabled.</noscript>
+	<!-- v1.0.1 -->
+</body>
+</html>

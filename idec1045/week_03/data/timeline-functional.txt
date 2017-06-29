@@ -1,0 +1,225 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Antibacterial Treatments",
+      "Body": "<p class=\"bottom-space\">Antibacterial treatments are used to suppress mold and often used in health care.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Antistatic Treatments",
+      "Body": "<p>Antistatic treatments are applied to reduce static and soiling.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Flame and Fire Resistance",
+      "Body": "<p class=\"bottom-padding\">Flame and fire resistance is applied to hospitality industry use and often children’s fabrics.</p><p>Insulation is a foam product sprayed to the back of a fabric to improve temperature and reduce noise.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Fabric Care",
+      "Body": " <p class=\"bottom-padding\">Fabric care can be applied to make a fabric perma-press or wrinkle resistant.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Lamination",
+      "Body": "<p class=\"bottom-padding\">Lamination is the joining of two fabrics together such as a vinyl laminated to a knit backing often used in upholstery or sometimes on window treatments that have a vinyl backing.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Soil Repellent",
+      "Body": "<p class=\"bottom-padding\">Soil repellent treatments protect from dirt and stains.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Water Repellent",
+      "Body": "<p class=\"bottom-padding\">Water repellent techniques are added to fibers to allow less water absorption.  Many fabrics have this treatment even though they may not be advertised.  Some furniture stores offer this kind of after-market purchase.</p><p><strong>Interesting note:</strong> You can test a fabric with a couple of drops of water placed on the fabric.  If it beads up like shown in the photo, it has this treatment applied and you may not need to purchase an added water repellent application.  Also note that any treatment you apply after-market removes the fabric warranty from the manufacturer!</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/water_repellent.jpg\" alt=\"\" class=\"img-responsive center-block\">\n                      <figcaption style=\"width: 100%;\">Fabric that has been treated with a water repellent finish.<br>\n                        <cite>&copy; iStock.com/BirdImages </cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Brightening",
+      "Body": "<p class=\"bottom-padding\">Brightening is a treatment that makes colours last longer.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Chintz",
+      "Body": "<p class=\"bottom-padding\">Chintz is a glaze that is added to a fabric to give it sheen.  You often see this in cotton print fabrics.  The glaze can be rubbed off on lesser quality fabrics while some glazes can be permanent on others.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Anti-Wrinkling",
+      "Body": "<p class=\"bottom-padding\">Anti-wrinkling is used to retain a fabric shape and not allow it to wrinkle</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Abrasion Testing",
+      "Body": "<p class=\"bottom-padding\">When fabrics are made, they are tested for abrasion and durability.  This is often referred to as a rub test.  Fabric books at decorator or drapery shops will have this information on the back of the fabric sample with a number showing how many rubs it takes for the fabric to show wear.  The higher the number the more durable the fabric that sometimes reflects in the price of the fabric.  While most often referred to in upholstery, it can also be useful information in high traffic and use areas for window treatments as well.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

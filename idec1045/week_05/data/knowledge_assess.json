@@ -1,0 +1,297 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "feedBackType": "both",
+    "forceCorrect": false,
+    "repeatOnComplete": false,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "showQuestions": "5",
+    "preQuizText": "Let's check your knowledge of draperies! You will be presented with 5 randomly selected multiple choice and fill-in-th-blank questions from a bank of 11 questions. In each case, either choose the answer that best applies or type in your answer in the blank space provided. Each blank represents only ONE word. Check your answer once you have completed each question. When you are done, you may repeat the quiz again to check your knowledge on questions that may not have come up the first time. Good luck!  ",
+    "preQuizMedia": "none",
+    "postQuizText": "You have completed the activity.",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which drapery pleat?<br> <img src=\"img/pinch_pleat_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Cinch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Goblet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Pinch",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Pocket",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which drapery pleat?<br> <img src=\"img/pocket_pleat_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Pocket",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Pinch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Tab and Tie",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Grommet",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which drapery pleat?<br> <img src=\"img/cinch_pleat_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Pinch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Cinch",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Pocket",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Tab and Tie",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which drapery pleat?<br> <img src=\"img/tab_tie_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Goblet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Ring Top",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Grommet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Tab and Tie",
+          "feedBack": "",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which drapery pleat?<br> <img src=\"img/goblet_pleat_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Goblet",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Cinch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Pinch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Pocket",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which drapery pleat?<br> <img src=\"img/ring_top_pleat_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Grommet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Box",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Ring Top",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Tab and Tie",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which texture?<br> <img src=\"img/box_pleat_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Pinch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Goblet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Box",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Tab and Tie",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "The following image is an example of which drapery pleat?<br> <img src=\"img/grommet_pleat_sm.jpg\" style=\"width:auto; max-width:75%\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Tab and Tie",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Ring Top",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Box",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Grommet",
+          "feedBack": "",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 1,
+      "questionText": "BLANK1 length is the most common drapery length and the treatment ends just slightly above the floor by &frac12;&quot;.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "FULL",
+          "feedBack": "",
+          "scoreValue": 1,
+          "altAnswers": ""
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 1,
+      "questionText": "BLANK1 length is a newer style length of treatment where the fabric actually touches the floor by an inch or so in length.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "TROUSER",
+          "feedBack": "",
+          "scoreValue": 1,
+          "altAnswers": ""
+        }
+      ]
+    },
+    {
+      "questionType": "Fill In The Blank",
+      "maxScoreValue": 1,
+      "questionText": "BLANK1 length is a treatment where several inches of fabric lay on the floor. This is a stationary treatment only and is not appropriate for operating or functional drapes.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "PUDDLE",
+          "feedBack": "",
+          "scoreValue": 1,
+          "altAnswers": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Questions": [
+    {
+      "QuestionText": "Show the formula you would use to calculate the width required for sheers.",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "(4\" past + 3\" trim + 48\" window width + 3\" trim + 4\" past) x 3 fullness + 6\" selvage (only need 1 because it is one panel)<br />Full width from above equation / 36 (number of inches in a year)",
+      "KeyWords": [
+        "Draw",
+        "Window",
+        "½\"",
+        "graph",
+        "paper"
+      ]
+    },
+    {
+      "QuestionText": "What are your answers for the first and second parts of the above equations?",
+      "InputType": "text",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "192\" and 5.3 yards, rounded up to 5 &frac12; yards minimum.",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "What is the formula for calculating the length of the sheers? Remember, you must use railroading. Sheer is 118\" wide.",
+      "InputType": "text",
+      "MinCharacters": 5,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "8' ceiling = 96\" - &frac12;\" from floor - 1\" from ceiling for I-beam",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "What is your answer for the length using the above formula?",
+      "InputType": "text",
+      "MinCharacters": 0,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "94.5\" finished length, which is enough to railroad making width the length and have no seams in the sheer",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "What is the equation to find the length for the rod needed?",
+      "InputType": "text",
+      "MinCharacters": 0,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "4\" + 3\" + 48\" + 3\" +4\"",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "Given the equation you used for the rod length, what is the correct measurement needed?",
+      "InputType": "text",
+      "MinCharacters": 0,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "62\" rod ( 5'2\" length needed for rod). Order a 6' rod and cut to size on install.",
+      "KeyWords": []
+    }
+  ]
+}

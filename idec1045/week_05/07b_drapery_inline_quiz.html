@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Activity: Identifying Textures Practice Quiz</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/main.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+
+  <!-- Inline Quiz -->
+  <link rel="stylesheet" href="../../facilitator_tools/Quiz/css/quiz.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <!-- Two column Page Layout -->
+                <!--Main - Col-->
+
+                    <!--Header-->
+                    <div class="row top-space">
+                        <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 primary-bg header-bg"></div>
+
+                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+                            <h1>Drapery Practice Quiz</h1>
+                        </div>
+
+                    </div>
+                    <!--Header Ends-->
+
+                    <div class="row">
+                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+							 <section id="dbox" style="margin-bottom: 0px;"></section>
+													
+
+
+                        </div>
+                    </div>
+                    <!-- End content-->
+                    <div class="row">
+                        <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                           <footer>
+                               <small class="pull-right">&copy;  <script type="text/javascript">document.write(new Date().getFullYear());</script> Conestoga College. All rights reserved.</small>
+                           </footer>
+                            
+
+                        </div>
+                    </div>
+                    <!-- End Footer-->
+
+        </div>
+
+    </div>
+    <!-- /.wrapper -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../assets/thirdpartylib/jquery/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+    
+    
+<!-- Inline Quiz -->
+
+<script src="../../facilitator_tools/Quiz/js/quiz.js"></script>
+
+  <script>// <![CDATA[
+	  InlineQuizApp.onComplete = function (e) {
+		console.log(e)
+	  }
+	  InlineQuizApp.setupQuiz("data/knowledge_assess.json", "dbox");
+  // ]]>
+  </script>
+      
+</body>
+
+</html>

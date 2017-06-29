@@ -1,0 +1,24 @@
+@font-face {
+font-family: 'PT Sans';
+font-weight: bold;
+font-style: italic;
+src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(/d2l/common/fonts/PTS_bi.woff) format('woff');
+}
+@font-face {
+font-family: 'PT Sans';
+font-weight: bold;
+font-style: normal;
+src: local('PT Sans Bold'), local('PTSans-Bold'), url(/d2l/common/fonts/PTS_b.woff) format('woff');
+}
+@font-face {
+font-family: 'PT Sans';
+font-weight: normal;
+font-style: italic;
+src: local('PT Sans Italic'), local('PTSans-Italic'), url(/d2l/common/fonts/PTS_i.woff) format('woff');
+}
+@font-face {
+font-family: 'PT Sans';
+font-weight: normal;
+font-style: normal;
+src: local('PT Sans'), local('PTSans-Regular'), url(/d2l/common/fonts/PTS_r.woff) format('woff');
+}

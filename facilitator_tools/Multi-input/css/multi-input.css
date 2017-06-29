@@ -1,0 +1,48 @@
+/* CSS for the Multi-Input activity */
+
+	input {
+		text-align:center;
+	}
+	#column-question {
+		width:50%;
+	}
+	#column-input, #column-feedback {
+		width:25%;
+	}
+	#column-feedbackicon {
+		width:24px;
+	}
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		/* display: none; <- Crashes Chrome on hover */
+		-webkit-appearance: none;
+		margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	}	
+	input {
+		border-style: 1px #2d2d2d solid;
+		margin-bottom: 3px;
+width: 50px;
+	}
+	input.correct {
+		border: 2px solid #00b44f;
+	}
+	input.incorrect {
+		border: 2px solid #ec0044;
+	}
+	.feedbackicon {
+		display:inline-block;
+		width:24px;
+		height:24px;
+	}
+	.feedbackicon.correct {
+		background-image:url(../img/icon-right-24.png);
+	}
+	.feedbackicon.incorrect {
+		background-image:url(../img/icon-wrong-24.png);
+	}
+	th {
+		color: #67bcdb;
+		font-size: 1.125em;
+		font-weight: 700;
+		text-transform: uppercase;
+	}

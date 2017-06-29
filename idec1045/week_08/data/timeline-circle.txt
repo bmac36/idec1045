@@ -1,0 +1,45 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 1",
+      "Body": "<p class=\"bottom-padding\">In order to create a neat circle you will need to make small &quot;V&quot; cuts around the fabric (not directly up to the circle)</p><div class=\"row bottom-space\"><div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot\"> <img src=\"img/circle_wrapping.png\" class=\"img-responsive\" alt=\"circle with the v cuts in it\"><figcaption>Circle of fabric showing the &quot;V&quot; cuts needed to complete the wrap.<br><cite>&copy; Linda Guthro </cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 2",
+      "Body": "<p class=\"bottom-padding\">Using the same technique, fold each tab of fabric around the cardboard and attach firmly with masking tape.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

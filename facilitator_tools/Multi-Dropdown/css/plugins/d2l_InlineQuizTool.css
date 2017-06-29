@@ -1,0 +1,360 @@
+#dbox {
+    min-height: 790px;
+}
+
+#ILQ_continer{
+    margin-left:auto;
+    margin-top:20px;
+    margin-right:auto;
+    margin-bottom: 20px;
+    /*border: 3px solid #C6C8CA;
+
+    /*border-radius:5px;
+
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow:         1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;*/
+}
+
+#ILQ_header{
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+
+    border: 1px solid #5C666F;
+    background:#CC3730;
+    min-height: 1.1em;
+    text-align: center;
+}
+
+#ILQ_header h1{
+    color: #fff;
+    font-size: 16px;
+}
+
+#ILQ_content{
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-width: 0px;
+    /*background: #f9f9f9;
+    padding: 15px;*/
+    color: #333;
+    font-weight: normal;
+}
+
+.ILQ_AccessOnly{
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0;
+    line-height: 0;
+}
+
+.ILQ_Description {
+    min-height: 200px;
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border: 1px solid #C6C8CA;
+    background-color: #ffffff;
+    padding: 15px;
+    overflow-y: auto;
+    font-size: 16px;
+    font-weight: normal;
+    /*font-family:  Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;*/
+    text-shadow:none;
+}
+
+.ILQ_MediaContainer {
+
+}
+
+.ILQ_Media :first-child {
+    max-width: 90%;
+    margin-top: 1em;
+}
+
+.ILQ_fullReport > .ILQ_miniReport {
+    margin-left: 0px;
+}
+
+.ILQ_questionText{
+    /*min-height:  40px;*/
+}
+
+.ILQ_quizFeild {
+    border: none;
+}
+
+.ILQ_quizFeild > :first-child  {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.ILQ_AnswerSlot{
+    display: block;
+    position: relative;
+    border: 1px solid #C6C8CA;
+    background: #F1F1F1;
+    cursor: pointer;
+    padding: 12px 0px;
+}
+
+.ILQ_AnswerSlot.over{
+    background:#00848E;
+    color: #FFFFFF; 
+}
+
+.ILQ_AnswerSlot.down{
+    background: #F1F1F1;
+    border: 1px solid #FFFFFF;
+}
+
+.ILQ_AnswerSlot.AnsCorrect{
+    border: 1px solid #056277;
+}
+
+.ILQ_AnswerSlot.AnsIncorrect{
+    border: 1px solid #e73a3a;
+}
+
+.ILQ_AnswerSlot.AnsPartial{
+    border: 1px solid #F9D832;
+}
+
+.ILQ_AnswerSlot.correct > .ILQ_impCont {
+    background-image: url(../../img/Right_16.png);
+    background-position: 0px 0px !important;
+    cursor: default;
+}
+
+.ILQ_AnswerSlot.incorrect > .ILQ_impCont {
+    background-image: url(../../img/Wrong_16.png);
+    background-position: 0px 0px !important;
+    cursor: default;
+}
+
+.ILQ_AnswerSlot.partial > .ILQ_impCont {
+    background-image: url(../../img/partial.png);
+    background-position: 0px 0px !important;
+    cursor: default;
+}
+
+.ILQ_impCont {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1em;
+    margin-right: .5em;
+    top: 5px;
+    position: relative;
+    background-image: url(../../img/inpSprites.png);
+    background-repeat: no-repeat;
+
+}
+
+.ILQ_impCont.radio{
+    background-position: -1px -20px;
+}
+
+.ILQ_impCont.check{
+    background-position: -1px 0px;
+}
+
+
+.ILQ_impCont.radio.selected{
+    background-position: -20px -20px;
+}
+
+.ILQ_impCont.check.selected{
+    background-position: -20px 0px;
+}
+
+.ILQ_AnswerSlot > .ILQ_answerLable {
+    display: inline-block;
+    width: 90%;
+}
+
+.ILQ_BaseButtonContainer, .ILQ_GenericButtonContainer{
+    border: 1px solid #C6C8CA;
+    text-align: center;
+    color: #fff;
+    padding: 12px 3px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+
+}
+
+
+.ILQ_BaseButtonContainer.FullButton {
+    background:#007298;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+}
+
+.ILQ_BaseButtonContainer.FullButton.over {
+    background:#056277;
+}
+
+
+.ILQ_BaseButtonDisabled, .ILQ_GenericButtonDisabled {
+    background:#9E9E9E !important;
+    cursor: default;
+        padding: 12px 3px;
+}
+
+
+.ILQ_BaseButtonContainer.LeftHalfButton {
+    background:#ED2A10;
+    border-bottom-left-radius:7px;
+    border-right-width: 0px;
+    /*width handled in the js now InlineQuizApp.HandleWindowAdjust */
+    display: inline-block;
+}
+
+.ILQ_BaseButtonContainer.LeftHalfButton.over {
+    background:#EA6352;
+}
+
+.ILQ_BaseButtonContainer.LeftHalfButton.hidden {
+    display:none;
+}
+
+
+.ILQ_BaseButtonContainer.RightHalfButton {
+    background:#007298;
+    border-bottom-right-radius:7px;
+    border-left-width: 0px;
+    /*width handled in the js now InlineQuizApp.HandleWindowAdjust */
+    display: inline-block;
+}
+
+.ILQ_BaseButtonContainer.RightHalfButton.over {
+    background:#056277;
+}
+
+.ILQ_BaseButtonContainer.RightHalfButton.hidden {
+    display: none;
+}
+
+.ILQ_GenericButtonContainer.Generic {
+    background:#007298;
+    border-radius:7px;
+    width: 200px;
+    display: block;
+}
+
+.ILQ_GenericButtonContainer.Generic.over {
+    background:#056277;
+}
+
+.ILQ_GenericButtonContainer.Generic.hidden {
+    display:none;
+}
+
+#ILQ_continusResponceCont{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.ILQ_continusResponceGraphic, .ILQ_RecapResponceGraphic{
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.ILQ_continusResponceText{
+    color:red;
+    padding-top: 10px;
+
+}
+
+.ILQ_RecapResponceText{
+    color:red;
+
+}
+
+.ILQ_miniReport{
+    color:#000;
+}
+
+.ILQ_miniReport > .ILQ_miniReportContent{
+    margin-left: 20px
+}
+
+#ILQ_ContinuousResponceCont {
+    margin-top: 5px;
+}
+
+.ILQ_ContinuousResponceText{
+    /* width handled in JS  InlineQuizApp.HandleWindowAdjust*/
+    /* float handled in JS  InlineQuizApp.HandleWindowAdjust*/
+
+}
+
+#ILQ_NextButton{
+    /* margin handled in JS  InlineQuizApp.HandleWindowAdjust*/
+    /* float handled in JS  InlineQuizApp.HandleWindowAdjust*/
+}
+
+#ILQ_HintButton{
+    float:right;
+}
+
+#ILQ_HintButton.ILQ_GenericButtonContainer{
+    background:#ffaf02;
+}
+
+#ILQ_HintButton.ILQ_GenericButtonContainer.over{
+    background:#FFC13D;
+}
+
+.ILQ_RightHighlight {
+    background-color:rgba(0, 255, 0, 0.7);
+    border-radius: 5px;
+    font-weight:bold;
+    padding:2px 4px;
+}
+
+.ILQ_WrongHighlight {
+    background-color:rgba(255, 0, 0, 0.7);
+    border-radius: 5px;
+    font-weight:bold;
+    padding:2px 4px;
+}
+
+.ILQ_SimilarHighlight {
+    background-color:rgba(255, 255, 0, 0.7);
+    border-radius: 5px;
+    font-weight:bold;
+    padding:2px 4px;
+}
+
+.ILQ_ReferenceHighlight {
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-weight:bold;
+    padding:2px 4px;
+}
+
+ul {
+    line-height: 160%;
+}
+
+input.blank {
+    width: 100px;
+    min-width: 100px;
+    max-width: 300px;
+    transition: width 0.25s;
+}
+
+input.number {
+    width: 30px;
+    min-width: 30px;
+    max-width: 300px;
+    transition: width 0.25s;
+}

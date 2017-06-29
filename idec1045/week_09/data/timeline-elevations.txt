@@ -1,0 +1,125 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Front Elevation of Home",
+      "Body": "<p>You can see by the photo that the front of this home is an elevation. It does not show depth but does show width and height of the face of the house. The drawing is a 2-dimensional drawing and flat. Since the drawing is flat, I have outlined the roof line in red. The triangles on the roof show the pitch for the builders. Not all blueprints have as much written information on the page which is determined by the architect or builder.</p><figure class=\"cap-bot\"> <img src=\"img/front_elevation.png\" class=\"img-responsive\" alt=\"Front elevation of a home\" /><figcaption>Front elevation of a home<br><cite>&copy; Photo Property of Conestoga College</cite></figcaption></figure><p>You can see a lot of detail about this view that gives you a good sense of the materials used, style of home, decorative detail, window sizes, etc.</p><p>You also see the proportions of doors, windows, balcony, and porch. In a new build, one could even determine the colour of the brick, door, windows, and room. It may also help to copy this page and colour in the surfaces to show a client how the home would look in various colour schemes.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Side Elevation of Home",
+      "Body": "<p>The side elevations show how the roof pitch will look and you can also see the flat roof look which is the peak gable over the front of the house on the right side (in red). The dotted lines under the finished grade shows the basement level below grade. You can also see the windows, siding and brick on the sides of the home.</p><figure class=\"cap-bot\"> <img src=\"img/side_elevation.png\" class=\"img-responsive\" alt=\"Left side elevation of home\"><figcaption>Left side elevation of home<br><cite>&copy; Photo Property of Conestoga College</cite> </figcaption></figure><br /><figure class=\"cap-bot\"> <img src=\"img/side_elevation2.png\" class=\"img-responsive\" alt=\"Right side elevation of home\"><figcaption>Right side elevation of home<br><cite>&copy; Photo Property of Conestoga College</cite> </figcaption></figure>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Back Elevation of Home",
+      "Body": "<p>The back elevation also has a lot of information. The dotted lines at the bottom are showing the basement level below the finished grade. Notice that the windows are showing the direction of the slider. The materials are all the same as the other elevation sides with siding on top and brick at the bottom.</p><figure class=\"cap-bot no-padding\"> <img src=\"img/back_elevation.jpg\" alt=\"Back elevation of home\" class=\"img-responsive center-block\"><figcaption>Back elevation of home.<br><cite>&copy; Photo Property of Conestoga College</cite></figcaption></figure>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Basement Level",
+      "Body": "<p>In most cases the important part for a decorator is the interior levels. Blueprints always start with the lowest levels and go up per page.</p> <div class=\"row bottom-space\"><figure class=\"cap-bot no-padding\"> <img src=\"img/basement_level.jpg\" alt=\"Basement level of home\" class=\"img-responsive center-block\"><figcaption>Basement level of home<br><cite>&copy; Photo Property of Conestoga College</cite></figcaption></figure><br /><p>In the basement level, you are looking at the unfinished area of the home. You will see the area that has the garage that is UNEXCAVATED. On this level, you can see the basement windows and sizes and detailed measurements of all areas. Look at the far right where it says COLD CELLAR: this is the area below the front porch. To the left of that is an area showing dotted lines. Dotted lines in the basement show an unfinished area that could have walls added to make a room. In this area, you will see a rough- in for a bathroom including a toilet, sink and corner shower. From the information of this level, one could determine future room uses such as a family room. Can you find the staircase going upstairs and the furnace room? </p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Ground Level",
+      "Body": "<p class=\"bottom-padding\"The ground level has names for different rooms printed on the drawing in this case. You can see some tile in the front hall, powder room and closet as well as the kitchen/breakfast area. You can also see positioning of all windows and slider doors. Notice the staircase that will match up with the basement level. The kitchen design is shown with an angled 2 level counter that is partly exposed to the living/dining room. In this blueprint the interior walls are not shaded in.</p><figure class=\"cap-bot no-padding\"> <img src=\"img/ground_level.jpg\" alt=\"Ground level of home\" class=\"img-responsive center-block\"><figcaption style=\"width: 100%;\">Ground Level of home.<br><cite>&copy; Photo Property of Conestoga College</cite> </figcaption></figure>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Second Floor Level",
+      "Body": "<p class=\"bottom-padding\">To reach the second level, one would go up the stairs that have a landing. You can also make out the railing and how the stairs are designed as a wrap around with an open railing at the top level. Tile is used again for the bathrooms and laundry on this area. You can see 3 bedrooms, one noted as the master bedroom. Can you see the closet door styles, items in each bathroom and windows for each room?</p><figure class=\"cap-bot no-padding\"> <img src=\"img/second_flr_level.jpg\" alt=\"Second floor level\" class=\"img-responsive center-block\"><figcaption style=\"width: 100%;\">Second floor level <br><cite>&copy; Photo Property of Conestoga College</cite></figcaption></figure>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

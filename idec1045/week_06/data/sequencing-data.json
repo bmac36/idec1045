@@ -1,0 +1,109 @@
+{
+  "ActivityName": "Knowledge Check: Electrical Overlay Drawing",
+  "HeadingLevel": 2,
+  "FeedbackType": "report",
+  "Instructions": "Your task is to move the description for each step to its proper position in the process. You can move items by dragging / dropping with your mouse, or by selecting an item and using the left-arrow and right-arrow keys on your keyboard.",
+  "PreActivityText": "This activity will test your knowledge of the eletrical overlay drawing process. You will be presented with the 9 steps for drawing an electrical overlay, however the text is in the incorrect position. Your task is to move the description for each step to its proper position in the process. You can move items by dragging / dropping with your mouse, or by selecting an item and using the left-arrow and right-arrow keys on your keyboard.",
+  "PreActivityMedia": [],
+  "PostActivityText": "",
+  "PostActivityMedia": [],
+  "layoutStyle": "vertical",
+  "placholderTitleStyle": "arrow",
+  "correctOrder": [
+    "step1",
+    "step2",
+    "step3",
+    "step4",
+    "step5",
+    "step6",
+    "step7",
+    "step8",
+    "step9"
+  ],
+  "sortOrder": "random",
+  "showSortTitle": true,
+  "sortItemsType": "text",
+  "sortItems": [
+    {
+      "id": "step1",
+      "imageSrc": "",
+      "text": "Attach the acetate to your graph paper with the vellum on top to all 4 corners and do not remove until you have totally completed the overlay.",
+      "altText": "",
+      "placeHolderText": "Step 1",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step2",
+      "imageSrc": "",
+      "text": "Attach all pages now to the table with low tack tape so that it will not move as you work.",
+      "altText": "",
+      "placeHolderText": "Step 2",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step3",
+      "imageSrc": "",
+      "text": "Trace the walls and wall thicknesses of the room in the acetate pen. Do NOT shade in the walls as they do not shade neatly on acetate.",
+      "altText": "",
+      "placeHolderText": "Step 3",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step4",
+      "imageSrc": "",
+      "text": "Only draw the shape of the room, no furniture, textures, and measurements.",
+      "altText": "",
+      "placeHolderText": "Step 4",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step5",
+      "imageSrc": "",
+      "text": "Let dry for a few seconds before you continue.",
+      "altText": "",
+      "placeHolderText": "Step 5",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step6",
+      "imageSrc": "",
+      "text": "Starting from the top of the page and working your way down, trace all the plugs, switches, lighting fixtures, etc.",
+      "altText": "",
+      "placeHolderText": "Step 6",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step7",
+      "imageSrc": "",
+      "text": "Add the light path between switches and lights at the end.",
+      "altText": "",
+      "placeHolderText": "Step 7",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step8",
+      "imageSrc": "",
+      "text": "When all are complete you can remove all the tape.",
+      "altText": "",
+      "placeHolderText": "Step 8",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "id": "step9",
+      "imageSrc": "",
+      "text": "Attach the electrical overlay to the top of the board with double-sided tape making sure the acetate matches the drawing. (For practice and weekly assignment tape the acetate to the top of the page.)",
+      "altText": "",
+      "placeHolderText": "Step 9",
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    }
+  ]
+}

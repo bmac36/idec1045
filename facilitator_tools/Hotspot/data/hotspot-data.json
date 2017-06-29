@@ -1,0 +1,241 @@
+{
+	"ActivityName" : "Hot Spot Activity Template",
+	"HeadingLevel" : 1,
+	"Randomize" : true,
+	"ShowScenes" : "1",
+	"visible" : true,
+	"visibleStyle" : {
+			"colour" : "#F902AB",
+			"opacity" : "25%",
+			"stroke" : false,
+			"strokeColour" : "#FF0000",
+			"strokeWidth" : "2"
+	},
+	"highlight" : false,
+	"highlightStyle" : {
+			"colour" : "#FFFFFF",
+			"opacity" : "50%",
+			"stroke" : true,
+			"strokeColour" : "#00FFFF",
+			"strokeWidth" : "5"
+	},
+	"PreActivityText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque. Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+	"PreActivityMedia": [
+    	  {
+    	    "type": "image",
+    	    "src": "http://fillmurray.com/400/300",
+     	    "description": "Bill Murray!",
+     	    "mediaLink": "http://en.wikipedia.org/wiki/Bill_Murray",
+     	    "width": "350",
+      	 "height": "280"
+     	 },
+     	 {
+        	"type": "link",
+        	"src": "https://github.com",
+        	"description": "A website!"
+      	}
+    ],
+	"PostActivityText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque.</p><p> Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+	"PostActivityMedia" : [
+		{
+	        "type": "YouTubeVideo",
+	        "src": "https://www.youtube.com/watch?v=OZBWfyYtYQY",
+	        "altLink" : "http://knowyourmeme.com/memes/bunchie",
+	        "width" : "none",
+	        "height" : "none"
+      	}
+	],
+	"Scenes" : [
+		{
+			"SceneName" : "The Beach",
+			"Instructions" : "There are several shapes on the beach, select each one to learn something different!",
+			"Background" : {
+					"src" : "img/bg-beach.jpg",
+					"alt" : "A beach just after a sunset.",
+					"imgWidth" : "1024",
+					"imgHeight" : "576"
+			},
+			"HotSpots": [ 
+				{
+					"id" : "one",
+					"shapeType" : "circle",
+					"desc" : "A circle on the beach.",
+					"xPos" : "500",
+					"yPos" : "200",
+					"radius" : "100"
+				},
+				{
+					"id" : "two",
+					"shapeType" : "rectangle",
+					"desc" : "A rectangle on the beach.",
+					"xPos" : "100",
+					"yPos" : "0",
+					"shapeWidth" : "100",
+					"shapeHeight" : "200"	
+				},
+				{
+					"id" : "three",
+					"shapeType" : "custom",
+					"desc" : "A star on the beach.",
+					"coords" : "304,438,275,513,370,457,423,512,414,419,483,376,396,359,380,288,323,373,255,379"
+				}
+			],
+			"HotSpotContent": [
+				{
+					"key" : "one",
+					"activityType" : "presentation",
+					"popUpName" : "Test Content",
+					"hotSpotMedia": [
+						{
+							"type": "text",
+							"content": "Lorem ipsum."
+						},
+						{
+							"type": "image",
+				    	    "src": "http://images4.fanpop.com/image/photos/16000000/Cute-Kitten-kittens-16096139-1280-800.jpg",
+				     	    "description": "A Kitten!",
+				     	    "mediaLink": "http://33.media.tumblr.com/tumblr_lmhmojMC7R1qhy6c9o1_400.gif"
+						},
+						{
+				        	"type": "link",
+				        	"src": "https://github.com",
+				        	"description": "A website!"
+				      	}
+					]
+				},
+				{
+					"key" : "two",
+					"activityType" : "presentation",
+					"popUpName" : "Content Pop Up",
+					"hotSpotMedia": [
+				        {
+							"type": "audio",
+							"id" : "audioOne",
+					        "mp3": "audio/sample1/boohiss.mp3",
+					        "ogg" : "audio/sample1/boohiss.ogg",
+					        "wav" : "audio/sample1/boohiss.wav",
+					        "altLink" : "http://knowyourmeme.com/memes/bunchie"
+				        },
+						{
+							"type": "image",
+				    	    "src": "http://images4.fanpop.com/image/photos/16000000/Cute-Kitten-kittens-16096139-1280-800.jpg",
+				     	    "description": "A Kitten!",
+				     	    "mediaLink": "http://33.media.tumblr.com/tumblr_lmhmojMC7R1qhy6c9o1_400.gif"
+						},
+				        {
+							"type": "YouTubeVideo",
+					        "src": "https://www.youtube.com/watch?v=OZBWfyYtYQY",
+					        "altLink" : "http://knowyourmeme.com/memes/bunchie"
+				        }
+					]
+				},
+				{
+					"key" : "three",
+					"activityType" : "assessment",
+					"popUpName" : "Difficult Math",
+					"feedback" : true,
+					"questionText" : "What is 2 + 2?",
+					"answers" : [
+						{
+							"answerText" : "3",
+							"correct" : false,
+							"feedback" : "Not quite!"
+						},
+						{
+							"answerText" : "2",
+							"correct" : false,
+							"feedback" : "Try again!"
+						},
+						{
+							"answerText" : "4",
+							"correct" : true,
+							"feedback" : "none"
+						},
+						{
+							"answerText" : "That's a ridiculous question...",
+							"correct" : false,
+							"feedback" : "Wrong!"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SceneName" : "Bears in the Office",
+			"Instructions" : "Explore the office building to learn more!",
+			"Background" : {
+					"src" : "img/bg-office.jpg",
+					"alt" : "The interior of an office building. On the left there is a divider wall, and on the right there is a desk with a computer.",
+					"imgWidth" : "992",
+					"imgHeight" : "558"
+			},
+			"HotSpots": [ 
+				{
+					"id" : "one",
+					"shapeType" : "custom",
+					"desc" : "The divider wall on the left side of the office.",
+					"coords" : "0,251,62,245,154,244,265,244,347,243,391,237,392,323,375,350,350,358,321,362,315,336,317,311,312,306,268,306,266,254,196,254,156,261,2,259,0,260"
+				},
+				{
+					"id" : "two",
+					"shapeType" : "custom",
+					"desc" : "A computer monitor on a desk on the right side of the office.",
+					"coords" : "672,261,754,261,755,282,753,291,753,301,752,309,673,309"
+				}
+			],
+			"HotSpotContent": [
+				{
+					"key" : "one",
+					"activityType" : "presentation",
+					"popUpName" : "Example Content",
+					"hotSpotMedia": [
+						{
+							"type": "text",
+							"content": "Lorem ipsum."
+						},
+						{
+							"type": "image",
+				    	    "src": "http://images4.fanpop.com/image/photos/16000000/Cute-Kitten-kittens-16096139-1280-800.jpg",
+				     	    "description": "A Kitten!",
+				     	    "mediaLink": "http://33.media.tumblr.com/tumblr_lmhmojMC7R1qhy6c9o1_400.gif"
+						},
+				        {
+							"type": "YouTubeVideo",
+					        "src": "https://www.youtube.com/watch?v=OZBWfyYtYQY",
+					        "altLink" : "http://knowyourmeme.com/memes/bunchie"
+				        }
+					]
+				},
+				{
+					"key" : "two",
+					"activityType" : "assessment",
+					"popUpName" : "The Bear Dilemna",
+					"feedback" : true,
+					"questionText" : "Which bear is best?",
+					"answers" : [
+						{
+							"answerText" : "Black Bear",
+							"correct" : true,
+							"feedback" : "Bears, beets, Battlestar Galactica!"
+						},
+						{
+							"answerText" : "Polar bear",
+							"correct" : false,
+							"feedback" : "They are pretty 'cool', but not the best."
+						},
+						{
+							"answerText" : "Kodiak Bear",
+							"correct" : false,
+							"feedback" : "none"
+						},
+						{
+							"answerText" : "That's a ridiculous question...",
+							"correct" : false,
+							"feedback" : "False. Black bear."
+						}
+					]
+				}
+			]
+		}
+	]	
+}

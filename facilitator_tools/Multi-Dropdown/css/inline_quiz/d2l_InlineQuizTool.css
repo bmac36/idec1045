@@ -1,0 +1,483 @@
+#dbox {
+    min-height: 790px;
+		max-width: 740px;
+}
+
+#ILQ_container{
+	width:95%;
+  margin: 0 auto;
+	background: #f1f1f1;
+}
+
+@media (max-width: 400px) {
+  #ILQ_container{
+		width:100%;
+	}
+	.ILQ_MediaEmbeddedVideo{
+		height: 200px;
+	}
+	/*
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 16%;
+	}
+	#ILQ_ContinuousResponceCont{
+		padding-top: 35%;
+	}*/
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+    #ILQ_container{
+		width:95%;
+	}
+	.ILQ_MediaEmbeddedVideo{
+		height: 200px;
+	}
+	/*
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 11%;
+	}
+	#ILQ_ContinuousResponceCont{
+		padding-top: 35%;
+	}*/
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+    #ILQ_container{
+		width:95%;
+	}
+	/*	
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 11%;
+	}
+	#ILQ_ContinuousResponceCont{
+		padding-top: 25%;
+	}*/
+}
+
+@media (min-width: 701px) and (max-width: 939px) {
+    #ILQ_container{
+		width:95%;
+	}
+	/*	
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 6%;
+	}
+  #ILQ_ContinuousResponceCont{
+		padding-top: 15%;
+	}*/
+}
+@media (min-width: 940px) {
+  #ILQ_container{
+		width: 95%
+	}
+	/*
+	.ILQ_BaseButtonLable,
+	.ILQ_GenericLable {
+		padding-top: 11%;
+	}
+	#ILQ_ContinuousResponceCont{
+		padding-top: 10%;
+	}*/
+}
+
+#ILQ_header h1 {
+	color: #801021;
+	font-size: 1.5em;
+	min-height: 1em;
+	text-align: center;
+}
+
+.ILQ_questionHeader,
+.ILQ_hintHeader,
+#ILQ_ContinuousResponceHeader {
+	margin: 2% auto;
+	min-height: 1em;
+	font-size:1.3em;
+}
+
+.ILQ_questionHeader {
+	width: 95%;
+}
+
+#ILQ_content{
+	min-height: 200px;
+	height: 100%;
+	/*padding: 15px;*/
+	overflow-y: auto;
+	text-shadow:none;
+	border: 1px solid #ebebeb; 
+	border-radius: 0;
+}
+
+.ILQ_AccessOnly{
+	font-size: 0px;
+	width: 0px;
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+	opacity: 0;
+}
+
+.ILQ_Description {
+	min-height: 200px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.ILQ_Media {
+	width: 100%;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.ILQ_MediaLink,
+.ILQ_MediaAltLink {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.ILQ_MediaImage,
+.ILQ_MediaImage > img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ILQ_MediaEmbeddedVideo {
+	max-width: 100%;
+}
+
+.ILQ_fullReport > .ILQ_miniReport {
+	margin-left: 2%;
+	padding-bottom: 10px;
+}
+
+.ILQ_questionText{
+	min-height:  40px;
+	margin: 0 auto;
+	width: 95%;
+}
+
+.ILQ_quizFeild {
+	border: none;
+	margin: 0 auto;
+	width: 95%;
+}
+
+.ILQ_AnswerSlot{
+	display: block;
+	box-sizing: content-box;
+	position: relative;
+	cursor: pointer;
+	padding: 12px 0px;
+	margin-bottom: 2px;
+}
+
+.ILQ_AnswerSlot.over{
+	background:#EDEDED;
+}
+
+.ILQ_AnswerSlot.down{
+	background: #e5e5e5;
+}
+
+.ILQ_AnswerSlot.AnsCorrect{
+	border:1px solid #00B44F;
+}
+
+.ILQ_AnswerSlot.AnsIncorrect{
+	border:1px solid #EC0044;
+}
+
+/*.ILQ_AnswerSlot.AnsPartial{
+	background:#F9D832;
+}*/
+
+.ILQ_AnswerSlot.correct > .ILQ_impCont {
+	background-image: url(../graphics/Right_24.png);
+	background-size: contain;
+	background-position: 0px 0px !important;
+	cursor: default;
+}
+
+.ILQ_AnswerSlot.incorrect > .ILQ_impCont {
+	background-image: url(../graphics/Wrong_24.png);
+	background-size: contain;
+	background-position: 0px 0px !important;
+	cursor: default;
+}
+
+.ILQ_AnswerSlot.partial > .ILQ_impCont {
+	background-image: url(../graphics/Partially-Correct.png);
+	background-size: contain;
+	background-position: 0px 0px !important;
+	cursor: default;
+}
+
+.ILQ_impCont {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 0.5em;
+	margin-right: .5em;
+	top: 10px;
+	position: absolute;
+	float: left;
+
+	background-image: url(../graphics/Radio-Icons.png);
+	background-repeat: no-repeat;
+}
+
+.ILQ_impCont.radio{
+	background-position: -1px -20px;
+	top:4px;
+}
+
+.ILQ_impCont.check{
+	background-position: -1px 0px;
+	top:12px;
+}
+
+
+.ILQ_impCont.radio.selected{
+	background-position: -20px -20px;
+}
+
+.ILQ_impCont.check.selected{
+	background-position: -20px 0px;
+}
+
+.ILQ_AnswerSlot > .ILQ_answerLable {
+	display: inline-block;
+}
+
+.ILQ_answerLable {
+	margin-left: 40px;
+}
+
+#ILQ_buttonSet {
+/*	display: inline;*/
+	text-align:right;
+	width: 100%;
+/*	max-width: 95%;
+  	margin: 0 auto;*/
+
+/*	cursor: pointer;*/
+}
+
+/* Button 
+--------------*/
+/*
+.ILQ_BaseButtonContainer.FullButton,
+.ILQ_BaseButtonContainer.RightHalfButton,
+.ILQ_BaseButtonContainer.LeftHalfButton,
+#ILQ_HintButton.ILQ_GenericButtonContainer,
+.ILQ_GenericButtonContainer.Generic {
+	background-color: #ffffff;
+	color: #656565;
+	border-radius:6px;
+	height:40px;
+	display: inline-block;
+	white-space: normal;
+	border:1px solid #A0AAB2;
+	cursor:pointer;
+	max-width:120px;
+	width: 30%;
+	margin-top: 1em;
+	margin-bottom: 2%;
+	margin-right: 2.5%;
+}
+
+.ILQ_BaseButtonContainer.FullButton.over,
+.ILQ_BaseButtonContainer.RightHalfButton.over,
+.ILQ_BaseButtonContainer.LeftHalfButton.over,
+#ILQ_HintButton.ILQ_GenericButtonContainer.over,
+.ILQ_GenericButtonContainer.Generic.over {
+	background-color: #EDEDED;
+}
+
+.ILQ_BaseButtonContainer.FullButton.active,
+.ILQ_BaseButtonContainer.RightHalfButton.active,
+.ILQ_BaseButtonContainer.LeftHalfButton.active,
+#ILQ_HintButton.ILQ_GenericButtonContainer.active,
+.ILQ_GenericButtonContainer.Generic.active {
+	background-color: #D8D8D8;
+}
+.ILQ_BaseButtonDisabled, .ILQ_GenericButtonDisabled {
+	background:#FFFFFF !important;
+	border: 1px solid #C1C1C1 !important;; 
+	color: #C1C1C1 !important;
+	cursor: default;
+	
+	background-color: #646469;
+	color: #fff;
+	cursor: default;
+}
+*/
+
+#ILQ_HintButton {
+	float: left;
+	margin-left: 2.5%;
+}
+
+.ILQ_BaseButtonContainer,
+.ILQ_GenericButtonContainer {
+	display: inline-block;
+	min-width:150px;
+	height:45px;
+	margin-top: 1em;
+	margin-bottom: 2%;
+	margin-right: 2.5%;
+	white-space: normal;
+	
+	border-radius:0;
+	border:0;
+	cursor:pointer;
+	background-color: #133a65;
+	color: #fff;
+}
+
+.ILQ_BaseButtonContainer.over,
+.ILQ_GenericButtonContainer.over {
+	background-color: #e1c43c;
+	color: #000;
+}
+
+.ILQ_BaseButtonContainer.active,
+.ILQ_BaseButtonContainer.focus,
+.ILQ_GenericButtonContainer.active,
+.ILQ_GenericButtonContainer.focus {
+	background-color: #646469;
+	color: #fff;
+}
+
+.ILQ_BaseButtonDisabled, .ILQ_GenericButtonDisabled {
+	background-color: #cccccc;
+	color: #fff;
+	cursor: default;
+	opacity: .8;
+}
+
+.ILQ_BaseButtonContainer.LeftHalfButton.hidden {
+	display:none;
+}
+
+.ILQ_BaseButtonContainer.RightHalfButton.hidden {
+	display: none;
+}
+
+#ILQ_NextButton {
+	float: right;
+	margin-right: 0px;	
+}
+
+.ILQ_GenericButtonContainer.Generic.hidden {
+	display:none;
+}
+
+.ILQ_BaseButtonLable,
+.ILQ_GenericLable {
+	display: block;
+	font-size:1em;
+	font-weight: bold;
+	text-align: center;
+	padding-top:12px;
+}
+
+#ILQ_ContinuousResponceCont{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.ILQ_continusResponceGraphic, .ILQ_RecapResponceGraphic{
+	/* width: 20px; */
+	vertical-align: middle;
+	padding-right: 15px;
+	margin-top: -3px;
+}
+
+.ILQ_continusResponceText{
+	color:red;
+	padding-top: 10px;
+
+}
+
+.ILQ_RecapResponceText{
+	color:#000;
+	text-transform: none;
+}
+
+.ILQ_miniReport{
+	color:#000;
+}
+
+/*.ILQ_miniReport > .ILQ_miniReportContent{
+	margin-left: 20px
+}*/
+
+.ILQ_ContinuousResponceText{
+	/* width handled in JS  InlineQuizApp.HandleWindowAdjust*/
+	/* float handled in JS  InlineQuizApp.HandleWindowAdjust*/
+}
+
+#ILQ_NextButton{
+	/* margin handled in JS  InlineQuizApp.HandleWindowAdjust*/
+	/* float handled in JS  InlineQuizApp.HandleWindowAdjust*/
+}
+
+.ILQ_RightHighlight {
+/*	background-color:rgba(0, 255, 0, 0.7);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+.ILQ_WrongHighlight {
+/*	background-color:rgba(255, 0, 0, 0.7);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+.ILQ_SimilarHighlight {
+/*	background-color:rgba(255, 255, 0, 0.7);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+.ILQ_ReferenceHighlight {
+/*	background-color:rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding:2px 4px;*/
+	font-weight:bold;
+}
+
+ul {
+	line-height: 160%;
+}
+
+input.blank {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100%;
+    transition: width 0.25s; 
+    margin-left: -50px;   
+}
+
+input.number {
+    width: 30px;
+    min-width: 30px;
+    max-width: 100%;
+    transition: width 0.25s;
+    margin-left: -50px;    
+}
+
+.blankLabel {
+	position: relative;
+	left: -9999px;
+}

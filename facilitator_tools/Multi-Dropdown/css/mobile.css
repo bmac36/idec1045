@@ -1,0 +1,67 @@
+@media (min-width: 500px) and (max-width: 768px) {
+/* Styles */
+#main{
+    background-image: url("../images/intro_bg3_mobile.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    overflow: hidden;
+    }
+
+.strip{
+    background: rgba(19, 58, 101, 0.80);
+    height:80px;
+    width:100%;
+    position: absolute;
+    top:20px;
+    
+}
+header h1{
+  position: absolute;
+  left:190px;
+  color:#fff;
+  z-index: 1;
+  padding:5px;
+}
+
+    
+}
+@media (min-width: 320px) and (max-width: 500px) {
+#main{
+    background-image: url("../images/intro_bg3_mobile.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    overflow: hidden;
+    }
+
+.strip{
+    background: rgba(19, 58, 101, 0.80);
+    height:80px;
+    width:100%;
+    position: absolute;
+    top:20px;
+    
+}
+header h1{
+  position: absolute;
+  left:190px;
+  color:#fff;
+  z-index: 1;
+  padding:0px;
+}
+
+.container {
+  height:auto;
+  }
+    
+}/* media query*/
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}

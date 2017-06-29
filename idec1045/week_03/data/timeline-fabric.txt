@@ -1,0 +1,65 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Heavy Weight",
+      "Body": "<p class=\"bottom-space\">Heavy weight fabrics like leather, tapestry, some thick velvets, brocade and denim can be very heavy to hang on a rod, do not open and close easily and will not drape and pleat like some other weights will.  These weights are good for more structured treatments like upholstered valances, swag treatments or lambrequins where they can be stapled into a fixed place.  Drapery that is stationary can also work if the fabric drapes well enough so that it will not be too heavy to open and close on a rod.</p><div class=\"row bottom-space\">\n<div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot\"> <img src=\"img/heavy_weight.jpg\" class=\"img-responsive\" class=\"img-responsive\" alt=\"\" /><figcaption>This structured swag and jabot treatment valance is suitable for thsi space as the treatment does not move and is fixed in place.<br /><cite>&copy; iStock.com/stockyImages</cite></figcaption>\n        </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Medium Weight",
+      "Body": "<p>Medium weight fabrics are very common in window treatments as they are very pliable and adapt to most window treatment options.  They can drape well depending on their fiber content, can open and close with more ease.  Medium weight fabrics are generally not as stiff as heavy weight fabrics and have a better “hand”.  They come in all fibers from natural to synthetic and all blends and some examples are satin, some velvets, and taffeta. </p><div class=\"row bottom-space\"><div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot\"> <img src=\"img/medium_weight.jpg\" class=\"img-responsive\" alt=\"Staedtler Mars Home planning and layout #977, 113 template\" /><figcaption>This medium weight fabric treatment pleats well and has nice drape on these windows. Notice that it is also using three different fabrics on this one window.<br />	<cite>&copy; iStock.com/zhudlfeng</cite> </figcaption>\n        </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Light Weight",
+      "Body": " <p class=\"bottom-padding\">Light weight fabrics are very soft, flowy and include sheer, lace linen and organza.  Often they are see through or semi-sheer though they can be opaque as well.  They come from all fabric content sources from natural to synthetic or blended fabrics.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/light_weight.jpg\" alt=\"\" class=\"img-responsive center-block\">\n                      <figcaption>These drapes are very light and soft in appearance and allow light to pass through them into the room.<br />		<cite>&copy; iStock.com/rilueda</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

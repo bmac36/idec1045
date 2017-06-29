@@ -1,0 +1,69 @@
+	.fuelux .wizard {
+		border-radius: 0px;	
+	}
+	
+	#drawspace {
+		text-align:center;
+		border:1px solid #cccccc;
+		padding:30px;
+	}
+	
+	p.errortext {
+		color:#ec0044;
+	}
+	
+	#btn-rotate {
+		display:block;
+		margin:20px 0px;
+	}
+	
+	#patternselect {
+		max-height:150px;
+		overflow:auto;
+	}
+	
+	a.patternpreview {
+		width:50px;
+		height:50px;
+		display:inline-block;
+		margin:10px;
+		border:3px solid #000000;
+	}
+	
+	a.patternpreview.selected {
+		border-color:#00b44f;
+	}
+	
+	#pattern0 {
+		background-color:#FFFFFF;
+	}
+	
+	#hiddenelement, #pdfgeneration {
+		position:absolute;
+		top:0px;
+		left:0px;
+		visibility:collapse;
+		padding:20px 60px 20px 60px;
+		background-color:#FFFFFF;
+		color:#000000;
+		font-family: Arial, sans-serif;
+		width:720px;
+	}
+	
+	#hiddenelement h1, #pdfgeneration h1 {
+		font-size:18px;
+		font-weight:bold;
+	}
+
+	#hiddenelement h2, #pdfgeneration h2 {
+		font-size:15px;
+		font-weight:bold;
+	}
+	
+	#hiddenelement, #pdfgeneration h3 {
+		font-size:12px;
+	}
+
+	.container {
+		width:920px;
+	}	

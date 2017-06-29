@@ -1,0 +1,108 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 2,
+    "instructions": "Read each question carefully and choose the option(s) that best answer(s) the question.",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<h4>Now that you have learned all about linings, let's do a quick review and see how much you remember!</h4>",
+    "preQuizMedia": [
+      {
+        "type": "image",
+        "src": "img/types_of_linings.jpg",
+        "description": "living room",
+        "mediaLink": "none",
+        "width": "none",
+        "height": "none"
+      }
+    ],
+    "postQuizText": "Well done! Feel free to repeat the quiz as often as you'd like.",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<img src=\"img/unity.jpg\" alt=\"house showing unity across all windows\" class=\"img-responsive\"><br>Linings are almost always used by decorators for custom window treatments.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "True",
+          "feedBack": "Correct! Linings provide the client with a quality and long lasting treatment. There are many benefits to using linings on all window treatments. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "False",
+          "feedBack": "Incorrect! Linings provide the client with a quality and long lasting treatment. There are many benefits to using linings on all window treatments."
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 4,
+      "questionText": "<img src=\"img/lining.jpg\" alt=\"lined window treatment in family room\" class=\"img-responsive\"><br>Which of the following are benefits of using linings on a window treatment?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Provides insulation in summer and winter",
+          "feedBack": "Correct! While adding a lining allows a fabric pattern to be seen better without the sun shining through, it does not make the colours look more vibrant.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Protects the fabric from sun damage",
+          "feedBack": "Correct! While adding a lining allows a fabric pattern to be seen better without the sun shining through, it does not make the colours look more vibrant.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Makes the fabric colours appear more vibrant",
+          "feedBack": "Incorrect. While adding a lining allows a fabric pattern to be seen better without the sun shining through, it does not make the colours look more vibrant."
+        },
+        {
+          "answerText": "Helps reduce noise from the outdoors",
+          "feedBack": "Correct! While adding a lining allows a fabric pattern to be seen better without the sun shining through, it does not make the colours look more vibrant.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Creates body and adds fullness and richness to the treatment",
+          "feedBack": "Correct! While adding a lining allows a fabric pattern to be seen better without the sun shining through, it does not make the colours look more vibrant.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<img src=\"img/stone_home.jpg\" alt=\"150 year old stone home\" class=\"img-responsive\"><br>Your client has just moved into a 150 year old stone house and would like you to decorate the main floor, starting with window treatments. Which lining would work best for this type of home?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Discreet Lining",
+          "feedBack": "Incorrect! Old homes tend to be drafty and don't have the same R-value insulation that new homes have. Thermal linings would help retain the heat in the cold months and keep it cooler in the warm months."
+        },
+        {
+          "answerText": "Interlining",
+          "feedBack": "Incorrect! Old homes tend to be drafty and don't have the same R-value insulation that new homes have. Thermal linings would help retain the heat in the cold months and keep it cooler in the warm months."
+        },
+        {
+          "answerText": "Thermal Lining",
+          "feedBack": "Correct! Old homes tend to be drafty and don't have the same R-value insulation that new homes have. Thermal linings would help retain the heat in the cold months and keep it cooler in the warm months.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Black Out Lining",
+          "feedBack": "Incorrect! Old homes tend to be drafty and don't have the same R-value insulation that new homes have. Thermal linings would help retain the heat in the cold months and keep it cooler in the warm months."
+        }
+      ]
+    }
+  ]
+}

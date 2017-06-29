@@ -1,0 +1,133 @@
+{
+	"ActivityName": "Odds and Evens",
+	"ActivityType" : "sort",
+   "HeadingLevel": 1,
+	"FeedbackType" : "continuous",
+	"HighlightEffect" : true,
+	"QuestionColumns" : "1",
+	"Randomize": true,
+	"HorizontalAlignment": true,
+	"PreActivityText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque.</p><p> Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+	"PreActivityMedia" : "none",
+	"IncludePostPage" : false,
+	"PostActivityText" : "none",
+	"PostActivityMedia" : "none",
+	"AnswerNodes": [
+		{
+			"key": "ODDS", 
+		 	"title": "ODDS", 
+		 	"color": "default",
+		 	"src" : "none"
+		},
+		{
+			"key": "EVENS",
+			"title": "EVENS", 
+			"color": "default",
+			"src" : "none"
+		},
+         {
+         "key": "DIST", 
+         "title": "DISTRACTOR", 
+         "color": "default",
+         "src" : "none"
+      }
+	],
+	"QuestionNodes": [
+         {
+         "question" : "Fish Paste", 
+         "answer" : "DISTRACTOR",
+         "type" : "text",
+         "color": "default",
+         "correct" : "Good job!",
+         "wrong" : "Really?"
+      },
+      {
+         "question" : "Cajun Squirrel Wings", 
+         "answer" : "DISTRACTOR",
+         "type" : "text",
+         "color": "default",
+         "correct" : "Good job!",
+         "wrong" : "Really?"
+      },
+		{
+			"question" : "01", 
+			"answer" : "ODDS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An odd number is a number not divisible by 2."
+		},
+		{
+			"question" : "02", 
+			"answer" : "EVENS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An even number is a number that is divisible by 2."
+		},
+		{
+			"question" : "03", 
+			"answer" : "ODDS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An odd number is a number not divisible by 2."	
+		},
+		{
+			"question" : "04", 
+			"answer" : "EVENS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An even number is a number that is divisible by 2."
+		},
+		{
+			"question" : "05", 
+			"answer" : "ODDS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An odd number is a number not divisible by 2."	
+		},
+		{
+			"question" : "06", 
+			"answer" : "EVENS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An even number is a number that is divisible by 2."
+		},
+		{
+			"question" : "07", 
+			"answer" : "ODDS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An odd number is a number not divisible by 2."	
+		},
+		{
+			"question" : "08", 
+			"answer" : "EVENS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An even number is a number that is divisible by 2."
+		},
+		{
+			"question" : "09", 
+			"answer" : "ODDS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An odd number is a number not divisible by 2."
+		},
+		{
+			"question" : "10", 
+			"answer" : "EVENS",
+			"type" : "text",
+			"color": "default",
+			"correct" : "Good job!",
+			"wrong" : "An even number is a number that is divisible by 2."
+		}
+	]
+}

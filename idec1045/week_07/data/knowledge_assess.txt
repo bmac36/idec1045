@@ -1,0 +1,658 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "feedBackType": "both",
+    "forceCorrect": false,
+    "repeatOnComplete": false,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "showQuestions": "10",
+    "preQuizText": "Let's check your knowledge of electrical symbols! There are a total of 22 symbols in this quiz, of which 10 will be randomly selected for you to try. Each question will have a picture of the symbol with a choice of four options as the answer. Choose which on you believe is the correct answer and check to see if you are right! Once you are done all 10 you will get a summary of your activity and the chance to do it all again. Repeat the quiz a few times to test your knowledge of all 22 symbols!",
+    "preQuizMedia": "none",
+    "postQuizText": "You have completed the activity.",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-3way-switch.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "switch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "3-way switch",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "surface continuous row fluorescent",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "special outlet (air-conditioner)",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-switch.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "switch",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "3-way switch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "surface continuous row fluorescent",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "special outlet (air-conditioner)",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-special-outlet-ac.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "110 volt outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "220 volt outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "clock outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "special outlet (air-conditioner)",
+          "feedBack": "",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-110-volt-outlet.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "110 volt outlet",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "220 volt outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "clock outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "special outlet (air-conditioner)",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-220-volt-outlet.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "110 volt outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "220 volt outlet",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "clock outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "special outlet (air-conditioner)",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-thermostat.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "telephone outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor telephone outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "thermostat",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "television antennae outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-telephone-outlet.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "telephone outlet",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "floor telephone outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "thermostat",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "television antennae outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-floor-telephone-outlet.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "telephone outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor telephone outlet",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "thermostat",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "television antennae outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-television-antennae-outlet.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "telephone outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor telephone outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "thermostat",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "television antennae outlet",
+          "feedBack": "",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-clock-outlet.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "telephone outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "thermostat",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "clock outlet",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "special outlet (air-conditioner)",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-floor-electric-outlet.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "floor electric outlet",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "door bell",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "recessed ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor and table lamps",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-doorbell.png\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "floor electric outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "door bell",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "recessed ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor and table lamps",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-recessed-ceiling-light.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "floor electric outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "door bell",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "recessed ceiling light",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "floor and table lamps",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-floor-table-lamps.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "floor electric outlet",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "door bell",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "recessed ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor and table lamps",
+          "feedBack": "",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-ceiling-light.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "wall light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "ceiling light",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "recessed ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor and table lamps",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-wall-light.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "wall light",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "recessed ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "floor and table lamps",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-pull-chain-ceiling-light.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "pull chain wall light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "pull chain ceiling light",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "heat light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "ceiling fan",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-pull-chain-wall-light.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "pull chain wall light",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "pull chain ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "heat light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "ceiling fan",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-heat-light.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "pull chain wall light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "pull chain ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "heat light",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "ceiling fan",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-ceiling-fan.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "pull chain wall light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "pull chain ceiling light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "heat light",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "ceiling fan",
+          "feedBack": "",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-surface-fluorescent.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "surface individual fluorescent",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "recessed individual fluorescent",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "switch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "3-way switch",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Identify the following symbol: <br> <img src=\"img/quiz-recessed-fluorescent.jpg\">",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "surface individual fluorescent",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "recessed individual fluorescent",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "switch",
+          "feedBack": "",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "3-way switch",
+          "feedBack": "",
+          "scoreValue": 0
+        }
+      ]
+    }
+  ]
+}

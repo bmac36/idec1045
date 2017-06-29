@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Stone and Brick</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../assets/css/main.min.css">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="container-fluid"> 
+    <!-- Two column Page Layout --> 
+    <!--Main - Col--> 
+    <!--Header-->
+    <div class="row top-space">
+      <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 primary-bg header-bg"></div>
+      <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+        <h1>Stone and Brick</h1>
+      </div>
+    </div>
+    <!--Header Ends-->
+    <div class="row">
+      <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+              <p>Never underestimate Gotham City. People get mugged coming home from work every day of the week. Sometimes things just go bad.</p>
+              <p>Every man who has lotted here over the centuries, has looked up to the light and imagined climbing to freedom. So easy, so simple! And like shipwrecked men turning to seawater foregoing uncontrollable thirst, many have died trying. And then here there can be no true despair without hope. So as I terrorize Gotham, I will feed its people hope to poison their souls. I will let them believe that they can survive so that you can watch them climbing over each other to stay in the sun. You can watch me torture an entire city. And then when you've truly understood the depth of your failure, we will fulfill Ra's Al Ghul's destiny. We will destroy Gotham. And then, when that is done, and Gotham is... ashes Then you have my permission to die.</p>
+              <p>No guns, no killing.</p>
+  <div class="row box vertical-tabs">
+    <div class="col-sm-3">
+      <ul class="nav" role="tablist">
+        <li class=""><a href="#scenario1" data-toggle="tab" class="square"><span class="large-ltr">A</span></a> </li>
+        <li class=""><a href="#scenario2" data-toggle="tab" class="square"><span class="large-ltr">C</span></a> </li>
+        <li class=""><a href="#scenario3" data-toggle="tab" class="square"><span class="large-ltr">T</span></a> </li>
+        <li class=""><a href="#scenario4" data-toggle="tab" class="square"><span class="large-ltr">I</span></a> </li>
+        <li class=""><a href="#scenario5" data-toggle="tab" class="square"><span class="large-ltr">O</span></a> </li>
+        <li class=""><a href="#scenario6" data-toggle="tab" class="square"><span class="large-ltr">N</span></a> </li>
+      </ul>
+    </div>
+    <div class="col-sm-9"> 
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade" id="scenario1">
+          <p class="lead">Abandon</p>
+          <p><strong>ABANDON</strong> negative attitudes and fears. Embrace all that is positive and uplifting</p>
+        </div>
+        <div class="tab-pane fade" id="scenario2">
+          <p class="lead">Commit</p>
+          <p><strong>COMMIT</strong> to our goals. Total commitment is necessary for success.</p>
+        </div>
+        <div class="tab-pane fade" id="scenario3">
+          <p class="lead">Timeframe</p>
+          <p>Set a <strong>TIMEFRAME</strong> within which to accomplish each goal.</p>
+        </div>
+        <div class="tab-pane fade" id="scenario4">
+          <p class="lead">Invest</p>
+          <p><strong>INVEST</strong> (time and or money) into yourself and the future. Do whatever it takes to get to where you want to go</p>
+
+        </div>
+        <div class="tab-pane fade" id="scenario5">
+          <p class="lead">Outcome</p>
+          <p>The <strong>OUTCOME</strong> rests with out. You can get help and guidance from others, but only you can make it happen.</p>
+
+        </div>
+        <div class="tab-pane fade" id="scenario6">
+          <p class="lead">Nots</p>
+          <p>Eliminate the <strong>NOTS</strong>  that have prevented you from moving forward. Visualize the “new you”. Act as if you have already obtained your goal. </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of V Tabs --> 
+      </div>
+    </div>
+    <!-- End content-->
+    <div class="row top-space">
+      <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+        <footer><small class="pull-right">&copy;  <script type="text/javascript">document.write(new Date().getFullYear());</script> Conestoga College. All rights reserved.</small></footer>
+      </div>
+    </div>
+    <!-- End Footer--> 
+	</div>
+	</div>
+<!-- /.wrapper --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="../../assets/thirdpartylib/jquery/jquery-1.11.3.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+<script src="../../assets/js/main.min.js"></script> 
+<script>
+        $(document).ready(function () {
+            $('.timeline li.timeline-item-01').each(function (i) {
+                    $(this).delay((i++) * 500).fadeTo(1000, 1);
+                })
+                /* Every time the window is scrolled ... */
+            $(window.parent).scroll(function () {
+
+                /* Check the location of each desired element */
+                $('.timeline li').each(function (i) {
+
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window.parent).scrollTop() + $(window.parent).height();
+
+                    /* If the object is completely visible in the window, fade it it */
+                    if (bottom_of_window > bottom_of_object) {
+
+                        $(this).animate({
+                            'opacity': '1'
+                        }, 500);
+
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Pinch Pleat",
+      "Body": "        <p class=\"bottom-padding\">Pinch pleat, sometimes known as a French pleat, is the most common traditional kind of pleat.  This pleat can be used for all styles of d&eacute;cor except for ultra-modern.  Pleats are often folded three times, however, there are varying styles of this pleat in drapery books that give you more individual ideas.</p>\n\n                <div class=\"row\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                <figure class=\"cap-bot\"> <img src=\"img/pinch_pleat.jpg\" class=\"img-responsive\" alt=\" \" />\n          <figcaption>A sample of the Pinch pleat<br><cite>© iStock.com/phototropic </cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Goblet Pleat",
+      "Body": "  <p class=\"bottom-padding\">The goblet pleat is very similar to the pinch pleat and is actually made the same way.  The difference is instead of showing the three prongs of the pleat, the pleat is pushed out and rounded like a goblet to create a soft curve and a more feminine appearance.  This is a great traditional look.</p>\n \n <div class=\"row\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                <figure class=\"cap-bot\"> <img src=\"img/goblet_pleat.jpg\" class=\"img-responsive\" alt=\" \" />\n          <figcaption>A sample of the Goblet pleat<br><cite>© iStock.com/phototropic </cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Cinch Pleat",
+      "Body": "                <p class=\"bottom-padding\"This pleat style, also known as the Parisian or European pleat, is a more modern pleat style where the pleat starts at the very top of the treatment and gives the treatment great folds and a fuller look.  For this treatment you must use a decorative rod.  This is a wonderful pleat style for all styles of d&ecute;cor.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/cinch_pleat.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of a Cinch pleat<br>\n                        <cite>&copy; Conestoga College</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Ring Top Pleat",
+      "Body": "                <p class=\"bottom-padding\"The ring top pleat is a treatment that has no structured pleating but at uniform spacing across the top, rings are clipped or attached to the back of a flat fabric so that when they are gathered they form pleats.  This treatment is able to be used for all styles of d&eacute;cor. </p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/ring_top_pleat.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of a Ring Top pleat<br>\n                        <cite>&copy; iStock.com/phototropic</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Tab and Tie Top Pleat",
+      "Body": "                <p class=\"bottom-padding\">Tab and tie top pleating is using a fabric band at the top of a flat fabric that when gathered creates casual folds.  This kind of pleat is not meant to operate but should only be used for stationary treatments as the tab or tie will not lay evenly on the rod when moved.  It is mostly used for more causal styles like urban country, or a casual traditional style but is not recommended for more contemporary styles.</p>\n               <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/tab_tie.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption style=\"width: 100%;\">An example of the Tab and Tie Top pleat<br>\n                        <cite>&copy; iStock.com/stocknroll</cite> </figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Grommet Pleat",
+      "Body": "                <p class=\"bottom-padding\">The grommet pleat is very popular for many styles using a ring called a grommet one inch down from the top of the treatment and actually cut into the fabric.  The treatment easily slides on a rod to create folds.  This style can be used for all styles except for very formal looks. </p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/grommet_pleat.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">An example of a Grommet pleat<br>\n                        <cite>&copy; iStock.com/ben-bryant</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Pocket Pleat",
+      "Body": "                 <p class=\"bottom-padding\">A pocket pleat is when a fabric is gathered to make a hole or pocket for the rod to pass through. When the fabric is gathered it creates the pleats. This can have fabric above the pocket to create a ruffle for more country looks or can have the pocket with no ruffle for use in rather casual use of style from traditional to casual contemporary.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/pocket_pleat.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">An example of a Pocket pleat<br>\n                        <cite>&copy; iStock.com/stocknroll</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Box Pleat",
+      "Body": "                 <p class=\"bottom-padding\">The box pleat is a tailored pleat style that can be used for all styles of d&eacute;cor. It can be made with each flat box being from about 12&quot; wide to almost any width across the window. Seen often on bed skirts in the larger width, it is adaptable to give a more traditional to more contemporary effect.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/box_pleat.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">An example of a Box pleat<br>\n                        <cite>&copy; iStock.com/zhudifeng</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

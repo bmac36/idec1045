@@ -1,0 +1,345 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 1",
+      "Body": "        <p class=\"bottom-space\">To start, lay your completed graph paper drawing on the table as you would when working on it. On top place 1 piece of vellum that is the same size as your large graph paper (11”x17”). </p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 2",
+      "Body": "        <p class=\"bottom-padding\">Take your low tack tape and attach the vellum to the graph paper. I like to wrap the tape around the 4 corners of both pages so I can move it around.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 3",
+      "Body": "                <p class=\"bottom-padding\">I then tape the 2 pages in each corner to the table surface so it cannot move when I am transferring.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 4",
+      "Body": "<p>Make sure to keep the pages taped together until you are <strong>completely</strong> done so that all the lines will match up</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 5",
+      "Body": "                <p class=\"bottom-padding\">It is easier to draw one direction of line at a time so start with the horizontal lines.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/tracing1and2.jpg\" alt=\"image showing vellum over drawing\" class=\"img-responsive center-block\">\n                      <figcaption style=\"width: 100%;\">Placing the vellum over the drawing and prepping for drawing with the liner pen.<br>\n                        <cite>&copy; Linda Guthro</cite> </figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 6",
+      "Body": "                <p class=\"bottom-padding\">Using the 0.5 nib permanent pigment liner, start at the top of the page and carefully draw ALL the horizontal lines you see through the page from top to bottom. Be careful to not go past the line you are drawing or you will have to start over with a new piece of vellum.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 7",
+      "Body": "                <p class=\"bottom-padding\">Go over each line including walls, windows, fireplaces, furniture, flooring, plug in lamps, etc., as you move from the top to the bottom of the page.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 8",
+      "Body": "<p>Do <strong>NOT</strong> ink plugs, switches, etc., or any permanent lighting fixtures onto the vellum. I will tell you how to include those later.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 9",
+      "Body": "<p class=\"bottom-padding\">Some find it easier to draw standing up. Do whatever is most comfortable for you.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 10",
+      "Body": "<p class=\"bottom-padding\">If you miss a line, leave it until later. You can always go back afterward to fill in lines you have missed.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 11",
+      "Body": "                <p class=\"bottom-padding\">Once you have drawn all the horizontal lines, walk away for a few minutes to let the ink dry.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/trace-3.jpg\" alt=\"Drawing with all horizontal lines in place\" class=\"img-responsive center-block\">\n                      <figcaption style=\"width: 100%;\">All horizontal lines have been drawn in ink liner and left to dry. <br>\n                        <cite>&copy; Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 12",
+      "Body": "                <p class=\"bottom-padding\">After a few minutes, you can go back to some of the horizontal lines you have missed. Again wait a few minutes before moving on to the next step. Not only will this allow time for the ink to dry but is also easier on your eye strain.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 13",
+      "Body": "                <p class=\"bottom-padding\">When all the lines are completed, remove the low tack tape from the table and turn the drawing and vellum 90 degrees and attach them to the table surface again.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 14",
+      "Body": "                <p class=\"bottom-padding\">Now draw what would have been the vertical lines following the same process of drawing from top to bottom of the page. Allow the ink to dry.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/6.png\" alt=\"drawing with all vertical lines drawn in\" class=\"img-responsive center-block\">\n                      <figcaption style=\"width: 100%;\">Drawing with all of the vertical lines now added to it in ink liner pen.<br>\n                        <cite>&copy; Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 15",
+      "Body": "                <p class=\"bottom-padding\">Fill in any lines you have missed. Allow the ink to dry</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 16",
+      "Body": "                <p class=\"bottom-padding\">Once all the straight lines are filled in, you can use your template to fill in the shapes of furniture, plants, diagonal lines, or other items not already inked on the vellum.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 17",
+      "Body": "<p class=\"bottom-padding\">Once you have all the shapes inked you can lightly add the texture for floors and area rugs.</p><div class=\"row bottom-space\"><div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot no-padding\"> <img src=\"img/traced.png\" alt=\"This is a simple drawing showing what a room can look like on vellum.\" class=\"img-responsive center-block\"><figcaption style=\"width: 100%;\">This is a simple drawing showing what a room can look like on vellum.<br><cite>&copy; Linda Guthro</cite></figcaption></figure></div></div><p>Once you transfer your drawing to vellum it looks so much better when you get rid of all the grid lines. You would add all measurements, textures and other room details to this final draft drawing on vellum (full detail not shown here). This becomes your final copy and the graph paper drawing is just your working copy.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

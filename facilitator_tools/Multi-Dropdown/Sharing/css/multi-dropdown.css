@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+		#mi-table input {
+			width:100%;
+			text-align:center;
+		}
+		#mi-table input::-webkit-outer-spin-button,
+		#mi-table input::-webkit-inner-spin-button {
+			/* display: none; <- Crashes Chrome on hover */
+			-webkit-appearance: none;
+			margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+		}	
+		#mi-table input {
+			margin-top:2px;
+			margin-bottom:2px;
+			border-style:solid;
+		}
+		#mi-table #column-question {
+			width:85%;
+		}
+		#mi-table #column-input {
+			min-width:90px;
+			max-width:90px;
+			width:90px;
+			
+		}
+		#mi-table #column-feedback, .col-fb {
+			width:15%;
+		}
+		#mi-table #column-feedbackicon {
+			width:24px;
+		}
+		#mi-table input.correct, #mi-table select.correct {
+			border:2px solid #00b44f;
+		}
+		#mi-table input.incorrect, #mi-table select.incorrect {
+			border:2px solid #ec0044;
+		}
+		#mi-table .btn-check {
+			margin-bottom:10px;
+		}
+		#mi-table .feedbackicon {
+			display:inline-block;
+			width:24px;
+			height:24px;
+			margin-bottom:20px;
+		}
+		#mi-table .feedbackicon.correct {
+			background-image:url(../icons/icon-right-24.png);
+		}
+		#mi-table .feedbackicon.incorrect {
+			background-image:url(../icons/icon-wrong-24.png);
+		}

@@ -1,0 +1,154 @@
+{
+  "Questions": [
+    {
+  "Text": "1 inch is equal to ___ centimeter(s)?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "cm",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+		"HasRange": false,
+            "Correct": [
+		  2.54
+            ]
+          }
+        }
+      ]
+    },
+    {
+  "Text": "If a standard door width is 30-32 inches wide, what is that in centimeters? (from, to)",
+      "Fields": [
+	{
+	  "AnswerType": "number",
+	  "MinAccepted": 1,
+	  "MaxAccepted": 99,
+	  "PreText": "",
+	  "Units": "cm",
+	  "Answer": {
+		"AutoDisplay": true,
+		"FeedbackText": "none",
+		"HasRange": false,
+		"Correct": [
+		  76.2
+		]
+	  }
+	},
+  	{
+	  "AnswerType": "number",
+	  "MinAccepted": 1,
+	  "MaxAccepted": 99,
+	  "PreText": "",
+	  "Units": "cm",
+	  "Answer": {
+		"AutoDisplay": true,
+		"FeedbackText": "none",
+		"HasRange": false,
+		"Correct": [
+	  81.28
+		]
+	  }
+	}
+]
+    },
+    {
+      "Text": "A 12' wall converted to metric is:",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+	      "Units": "cm",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              365.76
+            ]
+          }
+        }
+      ]
+	},
+    {
+      "Text": "How many millimeters are there in a meter?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "mm",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+			"HasRange": false,
+            "Correct": [
+              1000
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "A room is 10' x 14'. Convert it to centimeters.",
+      "Fields": [
+	{
+  "AnswerType": "number",
+	  "MinAccepted": 1,
+	  "MaxAccepted": 99,
+	  "PreText": "none",
+	  "Units": "cm",
+	  "Answer": {
+		"AutoDisplay": true,
+		"FeedbackText": "none",
+		"HasRange": false,
+		"Correct": [
+		  304.8
+		]
+	  }	
+	},
+  	{
+	  "AnswerType": "number",
+	  "MinAccepted": 1,
+	  "MaxAccepted": 99,
+	  "PreText": "none",
+	  "Units": "cm",
+  "Answer": {
+		"AutoDisplay": true,
+	"FeedbackText": "none",
+		"HasRange": false,
+		"Correct": [
+		  426.72
+		]
+	  }
+	}
+   ]
+    },
+    {
+      "Text": "What is the popular new height for ceilings? Convert it to centimeters.",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "cm",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              274.32
+            ]
+          }
+        }
+      ]
+	}
+  ]
+}

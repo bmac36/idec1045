@@ -1,0 +1,50 @@
+{
+   "ActivityName":"Graphic Multi-Select Activity",
+   "QuestionDisplay":"all",
+   "ProvideContinuous":true,
+   "ProvideQuestionReport":true,
+   "ProvideEndReport":true,
+   "VisualFeedback":false,
+   "Randomize":false,
+   "HeadingLevel": "1",
+   "Instructions":"Answer the questions below with the best corresponding boxes. For more help click the <strong>?</strong> button below.",
+   "PreActivityText":"The preactivity text will appear here, use the PreActivityText value in your JSON data file to change this text.",
+   "PreActivityMedia":"none",
+   "PostActivityText":"This is the completion text it can be set with the PostActivityText variable in the JSON data",
+   "PostActivityMedia":"none",
+   "TableHeading":"Subject of the quiz",
+   "Answers":[  
+      {
+         "text":"Possible Answer A"
+      }
+   ],
+   "Questions":[  
+      {
+         "text":"Question 1: A and B",
+         "answers":[  
+            {
+               "check":true,
+               "feedback":[  
+                  {
+                     "description":"this is feedback"
+                  }
+               ]
+            },
+            {
+               "check":true,
+               "feedback":[  
+                  {
+                     "description":"this is feedback"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "Instruct_common": "In this activity you are presented with an activity grid. Columns with icons in the grid represent categories, and your job is to see if the categories apply to the row items that follow. Click on the boxes provided to indicate that a column option applies to the row item. If it does not apply, leave the box blank.",
+   "Instruct_01": "Click “Next Question” to save your answer and move onto the next question. When you’ve completed the activity press “Finish Activity” to continue.",
+   "Instruct_02": "Click “Submit” to see if you’ve chosen correctly. When you’re ready, click “Next Question” to move on. When you’ve completed the activity press “Finish Activity” to continue.",
+   "Instruct_03": "Click “Submit” to see if you’ve chosen correctly. When you’ve completed the activity press “Finish Activity” to continue.",
+   "Instruct_04": "When you’ve completed the activity press “Finish Activity” to continue.",
+   "Instructions_KeyUserText": "Keyboard users can use the tab key to navigate through the table. Check boxes and buttons can be pressed using the space or the enter key."
+}

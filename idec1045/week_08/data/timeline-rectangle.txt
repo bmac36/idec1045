@@ -1,0 +1,145 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 1",
+      "Body": "<p class=\"bottom-padding\">Using a firm but not too thick piece of cardboard cut a rectangle/square the size you want the sample to be. So not make it too small or it will be hard to work with.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 2",
+      "Body": "<p class=\"bottom-padding\">Trace the shape of the cardboard onto the fabric back with ink and remove the cardboard.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 3",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Body": "<p class=\"bottom-padding\">Using sharp scissors cut each corner close to but NOT directly into each corner. The green sample shown is to represent the fabric. Cut diagonally just shy of the cardboard.</p><div class=\"row bottom-space\"><div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot\"> <img src=\"img/wrap2.png\" class=\"img-responsive\" alt=\"FThis is the floor plan like you drew for the first elevation style. This should be placed on the left side of the graph paper\"><figcaption>A view of the back of the sample, showing the folds.<br><cite>&copy; Linda Guthro</cite> </figcaption>\n        </figure>\n                  </div>\n                </div>",
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 4",
+      "Body": "<p class=\"bottom-padding\">Next, cut out the corner as shown on the top right of the photo. Do not cut right into the edge where the cardboard will be. Do this for all 4 corners making an L shape in each corner. This removes some bulk of fabric when wrapping. </p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 5",
+      "Body": "<p class=\"bottom-padding\">Return the cardboard on top of the traced pattern with double sided tape to keep in place.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 6",
+      "Body": "<p class=\"bottom-padding\">Wrap each corner and side over the cardboard and use masking tape to hold all in place. </p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 7",
+      "Body": "<p class=\"bottom-padding\">Be sure to wrap as tightly as you can to remove all puckering and wrinkles from the face of the fabric.</p><div class=\"row bottom-space\"><div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot\"> <img src=\"img/wrap1.png\" class=\"img-responsive\" alt=\"FThis is the floor plan like you drew for the first elevation style. This should be placed on the left side of the graph paper\" /><figcaption>The sample back, showing the tape to secure the fabric in place and prevent puckering and wrinkles.<br /><cite>&copy; Linda Guthro</cite> </figcaption></figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Psychology of colour</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/main.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <!-- Two column Page Layout -->
+            <!--Main - Col-->
+            <!--Header-->
+            <div class="row top-space">
+                <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 primary-bg header-bg"></div>
+                <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+                    <h1>Psychology of colour</h1></div>
+            </div>
+            <!--Header Ends-->
+            <div class="row">
+                <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <p>To learn more about how we use colour in symbolism, and to make people feel certain emotions, watch this interesting video on colour psychology: </p>
+                    <h2>VIDEO: Color Psychology (1:53)</h2>
+                    <div class="video-container">
+                        <iframe width="560" height="315" id="video1" src="https://www.youtube.com/embed/zaDXa4FLnmw" frameborder="0" class="clearfix"></iframe>
+                    </div>
+                    <p class="top-space text-center"><a href="docs/Colour-Psychology-Video-Transcription.pdf" target="_blank" download="Colour-Psychology-Video-Transcription.pdf">Download Video Transcript (PDF 61KB) <span class="sr-only">download pdf document</span><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></p>
+
+                </div>
+            </div>
+            <!-- End content-->
+            <div class="row">
+                <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <footer><small class="pull-right">&copy;  <script type="text/javascript">document.write(new Date().getFullYear());</script> Conestoga College. All rights reserved.</small></footer>
+                </div>
+            </div>
+            <!-- End Footer-->
+        </div>
+    </div>
+    <!-- /.wrapper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../assets/thirdpartylib/jquery/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+<script src="../../assets/thirdpartylib/graphael/raphael.js"></script>
+	<script src="../../assets/thirdpartylib/graphael/g.raphael.js"></script>
+	<script src="../../assets/thirdpartylib/graphael/g.pie.js"></script>
+	<script>
+		window.onload = function () {
+			$("#info0,#info1,#info2,#info3,#info4,#info5,#info6").hide();
+			var r = Raphael("holder", 330, 250),
+				pie = r.piechart(150, 120, 100, [10, 10, 10, 10, 10, 10, 10], {
+					colors: ["#FF0000", "#FFC0CB", "#FFA500", "#ffff00", "#008000", "#0000ff", "#EE82EE"]
+				});
+
+			function displayInfo(i) {
+				return function () {
+					$("#info" + i).fadeIn(400).siblings().hide();
+					$("#interact" + i).addClass('active').siblings().removeClass('active')
+				}
+			}
+
+			function enlargePie(i) {
+				return function () {
+					$(pie.series.items[i].scale(1.1, 1.1, 150, 120))
+				}
+			}
+
+			function shrinkPie(i) {
+				return function () {
+					$(pie.series.items[i].animate({
+						transform: 's1 1 ' + this.cx + ' ' + this.cy
+					}, 500, "bounce"))
+				}
+			}
+			$(document).ready(function () {
+				for (var i = 0; i < 20; i++) {
+					$("#interact" + i).hover(enlargePie(i), shrinkPie(i));
+					$("#interact" + i).click(displayInfo(i));
+					$("#interact" + i).focus(displayInfo(i));
+					$("#interact" + i).focus(enlargePie(i));
+					$("#interact" + i).focusout(shrinkPie(i));
+					$(pie.covers.items[i].node).click(displayInfo(i));
+					$(pie.covers.items[i].node).hover(enlargePie(i), shrinkPie(i));
+				}
+			});;
+
+		};
+	</script>
+</body>
+
+</html>

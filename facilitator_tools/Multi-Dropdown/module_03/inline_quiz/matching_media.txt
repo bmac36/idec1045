@@ -1,0 +1,79 @@
+{
+    "QuizName" : "Activity: Matching Media",
+    "ActivityType" : "sort",
+    "FeedbackType" : "continuous",
+    "CorrectFeedback" : true,
+    "WrongFeedback" : true,
+    "HighlightEffect" : true,
+    "QuestionColums" : "1",
+    "Randomize" : false,
+    "PreQuizText" : "none",
+    "PreQuizMedia": "none",
+    "IncludePostPage" : true,
+    "PostQuizText" : "Way to go, You have ordered all the statements into the correct order!",
+    "PostQuizMedia": "none",
+    "AnswerNodes": [
+        {
+            "key": "cat_01",
+             "title": "Concrete Experience",
+             "color": "#2c5971"
+        },
+        {
+            "key": "cat_02",
+            "title": "Observation and Reflection",
+            "color": "#a73d4d"
+        },
+        {
+            "key": "cat_03",
+            "title": "Abstract Conceptualization",
+            "color": "#b1ad40"
+        },
+        {
+            "key": "cat_04",
+            "title": "Active Experimentation",
+            "color": "#801021"
+        },
+        {
+            "key": "cat_05",
+            "title": "Evaluation",
+            "color": "#0f3d56"
+        }
+    ],
+    "QuestionNodes": [
+        {
+            "question" : "Teacher asks learners what they find the most difficult about getting around their new neighbourhood.  They talk about not knowing where things are and being anxious to ask for directions for fear that they won’t understand the directions.  The teacher creates a large, simplified map of the neighbourhood with large pictures on the board.  She describes where different buildings are in relation to each other, using the commands “turn left” “turn right” and ”go straight”, as well as the phrases “on the left”, “on the right”, “between” and “across from” as part of her description of the neighbourhood.",
+            "answer" : "cat_01",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "The teacher asks the learners to describe where things are on the map on the board.  As they suggest directions, she writes the key terms on the board, including “turn left”, “turn right”, “go straight” in one column and “on the left”, “on the right, ” “between” and “across from” in another column.",
+            "answer" : "cat_02",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "The teacher explains how to give commands in English for directions using the column with the imperatives. She points out that imperatives consist of the base form of the verb with no subject. She does not use much grammatical language in her explanation.<br/>The teacher explains how to say where things are using “on the right”, “on the left” “between” and “across from”.<br/>The teacher then gives the learners a dialogue with directions for them to practice reading to each other. The dialogue includes the key language.",
+            "answer" : "cat_03",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "On the back of the handout with the dialogue, learners find a map of the neighbourhood which corresponds to the map on the board.  Working in partners, they take turns giving directions until their partners arrive at a location and name the location.<br/>After everyone has practiced, volunteer pairs give directions using the board as the map so that the class can follow along.",
+            "answer" : "cat_04",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "The teacher listens to the learners as they are giving instructions.  She helps as needed. When the volunteers have completed giving instructions in front of the class, she provides global feedback on their use of language for giving directions.",
+            "answer" : "cat_05",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        }
+    ]
+}

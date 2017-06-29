@@ -1,0 +1,42 @@
+{
+  "Questions": [
+    {
+      "QuestionText": "What is the formula used to calculate the width for operating drapery? Don't forget to complete the required drawing with measurements!",
+      "InputType": "text",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "72\" window + 4\" past + 3\" trim + 3\" trim + 4\" past + 4\" overlap in the middle to let the treatment relax and not see a gap. <br />(Take the answer from the above calculation x 2 + 6 + 6 selvage (for a pair of panels)) / 54\" fabric width. <br /><strong>Note:</strong> Remember, you <strong>cannot have part of a cut</strong> so you need 4 cuts.<br />                  <figure class=\"cap-bot \"> <img src=\"img/operating_answer.jpg\" class=\"img-responsive center-block\" alt=\"\" />         <figcaption>This drawing shows the treatment closed and the overlap needed to remember <br />     <cite>&copy; Linda Guthro</cite></figcaption>   </figure> ",
+      "KeyWords": [
+        "Draw",
+        "Window",
+        "½\"",
+        "graph",
+        "paper"
+      ]
+    },
+    {
+      "QuestionText": "Using the calculations from question 1, what are the two final values?.",
+      "InputType": "text",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "Part 1: 90\"<br /> Part 2: 3.5",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "What is the correct length of the rod you will need? Show the calculation and the answer.",
+      "InputType": "text",
+      "MinCharacters": 5,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "4\" past + 3\" trim + 72\" window + 3\" trim + 4\" past = 86\" rod which equals 7.16 rod. <strong>Note:</strong> Do NOT include overlap here!",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "Now calculate the length. What are the formulas you use to do this? Include the answers in your work.",
+      "InputType": "text",
+      "MinCharacters": 0,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<ul><li>8' ceiling = 96\". Space between glass and ceiling = 12\" (add 3\" trim around window) = 9\" between trim and ceiling</li><li>Subtract 6\" above trim = 3\" from ceiling</li><li>Treatment hangs 6\" above the trim, therefore 96\" ceiling height - 3\" from ceiling = 93\"</li><li>93\" + 1\" for grommet style over rod = \"94\"</li><li>Minus ½\" above floor = 94\" - ½ from floor - 93.5\" finished length</li><li>Plus 16 hem and header = 109.5\" which equalsthe order/purchase length per cut</li><li>Number of cuts x order length: 4 x 109.5\" / 36\" in a yard = 12.16 yards.</li><li>Round up to 12 ¼ – 12 ½ yards to order/purchase</li></ul>",
+      "KeyWords": []
+    }
+  ]
+}

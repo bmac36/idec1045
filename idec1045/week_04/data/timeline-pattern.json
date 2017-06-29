@@ -1,0 +1,145 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Batik",
+      "Body": "        <p class=\"bottom-padding\">Batik is a kind of hand dyed fabric that creates coloured designs using wax. That resists the dye over some areas of the cloth.   It is popular in Indonesian areas creating colourful designs.</p>\n\n                <div class=\"row\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                <figure class=\"cap-bot\"> <img src=\"img/batik.jpg\" class=\"img-responsive\" alt=\" \" />\n          <figcaption>A sample of the Batik pattern<br><cite>© iStock.com/ifish </cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Ombre",
+      "Body": "  <p class=\"bottom-padding\">Ombre is a pattern that gradually ranges in tones from light to dark colour.</p>\n \n <p>Check out the Robert Allen website for <a href=\"https://www.robertallendesign.com/catalogsearch/result/?q=ombre\" title=\"link to ombre examples\" target=\"_blank\">Ombre examples <i class=\"glyphicon glyphicon-new-window\"></i></a>.",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Conversational",
+      "Body": "                <p class=\"bottom-padding\">Conversational pattern contains recognizable object like animals, skulls or\neven clocks or other objects that have some kind of theme. This kind of print is also known as an object print.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/conversational.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of a Conversational print<br>\n                        <cite>© iStock.com/Burachet</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "scroll",
+      "Title": "Directional",
+      "Body": "                <p class=\"bottom-padding\"> Directional is a pattern that runs up and down or side to side rather than an all over look.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Striae",
+      "Body": "                <p class=\"bottom-padding\">Striae is a streaked stripe effect that is more textural in appearance. </p>\n               <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/striae.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption style=\"width: 100%;\">An example of Striae pattern.<br>\n                        <cite>© Yorkshire Fabric Shop. (2017). Retrieved from <a href=\"https://yorkshirefabricshop.com/summer-inspired-stripes-striae-pattern-red-purple-yellow-bright-multi-coloured-upholstery-material-fabrics\" title=\"link to source image \" target=\"_blank\">Yorkshire Fabric Shop <i class=\"glyphicon glyphicon-new-window\"></i></a></cite> </figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "scroll",
+      "Title": "Flame Stitch",
+      "Body": "                <p class=\"bottom-padding\">Flame stitch is similar to a chevron pattern but larger and usually multi coloured to imitate the looks of flames in a fire.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/flame_stitch.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">An example of a Flame Stitch pattern<br>\n                        <cite>&copy; iStock.com/chameleonseye</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "scroll",
+      "Title": "Scenic",
+      "Body": "                <p class=\"bottom-padding\">Scenic patterns are often of a landscape relating to nature.</p>\n",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

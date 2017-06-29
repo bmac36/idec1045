@@ -1,0 +1,163 @@
+{
+  "ActivityName": "Pattern and Window Treatment Lingo",
+  "ActivityType": "sort",
+  "HeadingLevel": 2,
+  "FeedbackType": "continuous",
+  "HighlightEffect": true,
+  "QuestionColumns": "2",
+  "Randomize": true,
+  "HorizontalAlignment": true,
+  "PreActivityText": "Now that you have learned about the language used when talking fabric patterns and window treatments, let's check your memory recall with a matching exercise! For each image, match it to the correct term. Let's see how much you remember!",
+  "PreActivityMedia": "none",
+  "IncludePostPage": false,
+  "PostActivityText": "none",
+  "PostActivityMedia": "none",
+  "AnswerNodes": [
+    {
+      "key": "batik",
+      "title": "Batik",
+      "color": "#282828",
+      "src": "none"
+    },
+    {
+      "key": "convers",
+      "title": "Conversational",
+      "color": "default",
+      "src": "none"
+    },
+    {
+      "key": "striae",
+      "title": "Striae",
+      "color": "default",
+      "src": "none"
+    },
+    {
+      "key": "flame",
+      "title": "Flame Stitch",
+      "color": "default",
+      "src": "none"
+    },
+    {
+      "key": "cell",
+      "title": "Cellular Shade",
+      "color": "default",
+      "src": "none"
+    },
+    {
+      "key": "valance",
+      "title": "Valances",
+      "color": "default",
+      "src": "none"
+    },
+    {
+      "key": "shade",
+      "title": "Shade",
+      "color": "default",
+      "src": "none"
+    },
+    {
+      "key": "panel",
+      "title": "Panel",
+      "color": "default",
+      "src": "none"
+    }
+  ],
+  "QuestionNodes": [
+    {
+      "question": "none",
+      "src": "img/batik.jpg",
+      "alt": "",
+      "width": "225px",
+      "height": "150px",
+      "answer": "batik",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    },
+    {
+      "question": "none",
+      "src": "img/conversational.jpg",
+      "alt": "",
+      "width": "150px",
+      "height": "150px",
+      "answer": "convers",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    },
+    {
+      "question": "none",
+      "src": "img/striae.jpg",
+      "alt": "",
+      "width": "150px",
+      "height": "150px",
+      "answer": "striae",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    },
+    {
+      "question": "none",
+      "src": "img/flame_stitch.jpg",
+      "alt": "",
+      "width": "150px",
+      "height": "150px",
+      "answer": "flame",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    },
+    {
+      "question": "none",
+      "src": "img/cell.jpg",
+      "alt": "",
+      "width": "225px",
+      "height": "150px",
+      "answer": "cell",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    },
+    {
+      "question": "none",
+      "src": "img/valance.jpg",
+      "alt": "",
+      "width": "225px",
+      "height": "150px",
+      "answer": "valance",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    },
+    {
+      "question": "none",
+      "src": "img/shade.jpg",
+      "alt": "",
+      "width": "225px",
+      "height": "150px",
+      "answer": "shade",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    },
+    {
+      "question": "none",
+      "src": "img/panel.jpg",
+      "alt": "",
+      "width": "225px",
+      "height": "150px",
+      "answer": "panel",
+      "type": "image",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Try again!"
+    }
+  ]
+}

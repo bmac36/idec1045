@@ -1,0 +1,166 @@
+{
+  "General":{
+    "QuizName": "Labelling",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "showQuestions": "5",
+    "preQuizText":"In this activity, elements of a lesson on <em>imperatives</em> and <em>prepositions of place</em> for giving directions follow an experiential learning cycle. Label them according to <strong>Concrete Experience</strong>, <strong>Observation and Reflection</strong>, <strong>Abstract Conceptualization</strong>, <strong>Active Experimentation</strong> and <strong>Evaluation</strong> phase. Post any comments or questions to the Discussion Forum.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Teacher asks learners what they find the most difficult about getting around their new neighbourhood.  They talk about not knowing where things are and being anxious to ask for directions for fear that they won’t understand the directions.  The teacher creates a large, simplified map of the neighbourhood with large pictures on the board.  She describes where different buildings are in relation to each other, using the commands “turn left” “turn right” and ”go straight”, as well as the phrases “on the left”, “on the right”, “between” and “across from” as part of her description of the neighbourhood.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Concrete Experience",
+          "scoreValue":1
+       },
+         {
+          "answerText": "Observation and Reflection",
+           "scoreValue": 0
+        },
+         {
+          "answerText": "Abstract Conceptualization",
+          "scoreValue": 0
+        },
+         {
+          "answerText": "Active Experimentation",
+          "scoreValue": 0
+       },    
+         {
+          "answerText": "Evaluation",
+          "scoreValue": 0
+       }    
+      ]
+	},
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"The teacher asks the learners to describe where things are on the map on the board.  As they suggest directions, she writes the key terms on the board, including “turn left”, “turn right”, “go straight” in one column and “on the left”, “on the right, ” “between” and “across from” in another column.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Concrete Experience",
+          "scoreValue": 0
+       },
+         {
+          "answerText": "Observation and Reflection",
+           "scoreValue": 1
+        },
+         {
+          "answerText": "Abstract Conceptualization",
+          "scoreValue": 0
+        },
+         {
+          "answerText": "Active Experimentation",
+          "scoreValue": 0
+       },    
+         {
+          "answerText": "Evaluation",
+          "scoreValue": 0
+       }    
+      ]
+	},
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"The teacher explains how to give commands in English for directions using the column with the imperatives. She points out that imperatives consist of the base form of the verb with no subject. She does not use much grammatical language in her explanation.<br/>The teacher explains how to say where things are using “on the right”, “on the left” “between” and “across from”.<br/>The teacher then gives the learners a dialogue with directions for them to practice reading to each other. The dialogue includes the key language.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Concrete Experience",
+          "scoreValue": 0
+       },
+         {
+          "answerText": "Observation and Reflection",
+           "scoreValue": 0
+        },
+         {
+          "answerText": "Abstract Conceptualization",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "Active Experimentation",
+          "scoreValue": 0
+       },    
+         {
+          "answerText": "Evaluation",
+          "scoreValue": 0
+       }    
+      ]
+	},
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"On the back of the handout with the dialogue, learners find a map of the neighbourhood which corresponds to the map on the board.  Working in partners, they take turns giving directions until their partners arrive at a location and name the location.<br/>After everyone has practiced, volunteer pairs give directions using the board as the map so that the class can follow along.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Concrete Experience",
+          "scoreValue": 0
+       },
+         {
+          "answerText": "Observation and Reflection",
+           "scoreValue": 0
+        },
+         {
+          "answerText": "Abstract Conceptualization",
+          "scoreValue": 0
+        },
+         {
+          "answerText": "Active Experimentation",
+          "scoreValue": 1
+       },    
+         {
+          "answerText": "Evaluation",
+          "scoreValue": 0
+       }    
+      ]
+	},
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"The teacher listens to the learners as they are giving instructions.  She helps as needed. When the volunteers have completed giving instructions in front of the class, she provides global feedback on their use of language for giving directions.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Concrete Experience",
+          "scoreValue": 0
+       },
+         {
+          "answerText": "Observation and Reflection",
+           "scoreValue": 0
+        },
+         {
+          "answerText": "Abstract Conceptualization",
+          "scoreValue": 0
+        },
+         {
+          "answerText": "Active Experimentation",
+          "scoreValue": 0
+       },    
+         {
+          "answerText": "Evaluation",
+          "scoreValue": 1
+       }    
+      ]
+	}
+ ]
+}     
+      

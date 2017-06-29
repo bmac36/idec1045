@@ -1,0 +1,199 @@
+{
+	"ActivityName": "Match the Pattern",
+	"ActivityType": "sort",
+	"HeadingLevel": 2,
+	"FeedbackType": "continuous",
+	"HighlightEffect": true,
+	"QuestionColumns": "2",
+	"Randomize": true,
+	"HorizontalAlignment": true,
+	"PreActivityText": "Now that you have learned about the different pattern types, let's see how much you remember! Match the pattern sample to its matching name.",
+	"PreActivityMedia": "none",
+	"IncludePostPage": false,
+	"PostActivityText": "none",
+	"PostActivityMedia": "none",
+	"AnswerNodes": [
+			{
+			"key": "stripe",
+			"title": "Stripe",
+			"color": "#282828",
+			"src": "none"
+		 },
+			{
+			"key": "roman",
+			"title": "Roman Stripe",
+			"color": "default",
+			"src": "none"
+		 }, 
+			{
+			"key": "plaid",
+			"title": "Plaid",
+			"color": "default",
+			"src": "none"
+		 }, 
+			{
+			"key": "chev",
+			"title": "Chevron",
+			"color": "default",
+			"src": "none"
+		 },
+			{
+			"key": "harl",
+			"title": "Harlequin",
+			"color": "default",
+			"src": "none"
+		 },
+			{
+			"key": "geo",
+			"title": "Geometric",
+			"color": "default",
+			"src": "none"
+		 },
+			{
+			"key": "floral",
+			"title": "Floral",
+			"color": "default",
+			"src": "none"
+			},
+			{
+			"key": "tdj",
+			"title": "Toile de Jouy",
+			"color": "default",
+			"src": "none"
+			}, 
+			{
+			"key": "paisley",
+			"title": "Paisley",
+			"color": "#282828",
+			"src": "none"
+			}, 
+			{
+			"key": "contemp",
+			"title": "Contemporary",
+			"color": "#282828",
+			"src": "none"
+		 }
+	],
+	"QuestionNodes": [
+		{
+			"question": "none",
+			"src": "img/stripe.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "stripe",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}, 
+		{
+			"question": "none",
+			"src": "img/roman_stripe.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "roman",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}, 
+		{
+			"question": "none",
+			"src": "img/plaid_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "plaid",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}, 
+		{
+			"question": "none",
+			"src": "img/chevron_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "chev",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		},
+		{
+			"question": "none",
+			"src": "img/harlequin_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "harl",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}, 
+		{
+			"question": "none",
+			"src": "img/geometric_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "geo",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}, 
+		{
+			"question": "none",
+			"src": "img/floral_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "floral",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}, 
+		{
+			"question": "none",
+			"src": "img/toile_de_jouy_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "tdj",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}, 
+		{
+			"question": "none",
+			"src": "img/paisley_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "paisley",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		},
+		{
+			"question": "none",
+			"src": "img/contemporary_sm.jpg",
+			"alt": "",
+			"width": "150px",
+			"height": "150px",
+			"answer": "contemp",
+			"type": "image",
+			"color": "default",
+			"correct": "Good job!",
+			"wrong": "Try again!"
+		}
+	]
+}

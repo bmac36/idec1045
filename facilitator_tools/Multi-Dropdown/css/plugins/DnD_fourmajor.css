@@ -1,0 +1,380 @@
+#dbox {
+    min-height: 790px;
+}
+
+.dragableTextNode.absolute {
+    position: absolute;
+    width: 25%;
+    z-index: 100;
+}
+
+.dragableTextNode {
+    margin: 0 1% 15px;
+    padding: 15px 5px 0;
+    width: 23%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5C666F;
+    border: thin solid #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    min-height: 115px;
+}
+
+.dragableTextNode a {
+    width: 100%;
+}
+
+li .draggableImage {
+    max-width: 200px;
+}
+
+.draggableImage {
+    max-width: 100%;
+}
+
+.dropzone {
+    padding: 0.5em;
+    min-height: 75px;
+    background-color: #FFF;
+    z-index: -1;
+}
+
+.dnd_row .dropzone {
+    min-height: 115px;
+    width: 50%;
+    float: right;
+    margin: 25px 15px;
+}
+
+.dropzoneTitle {
+    padding: 10px; 
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dropzoneTitle > p {
+    margin: 0px;
+    color: #fff;
+        font-size: 1.05em;
+}
+
+.dnd_row .dropzoneTitle {
+    min-height: 350px;
+}
+.dnd_row.slotcol-2 .dropzoneTitle > p {
+    min-height: 0px;
+}
+
+.dropzone .dragableTextNode {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.MI_qColum,
+.MI_aSlot {
+    display: inline-block;
+    padding-bottom: 0;
+}
+
+.MI_qColum {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    vertical-align: top;
+}
+
+.dnd_row .MI_qColum {
+  width: 100%;
+  margin: 0;
+}
+
+.MI_aSlot {
+    height: auto;
+    width: 100%;
+}
+
+.dnd_row .MI_aSlot {
+    width: 50%;
+    display: block;
+  float: left;
+    border: 1px solid #000;
+  background-color: rgba(0, 114, 152, 1);
+    
+}
+.dnd_row .MI_aSlot.reveal {
+    width: 50%;
+    display: block;
+  float: left;
+    border: 1px solid #000;
+  background-color: rgba(0, 114, 152, 0.75);
+}
+
+
+.dnd_row.slotcol-2 .MI_aSlot {
+    width: 50%;
+    display: block;
+  float: left;
+}
+
+.AccMessage {
+    background-color: #E8D8F5;
+    border: 1px solid #74167E;
+    padding: 10px;
+    color: #74167E;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    font-size: 24px;
+    font-weight: bold;
+    height: auto;
+    width: 12em;
+    visibility: hidden;
+    line-height: 1.1em;
+}
+
+#DND_container {
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#DND_header h1 {
+    min-height: 1em;
+}
+
+#DND_content {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-width: 0px;
+    color: #333;
+    font-weight: normal;
+}
+
+.DND_AccessOnly {
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0;
+}
+
+.DND_description,
+#DND_appContainer {
+    border: 1px solid #C6C8CA;
+    background-color: #ffffff;
+    padding: 15px;
+    overflow-y: auto;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.DND_description {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#DND_appContainer {
+    border-radius: 7px;
+    border-radius: 7px;
+}
+
+#DND_buttonSet {
+    min-height: 50px;
+    clear: both;
+}
+
+.DND_buttonLabel {
+    padding: 5px;
+}
+
+#DND_instructions {
+    clear: both;
+    padding: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    display: block;
+    background: rgb(255, 255, 255);
+}
+
+#DND_progress {
+    display: block;
+    font-size: 1em;
+    color: #000;
+    clear: both;
+    padding-top: 15px;
+}
+
+.dnd_col #DND_qColContainer,
+.dnd_col #DND_ansSlotContainer {
+    width: 50%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#DND_qColContainer {
+    vertical-align: top;
+}
+
+#DND_checkButton,
+#DND_postQuizButton,
+#DND_continueButton,
+#DND_continueButton.DND_button {
+    background: #007298;
+    color: #fff;
+    font-weight: bold;
+}
+
+#DND_checkButton,
+#DND_postQuizButton,
+#DND_continueButton {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#DND_continueButton.DND_button {
+    border: 1px solid #C6C8CA;
+    text-align: center;
+}
+
+#DND_checkButton:focus,
+#DND_checkButton:hover,
+#DND_postQuizButton:focus,
+#DND_postQuizButton:hover,
+#DND_continueButton.DND_button:focus,
+#DND_continueButton.DND_button:hover {
+    background: #056277;
+}
+
+#DND_resetButton,
+#DND_restartButton,
+#DND_resetWrongButton {
+    background-color: #FFFFFF;
+}
+
+#DND_resetWrongButton {
+    cursor: pointer;
+}
+
+#DND_checkButton:disabled,
+#DND_resetButton:disabled,
+#DND_resetWrongButton:disabled {
+    background-color: #9E9E9E;
+    cursor: default;
+    color: #fff;
+    font-weight: bold;
+}
+
+.DND_button {
+    border-radius: 7px;
+    height: 40px;
+    display: inline-block;
+    float: right;
+    white-space: normal;
+    border: 1px solid #C6C8CA;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+#DND_instructionButton {
+    float: left;
+    margin-left: 2%;
+    background-color: #ffffff;
+    border: none;
+}
+
+.correct,
+.wrong {
+    display: block;
+    margin: auto;
+}
+
+.draggableImage,
+.dropped,
+.correct,
+.wrong {
+    pointer-events: none;
+}
+
+.single-column .b-by-b-item {
+    width: 100%!important;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    #DND_ansSlotContainer .b-by-b-item {
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1249px) {
+    #DND_ansSlotContainer .b-by-b-item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1250px) {
+    #DND_ansSlotContainer .b-by-b-item {
+        width: 33.3%;
+    }
+}
+
+#DND_checkButton > .DND_buttonIcon {
+    display: none;
+}
+
+#DND_resetWrongButton > .DND_buttonIcon,
+#DND_resetButton > .DND_buttonIcon {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+    float: left;
+    background: url("../../img/Reset_16.png");
+}
+
+#DND_instructionButton > .DND_buttonIcon {
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    background: url("../../img/Tooltip_32.png");
+}
+
+#DND_instructionButton > .DND_buttonIcon:hover {
+    background: url("../../img/Tooltip_Hover_32.png");
+}
+
+.dnd_row .DND_answers {
+    clear: both;
+      background: url("../../module_11/images/louvre.jpg");
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  overflow: hidden;
+    margin-bottom: 25px;
+}
+
+
+.dropzoneTitle a {color: #fff;}
+
+@media (max-width: 805px) {
+    .dnd_row .dropzoneTitle {
+    min-height: 100%;
+    }
+   .dnd_row .MI_aSlot {
+       width: 100%;
+    }
+}

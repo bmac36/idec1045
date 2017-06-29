@@ -1,0 +1,85 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Cleaning:",
+      "Body": "<p>In the first step of cleaning the cotton balls are vacuumed into tubes and carried to a dryer to reduce the moisture from the cotton and to improve the fiber quality.  Cleaning removes the leaf trash, sticks and other foreign matter found when picked.  It then goes to a machine called a cotton gin where the fibers are separated from the seeds.  There are different kinds of gins to help pull away the seed.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "20px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Carding:",
+      "Body": "<p>Once the cleaning is done and the cotton is removed of debris the carding takes place.  This process is like combing that pulls the fibers parallel to form a thin web.  This can be done by hand or machine.</p><p>When using modern machines with high speed equipment the wire tooth rollers eventually create a continuous untwisted rope-like strand called a sliver (pronounced slyver).</p><div class=\"row bottom-space\"><div class=\"col-xs-12\"><figure class=\"cap-bot top-space center-block\"><img src=\"img/sliver.jpg\" alt=\" \" class=\"img-responsive center-block\"><figcaption>This is what a sliver looks like.<br><cite class=\"pull-right\">&copy; iStock.com/antoniotruzzi</cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Spinning:",
+      "Body": "<p>The next process is spinning when the sliver is drawn out to a thinner stand giving a slight twist to improve its strength and is wound on large bobbins ready for the spinning.  In the spinning process itself it is drawn and twisted into a yarn and placed on bobbins called roving bobbins.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Weaving:",
+      "Body": "<p>Lastly the yarn is woven into a fabric on weaving looms.  Sometimes the fabric is coated with a starch mixture called sizing that will add strength for weaving by the large machines.</p><p>Woven cloth is called greige or grey as it is whitish but is still the natural yellow tint of the cotton ball.  The cloth is treated further to improve its appearance by being bleached or dyed or prints added to produce fabric for retail sales and uses.  </p><p>Cotton today is one of the most versatile materials that comes in many weights from very heavy weight to sheer.  Prices can also go from high to low depending on the quality and durability of the fabric.  Cotton is used in all areas of the home from window treatments to upholstery to carpets and clothing.  With the trend to renewable resources, cotton is becoming even more popular as are all natural fibers.</p><p>See your text page 412 for advantages and disadvantages of this kind of fiber.  It is common to mix cotton with other fiber combinations to increase its strength and durability.  People like cotton because it will breathe and is comfortable to wear for example on hot summer days.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

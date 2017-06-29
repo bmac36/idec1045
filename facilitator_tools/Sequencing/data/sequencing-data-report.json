@@ -1,0 +1,101 @@
+{
+	"ActivityName": "My Sequencing Activity",
+	"FeedbackType" : "report",
+	"Instructions" : "<img src=\"http://fillmurray.com/2000/2000\" alt=\"billest murray\" />",
+	"PreActivityText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque. Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+	"PreActivityMedia": [
+		{
+			"type": "image",
+			"src": "https://www.berlinale.de/media/60_jubilaeum_1/starportraits/2014_4/2014-02-08-9679-1248_Bill_Murray_IMG_x900.jpg",
+			"description": "Bill Murray!",
+			"width": "350",
+			"height": "280"
+		},
+		{
+			"type": "link",
+			"src": "https://github.com",
+			"description": "A website!"
+		}
+		],
+		"PostActivityText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque.</p><p> Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+		"PostActivityMedia" : [
+		{
+			"type": "YouTubeVideo",
+			"src": "https://www.youtube.com/watch?v=OZBWfyYtYQY",
+			"altLink" : "http://knowyourmeme.com/memes/bunchie",
+			"width" : "600",
+			"height" : "600"
+		}
+		],
+		"layoutStyle":"horizontal",
+		"placholderTitleStyle":"arrow",
+		"correctOrder":["step1","step2","step3","step4","step5","step6","step7"],
+		"sortOrder":"random",
+		"showSortTitle": true,
+		"sortItemsType":"image",
+		"sortItems":[
+		{
+			"id":"step1",
+			"imageSrc":"img/user-item-a1.jpg",
+			"text":"Select a mug that you find suitable and that reflects your the complex nuances of your personality. Ensure the mug is clean, whether by hand or by dish-washing machine.",
+			"altText":"Image of a dish washing machine",
+			"placeHolderText":"Step 1",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step2",
+			"imageSrc":"img/user-item-a2.jpg",
+			"text":"Find your preferred coffee machine and rest your mug on the tray, ready to receive your hot beverage.",
+			"altText":"Image of a mug sitting on the tray of a coffee machine",
+			"placeHolderText":"Step 2",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step3",
+			"imageSrc":"img/user-item-a3.jpg",
+			"text":"Make your preferred coffee selection using the machine's human interface (this may be a screen or variety of buttons).",
+			"altText":"Image of the coffee screen interface",
+			"placeHolderText":"Step 3",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step4",
+			"imageSrc":"img/user-item-a4.jpg",
+			"text":"Wait patiently while the inner workings of the machine prepare your coffee and pour it into your mug.",
+			"altText":"Image of coffee being dispensed into a mug",
+			"placeHolderText":"Step 4",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step5",
+			"imageSrc":"img/user-item-a5.jpg",
+			"text":"Remove your mug from the machine and add cream and sugar to taste.",
+			"altText":"Image of the coffee mug with a carton of coffee cream and a container of sugar",
+			"placeHolderText":"Step 5",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step6",
+			"imageSrc":"img/user-item-a6.jpg",
+			"text":"Stir your coffee to ensure the emulsification of your beverage.",
+			"altText":"Image of a coffee mug with a stir stick",
+			"placeHolderText":"Step 6",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		},
+		{
+			"id":"step7",
+			"imageSrc":"img/user-item-a7.jpg",
+			"text":"Drink and enjoy your coffee when it is cool enough to consume. Enjoy responsibly.",
+			"altText":"Image of a woman drinking the coffee",
+			"placeHolderText":"Step 7",
+			"correctFeedback":"Correct feedback TBD.",
+			"incorrectFeedback":"Incorrect feedback TBD."
+		}
+	]
+}

@@ -1,0 +1,247 @@
+{
+	"ActivityName" : "Activity: Identifying Light trends",
+    "HeadingLevel" : 1,
+	"QuestionDisplay" : "all",
+	"ProvideContinuous" : true,
+	"ProvideQuestionReport" : true,
+	"ProvideEndReport" : true,
+	"VisualFeedback" : true,
+	"AllowPrevious" : false,
+	"Randomize" : false,
+	"Instructions" : "",
+    "PreActivityText" :  "none",
+	"PreActivityMedia":  "none",
+	"PostActivityText" :  "none",
+	"PostActivityMedia" :  "none",
+	"TableHeading" : "Questions",
+	"Answers" : [
+		{
+			"imgSrc" : "http://placehold.it/75x100",
+			"alt" : "Floor lamp",
+			"text" : "Floor lamp"
+		},
+		{
+			"imgSrc" : "http://placehold.it/75x100",
+			"alt" : "Chandelier",
+			"text" : "Chandelier"
+		},
+		{
+			"imgSrc" : "http://placehold.it/75x100",
+			"alt" : "Recess ceiling light",
+			"text" : "Recess ceiling light"
+		},
+		{
+			"imgSrc" : "http://placehold.it/75x100",
+			"alt" : "Desk lamp",
+			"text" : "Desk lamp"
+		},
+		{
+			"imgSrc" : "http://placehold.it/75x100",
+			"alt" : "Small table lamp",
+			"text" : "Small table lamp"
+		}
+	],
+	"Questions" : [
+		{
+			"text" : "What kind of light would be used for general/ambient room lighting?",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect",
+				        	"content": "General/ambient lighting is mostly from ceiling fixtures that provide overall light in the room."
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "General/ambient lighting is mostly from ceiling fixtures that provide overall light in the room."
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				}
+			]
+		},
+		{
+			"text" : "What light would be considered a task light?",
+			"answers" : [
+				{
+					"check" : true,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Task lighting is a light that shines on a specific surface.  The bulb should be a minimum of 100 watts to allow to do a task without causing eye strain."
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Task lighting is a light that shines on a specific surface.  The bulb should be a minimum of 100 watts to allow to do a task without causing eye strain."
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				}
+			]
+		},
+		{
+			"text" : "Which light is an accent light?",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Accent lights add a relaxing mood to a room when used like this small lamp.  The light is not bright enough to use as a task.  Accent lighting can also be from a fireplace or candles."
+				      	}
+					]
+				}
+			]
+		},
+        {
+			"text" : "Which of these lights can be put on dimmers?",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Overhead lighting should always be put on a dimmer when possible.  Dimming a light allows the home owner to change the mood of a room and it also saves energy.  Dimming lights can change a general light to an accent light effect."
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Overhead lighting should always be put on a dimmer when possible.  Dimming a light allows the home owner to change the mood of a room and it also saves energy.  Dimming lights can change a general light to an accent light effect."
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				}
+			]
+		}
+	]	
+}

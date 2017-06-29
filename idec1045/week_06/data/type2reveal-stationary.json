@@ -1,0 +1,58 @@
+{
+  "Questions": [
+    {
+      "QuestionText": "Based on the case study, what is the first thing you will do?",
+      "InputType": "text",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "The first step in any window covering calculation is to draw the window to ½ inch scale on graph paper to include measurements. ",
+      "KeyWords": [
+        "Draw",
+        "Window",
+        "½\"",
+        "graph",
+        "paper"
+      ]
+    },
+    {
+      "QuestionText": "You must now calculate the width of the a single panel @ 54\" fabric width. What is the formula you use to do this? Hint: use \"/\" for divide and \"*\" for multiply.",
+      "InputType": "text",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "54\" - 6\" selvage divide by 2.5 fullness",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "What is the correct width of a single panel? Remember, there is also a relaxes width, so give the actual and relaxed values.",
+      "InputType": "text",
+      "MinCharacters": 5,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "19.2\" or 18\" relaxed",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "Now calculate the length. What is the formula you use to do this and one with a pattern repeat?",
+      "InputType": "text",
+      "MinCharacters": 0,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "9' ceiling (108\") - ½\" from floor - 1 inch from ceiling <br /> For pattern repeat: add the pattern repeat of 27\" + 16\" hem and header",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "What is the correct length of a single panel and with and without a pattern? Give the actual and relaxed values.",
+      "InputType": "text",
+      "MinCharacters": 5,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "Single plain panel: 19.2\" or 18\" relaxed <br />With pattern repeat: 149.5\" order/purchase lenght per panel.",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "Now that you have the  measurements for a single panel, what is the formula and the answer for the minimum number of yards of fabric you will need to order for 2 single panels? Round up to the nearest half yard.",
+      "InputType": "text",
+      "MinCharacters": 5,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "149.5 inches x 2 / 36 (number of inches in a yard). <br />The answer is 8.3 yards, rounded up to 8.5 yards minimum to order.",
+      "KeyWords": []
+    }
+  ]
+}

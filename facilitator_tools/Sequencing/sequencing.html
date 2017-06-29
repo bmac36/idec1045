@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+   <head>
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <title>Sequencing Master template</title>
+      <link href="css/sequencing.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <section id="dbox" role="main"></section>
+
+      <script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')</script>
+      <script src="thirdpartylib/jquery/jquery.sortable.min.js"></script>
+      <script src="js/vendorPrefix.min.js"></script>
+      <script src="js/sequencing.min.js"></script>
+
+      <script>
+         $(document).ready(function() {
+            detectBrowserData()
+            SequencingApp.setupApp("data/sequencing-data.json", "dbox");
+            $(window).resize(function(e){
+               if(SequencingApp.activityStatus ==="main" || SequencingApp.activityStatus === "answersChecked"){
+                  if(SequencingApp.AppData.layoutStyle ==="horizontal"){
+                     $('#sortList').width($('#placeholderContent').width());
+                     $('#sortContainer').height($('#sortContainer').children().height())
+                  }else{
+                     if($('#sortList')!=undefined || $('#placeholderContent') != undefined){
+                        $('#sortList').css('width',$('#placeholderContent').width());
+                        $('#sortList').css('top',$('#placeholderContent').position().top)
+                     }
+                     $('.sortItem').each(function(index, element){
+                        $(element).children('.txt').css('top',($(element).height()/2)-($(element).children('.txt').innerHeight()/2))
+                     })
+                  }
+               }
+            });
+         });
+      </script>
+      <noscript>This activity will only load in an online environment with JavaScript enabled.</noscript>
+   </body>
+</html>

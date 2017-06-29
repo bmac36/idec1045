@@ -1,0 +1,20 @@
+{
+  "Questions": [
+    {
+      "QuestionText": "<h2>Question 1:</h2> \n <h3>Inside Mount Blind</h3> \n <ol class=\"box-number\"> \n <li>Window width: 36\" by length 48\" recessed by 2 ½\"</li> \n <li>Trim around outside of glass measure: 3\"</li> \n <li>Ceiling height: 9 ft</li> \n <li>Glass 18\" from ceiling</li> \n <li>Draw a working copy in ½\" scale on graph paper</li> \n <li>Calcualte the size of an inside mount wood blind with 2\" wide slats</li> \n <li>What side do you wan the operating cord to be on – left or right?</li> \n </ol>",
+			"InputType": "text",
+      "MinCharacters": 5,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<p>Your drawing should look similar to this one and your measurements and calculations should match with the ones below.</p> \n <ol class=\"box-number\"> \n <li>Measure 3 locations vertical and horizontal</li> \n <li>Use narrowest width: 36\" - &frac14;\" (&frac18;\" each side) to operate freely</li> \n <li>Use longest length: 48\"</li> \n <li>Order inside mount: 35 &frac34;\" wide (deduction taken) by 48\" long.</li> \n <li>Left operating</li> \n </ol>  <p><img src=\"img/inside_mount_solution.jpg\" alt=\" This is the drawing for the solution to the inside mount question\" class=\"img-responsive center-block\"></p>",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "<h2>Question 2:</h2> \n <h3>Outside Mount Blind</h3> \n <ol class=\"box-number\"> \n <li>Window width: 36\" by length 48\"</li> \n <li>Trim around outside of glass measure: 3\"</li> \n <li>Ceiling height: 9 ft</li> \n <li>Glass 18\" from ceiling</li> \n <li>Draw a working copy in ½\" scale on graph paper</li> \n <li>Calcualte the size of an outside mount wood blind with 2\" wide slats</li> \n <li>What side do you wan the operating cord to be on – left or right?</li> \n </ol>",
+			"InputType": "text",
+      "MinCharacters": 5,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<p>Your drawing should look similar to this one and your measurements and calculations should match with the ones below.</p> \n <ol class=\"box-number\"> \n <li>Measure 3 locations vertical and horizontal</li> \n <li>Including trim:  - 3\" + 36\" +3\" = 42\" W<br />3\" + 48\" + 3\" = 54\" L</li> \n <li>Add 1 &frac12;\" to sides and bottom past trim</li> \n <li>Mount on trim: 54\" + 1 &frac12;\" = 45\" Wide</li> \n <li>Order outside mount 45\" wide by 55 &frac12;\" long to hang on top of trim</li> \n <li>Left operating</li> \n </ol>  <p><img src=\"img/outside_mount_solution.jpg\" alt=\" This is the drawing for the solution to the outside mount question\" class=\"img-responsive center-block\"></p>",
+      "KeyWords": []
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+	"ActivityName" : "Murray!",
+	"QuestionDisplay" : "single",
+	"ProvideContinuous" : false,
+	"ProvideQuestionReport" : true,
+	"ProvideEndReport" : true,
+	"VisualFeedback" : true,
+	"AllowPrevious" : false,
+	"Randomize" : true,
+	"Instructions" : "Review each question, and <strong>select</strong> the iconic Bill Murray movies that apply. There may be more than one option to select.",
+	"PreActivityText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque. Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+	"PreActivityMedia": [
+    	  {
+    	    "type": "image",
+    	    "src": "http://fillmurray.com/400/300",
+     	    "description": "Bill Murray!",
+     	    "width": "350",
+      	 "height": "280"
+     	 },
+     	 {
+        	"type": "link",
+        	"src": "https://github.com",
+        	"description": "A website!"
+      	}
+    ],
+	"PostActivityText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque.</p><p> Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+	"PostActivityMedia" : [
+		{
+	        "type": "YouTubeVideo",
+	        "src": "https://www.youtube.com/watch?v=OZBWfyYtYQY",
+	        "altLink" : "http://knowyourmeme.com/memes/bunchie",
+	        "width" : "none",
+	        "height" : "none"
+      	}
+	],
+	"TableHeading" : "Bill Murray Comedian Extraordinare",
+	"Answers" : [
+		{
+			"imgSrc" : "http://fillmurray.com/200/150",
+			"alt" : "Bill Murray.",
+			"text" : "Groundhog Day"
+		},
+		{
+			"imgSrc" : "http://fillmurray.com/200/150",
+			"alt" : "Bill Murray.",
+			"text" : "Caddyshack"
+		},
+		{
+			"imgSrc" : "http://fillmurray.com/200/150",
+			"alt" : "Bill Murray.",
+			"text" : "Ghostbusters"
+		}
+	],
+	"Questions" : [
+		{
+			"text" : "Movies that were directed by Harold Ramis.",
+			"answers" : [
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "link",
+				        	"src": "http://www.imdb.com/title/tt0080487/?ref_=nv_sr_1",
+				        	"description": "Caddyshack's IMDB Page"
+				      }
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "link",
+				        	"src": "https://en.wikipedia.org/wiki/Ghostbusters",
+				        	"description": "Ghostbusters' Wikipedia Page"
+				      	},
+				      	{
+					        "type": "YouTubeVideo",
+					        "src": "https://www.youtube.com/watch?v=vntAEVjPBzQ",
+					        "altLink" : "http://www.imdb.com/title/tt0087332/",
+					        "width" : "none",
+					        "height" : "none"
+				      	}
+					]
+				}
+			]
+		},
+		{
+			"text" : "Movies that involve golfing.",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				    	{
+				    	  	"type": "image",
+				    	 	"src": "http://utahpoliticohub.com/wp-content/uploads/2015/02/tumblr_nizl9qtwm81t16xnbo1_1280.jpg",
+				     		"description": "Bill Murray in a car with a groundhog on his lap.",
+				     	 	"mediaLink": "http://www.imdb.com/title/tt0107048/",
+				     	 	"width": "300",
+				      	  	"height": "125"
+				     	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "link",
+				        	"src": "http://www.imdb.com/title/tt0080487/?ref_=nv_sr_1",
+				        	"description": "Caddyshack's IMDB Page"
+				      	}
+					]
+				},
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "link",
+				        	"src": "http://www.imdb.com/title/tt0087332/",
+				        	"description": "Ghostbusters' IMDB Page"
+				      }
+					]
+				}
+			]
+		},
+		{
+			"text" : "Stars the iconic Bill Murray.",
+			"answers" : [
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "link",
+				        	"src": "http://www.imdb.com/name/nm0000195/",
+				        	"description": "Bill Murray's IMDB Page"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "link",
+				        	"src": "http://www.imdb.com/name/nm0000195/",
+				        	"description": "Bill Murray's IMDB Page"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "link",
+				        	"src": "http://www.imdb.com/name/nm0000195/",
+				        	"description": "Bill Murray's IMDB Page"
+				      	}
+					]
+				}
+			]
+		}
+	]	
+}

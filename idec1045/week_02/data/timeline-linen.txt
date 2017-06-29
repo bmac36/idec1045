@@ -1,0 +1,105 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Cultivation:",
+      "Body": "<p>Cultivation is using the long fibers to make linen yarn from the stalk of the flax plant.  Growing takes 100 days from seed to harvest.  The plant produces blue or white flowers on slender stalks that grow from 2-4 feet high.  The plants with the blue flowers produce the finest fibers.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "20px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Harvest:",
+      "Body": "<p>Harvest quality depends on the growing and harvesting techniques.  As soon as the stalk turns yellow and the leaves wither the harvest begins.  To wait longer reduces the luster of the fiber.</p><div class=\"row bottom-space\"><div class=\"col-xs-12\"><figure class=\"cap-bot top-space center-block\"><img src=\"img/flax_harvest.jpg\" alt=\" \" class=\"img-responsive center-block\"><figcaption>This is a field of flax being harvested.<br><cite class=\"pull-right\">&copy; iStock.com/woyzzeck</cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Ripping and Retting:",
+      "Body": "<p>Ripping and Retting is done when the bundled plants go to manufacturing.  Machines with course combs remove the seeds and leaves without damaging the stalks.  The stalks are then retted where they are soaked in water and acids or other chemicals to remove dissolve the woody bark surrounding the fibers which can take up to 48 hours.   This must be done properly or the quality of the yarn is weakened.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Scutching:",
+      "Body": "<p>Scutching removes the woody portion of the stalks by crushing them between two metal rollers to separate the parts of the stalk.  It is then squeezed and dried as they pass through rollers of the braking machine.  It crushed the stalks and snaps them into small pieces called shives.  Paddles are used to extract the fibers and another machine combs and straightens the fibers and separates long from short lengths.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Spinning:",
+      "Body": "<p>Spinning takes the long fibers which are about 12-20 inches long called line or dressed flax to yield the finest yarn.   Short fibers are called tow and make courser yarn.  A spreading machine arranges the fibers of the same length into parallel lengths called slivers and then rollers press the slivers into rovings that resemble long lengths of hair.  From here the rovings go to the spinning frame which draws out a few fibers at a time, twisting them to make the yarn strong.  The fibers are then spun on a spindle into linen thread.  This thread can be spun from course to very fine.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

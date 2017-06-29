@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/**** TimeLine ****/
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+.timeline.timeline-center:before {
+  top: 0;
+  bottom: 0;
+  position: absolute; 
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+.timeline.timeline-left:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 40px;
+  margin-left: -1.5px;
+}
+
+.timeline li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline li:before, .timeline li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline li:after {
+  clear: both;
+}
+
+.timeline.timeline-center li .timeline-panel {
+  width: 45%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline.timeline-left li .timeline-panel {
+  width: 90%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  margin-left: 90px;
+  position: relative;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+
+.timeline.timeline-center li .timeline-accent {
+  width: 45%;
+  float: right;
+  position: relative;
+}
+
+.timeline li .timeline-panel .timeline-heading {	
+	text-align:left;
+}
+
+.timeline li .timeline-accent img {
+  	max-width: 100%;
+}
+
+.timeline li .timeline-panel img {
+	margin-top:20px;
+	max-width: 100%;
+}
+
+.timeline li .timeline-panel:before, .timeline li .timeline-panel:after {
+  position: absolute;
+  content: " ";
+  display: inline-block;
+}
+
+.timeline li .timeline-panel:before {
+  top: 26px;
+  right: -15px;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+}
+
+.timeline li .timeline-panel:after {
+  top: 27px;
+  right: -14px;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #FFFFFF;
+  border-right: 0 solid #FFFFFF;
+  border-bottom: 14px solid transparent;
+}
+
+
+.timeline.timeline-center > li > a.timeline-badge {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 1.4em;
+	text-align: center;
+	position: absolute;
+	top: 16px;
+	left: 50%;
+	margin-left: -30px;
+	background-color: none;
+	z-index: 100;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.timeline.timeline-left > li > a.timeline-badge {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 1.3em;
+	text-align: center;
+	position: absolute;
+	top: 16px;
+	left: 40px;
+	margin-left: -30px;
+	background-color: none;
+	z-index: 100;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+.timeline  .fa {
+	position: relative;
+	z-index: -100;
+	background: #FFFFFF;
+}
+
+.timeline .timeline-date {
+	position: relative;
+	z-index: 100;
+	top: -65px;
+	font-size: 0.8em;
+	text-decoration:none;
+}
+
+.timeline.timeline-center .timeline-inverted .timeline-panel {
+  float: right;
+}
+
+.timeline.timeline-center .timeline-inverted .timeline-accent {
+  float:left;
+}
+
+.timeline.timeline-center .timeline-inverted .timeline-panel:before, .timeline.timeline-center .timeline-inverted .timeline-panel:after, .timeline.timeline-left .timeline-panel:before, .timeline.timeline-left .timeline-panel:after {
+  border-left-width: 0;
+  right: auto;
+}
+
+.timeline.timeline-center .timeline-inverted .timeline-panel:before, .timeline.timeline-left .timeline-panel:before {
+  border-right-width: 15px;
+  left: -15px;
+}
+
+.timeline.timeline-center .timeline-inverted .timeline-panel:after, .timeline.timeline-left .timeline-panel:after {
+  border-right-width: 14px;
+  left: -14px;
+}
+
+.timeline-body p,
+.timeline-body ul {
+  margin-bottom: 0;
+}
+
+.timeline-body p + p {
+  margin-top: 5px;
+}
+
+/* Timeline (Align Left) */
+.timeline.align-left:before {
+  left: 40px;
+}
+
+.timeline.align-left li .timeline-panel {
+  width: calc(100% - 90px);
+  width: -webkit-calc(100% - 90px);
+  float: right;
+}
+
+.timeline.align-left li .timeline-panel:before, .timeline.align-left li .timeline-panel:after {
+  border-left-width: 0;
+  right: auto;
+}
+
+.timeline.align-left li .timeline-panel:before {
+  border-right-width: 15px;
+  left: -15px;
+}
+
+.timeline.align-left li .timeline-panel:after {
+  border-right-width: 14px;
+  left: -14px;
+}
+
+.timeline.align-left li a.timeline-badge {
+  left: 15px;
+  margin-left: 0;
+  top: 16px;
+}
+
+.circle {
+	border-radius: 50%
+}

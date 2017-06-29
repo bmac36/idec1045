@@ -1,0 +1,225 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Blinds",
+      "Body": "        <p class=\"bottom-padding\">Blinds are often referred to as hard treatments made from horizontal or vertical slats. They can be made from metal, wood or heavy fabric and are held together by strings or cords. They can be operated manually or by remote control.</p>\n\n                <div class=\"row\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                <figure class=\"cap-bot\"> <img src=\"img/blinds.jpg\" class=\"img-responsive\" alt=\" \" />\n          <figcaption>A variety of blind types are shown in this photo<br><cite>© iStock.com/leezsnow </cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Cellular Shade",
+      "Body": "  <p class=\"bottom-padding\">A Cellular shade is a pleated hard treatment sometimes of a honeycomb construction used for privacy and insulation on a window.</p>\n\n                <div class=\"row\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                <figure class=\"cap-bot\"> <img src=\"img/cell.jpg\" class=\"img-responsive\" alt=\" \" />\n          <figcaption>A version of a cellular shade<br><cite>© iStock.com/kertlis </cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Cornice",
+      "Body": "                <p class=\"bottom-padding\">Cornice in drapery is usually a hard surface that covers the top of a window upholstered in fabric. It can be used alone or in combination with other treatments for a layered look.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/cornice.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of a Cornice over a window<br>\n                        <cite>© iStock.com/stocknroll</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Curtain",
+      "Body": "                <p class=\"bottom-padding\">Curtain is a term for an unlined stationary kind of window treatment. Curtains are often shorter in length than a drape and are sometimes held back with a tieback. Today, curtains are mostly found in kitchen windows or doors.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/curtain.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of curtains in a dining room<br>\n                        <cite>© iStock.com/KaraBrennan</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Sheers",
+      "Body": "                <p class=\"bottom-padding\">Sheers are made of a translucent fabric that is lightweight and they are used to obscure the view from the outside and soften light coming into a room. They can be used on their own or layered with another treatment. Be aware of using strong colours on the window for this treatment as it will change the colour of the light coming into the room. Overall, it is best to stick to neutral shades so the colour of the room is not as affected by the colour of the fabric.</p>\n               <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/sheers.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption style=\"width: 100%;\">Sheers hung in a living room letting in lots of natural light<br>\n                        <cite>© iStock.com/piovesempre</cite> </figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Drapery",
+      "Body": "                <p class=\"bottom-padding\">Drapery are lined window treatments usually hung from floor to ceiling using an opaque fabric. They can have many pleat and hanging styles.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/drapery.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">Drapery in a living room<br>\n                        <cite>© iStock.com/zhudifeng</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Hand",
+      "Body": "  <p class=\"bottom-padding\">Hand is a tactile reference to how a fabric feels and the way it can draper or fold into a window treatment. You need to feel the fabric to understand how it will hang, test its weight and feel its texture.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/hand.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">Woman demonstrating how to hand fabric to feel its weight and texture.<br>\n                        <cite>© iStock.com/zoranm</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Panel",
+      "Body": "     <p class=\"bottom-padding\">Panel is a <em>single</em> curtain or drape. Standard window treatments need two panels to create a pair on a window.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/panel.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">A bedroom with panels as a window treatment<br>\n                        <cite>© iStock.com/KatarzynaBialasiewicz</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Shade",
+      "Body": "    <p class=\"bottom-padding\">Shade or shades refers to blinds that cover a window using an opaque fabric that can be pleated or rolled.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/shade.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">Bedroom with shades used a part of the window treatment along with drapes<br>\n                        <cite>© iStock.com/jgareri</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Tailored",
+      "Body": "    <p class=\"bottom-padding\">Tailored means a treatment that is simple and has straight lines. This is a very timeless method of using drapery panels or valances.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/tailored.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">A nice tailored roman blind with clean lines<br>\n                        <cite>© iStock.com/phototropic</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Valances",
+      "Body": "   <p class=\"bottom-padding\">Valances are window treatments that hang from the top part of a window and can be used alone or layered with blinds or drapery. They are used as decorative accents or to cover drapery hardware.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/valance.jpg\" alt=\" \" class=\"img-responsive center-block\" >\n                      <figcaption style=\"width: 100%;\">A valance layered over drapes<br>\n                        <cite>© iStock.com/phototropic</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

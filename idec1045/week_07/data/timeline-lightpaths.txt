@@ -1,0 +1,65 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 1",
+      "Body": "                <p class=\"bottom-padding\">This photo is a working copy of graph paper with a simple room. You would apply all your electrical outlets, switches and fixtures onto this graph paper which his your working copy. Of course, on a finished working copy you would add all furniture, textures, measurements, etc. These have not been included in this example.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/working.png\" alt=\"original floor plan drawing on graph paper\" class=\"img-responsive center-block\">\n                      <figcaption>Original floor plan drawing on graph paper<br>\n                        <cite>&copy; Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "none",
+      "Title": "Step 2",
+      "Body": "<p class=\"bottom-padding\">Trace the working copy graph paper to vellum using a permanent pigment liner to have a completed room on vellum. This photo shows the room drawn in ink on vellum. Notice that the electrical symbols are NOT on this page.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/traced.png\" alt=\"Original floor plan traded on to vellum\" class=\"img-responsive center-block\">\n                      <figcaption>Original floor plan traded on to vellum<br>\n                        <cite>&copy; Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>\n<p>After you have the drawing on vellum, you would attach the acetate on all 4 corners to ink the electrical overlay of a floor plan only and not elevations. Notice that the acetate overlay is just a tracing of the room outline allowing you to line up the electrical plan on top of your vellum drawing. You would not draw any elevations as an electrical plan</p><div class=\"row bottom-space\"><div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\"><figure class=\"cap-bot\"> <img src=\"img/image_c.png\" alt=\"The electrical overlay on acetate\" class=\"img-responsive center-block\"><figcaption>The electrical overlay on acetate<br><cite>&copy; Linda Guthro</cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "Step 3",
+      "Body": "                <p class=\"bottom-padding\">This photo is showing the whole room transferred to vellum and an acetate overlay over the entire drawing showing the lighting on the FLOOR PLAN ONLY with the dotted lines showing what lights each switch operates. </p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2\">\n                    <figure class=\"cap-bot\"> <img src=\"img/final.png\" alt=\"Whole room transferred to vellum and the acetate overlay in place\" class=\"img-responsive center-block\">\n                      <figcaption>Whole room transferred to vellum and the acetate overlay in place<br>\n                        <cite>&copy; Linda Guthro</cite></figcaption>\n                    </figure>\n                  </div>\n                </div><p>Once you have the electrical overlay on top of the vellum, you then have the option of showing how the electrical will look in the room but also able to remove it to show the room itself without the business of the electrical on top.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

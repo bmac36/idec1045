@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+	$(function () {
+    Highcharts.setOptions({
+        colors: ['#9c141c', '#282828', '#3399cc', '#133a65', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#6AF9C4']
+    });
+    $('#container').highcharts({
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Number of Canadian Companies by Size Category'
+        },
+        xAxis: {
+            categories: ['Number of Companies in this Group']
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Total Businesses in Canada'
+            }
+        },
+        legend: {
+            reversed: true
+        },
+        plotOptions: {
+            series: {
+                stacking: 'percent'
+            }
+        },
+        series: [{
+            name: '1 to 4: Micro Business',
+            data: [610178]
+        }, {
+            name: '5 to 100 : Small Business',
+            data: [477825]
+        }, {
+            name: '101 to 499 : Medium Business',
+            data: [18169]
+        }, {
+            name: '500+ : Large Business',
+            data: [1568]
+        }]
+    });
+});
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+
+	</body>
+</html>

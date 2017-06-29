@@ -1,0 +1,46 @@
+{
+  "General": {
+    "QuizName": "Multiple Choice Template",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": false,
+    "subtractWrong": true,
+    "preQuizText": "Place your pre quiz text here...",
+    "preQuizMedia": [],
+    "postQuizText": "Place your post quiz text here...",
+    "postQuizMedia": []
+  },
+  "Questions":[
+    {
+      "comment": "QUESTION ONE",
+      "questionType": "All That Apply",
+      "maxScoreValue": 2,
+      "questionText": "Question One Text...",
+      "hintText": "none",
+      "hintMedia": "none",
+      "generalFeedback": "Overall feeedback goes here. This applies to the whole question, not just one of the answers. Set to none if you don't want it.",
+      "answers": [
+        {
+          "answerText": "Option One",
+          "feedBack": "Some answer feedback 1"
+        },
+        {
+          "answerText": "Option Two",
+          "feedBack": "Some answer feedback 2.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Option Three",
+          "feedBack": "Some answer feedback 3.",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+
+}

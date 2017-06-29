@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activity: Fabric: Which Weave is Which?</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- Customized theme -->
+<link rel="stylesheet" href="../../assets/css/main.min.css">
+<link rel="stylesheet" href="../../facilitator_tools/Multi-Dropdown/css/multi-dropdown.css">
+
+<!-- Customized fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+<link href="../../assets/css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<style>
+	#column-input {
+		max-width: 250px !important;
+	}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+    </div>
+    <!--Header-->
+    <div class="row">
+      <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 primary-bg header-bg"></div>
+      <div class="col-xs-9 col-sm-10 col-md-9 col-lg-11 ">
+        <h1><span aria-hidden="true" class="sr-only">Activity: </span>Fabric: Which Weave is Which?</h1>
+      </div>
+    </div>
+    <!--Header Ends--> 
+    
+    <!-- Second Level - Header 2-->
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-2 col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-1">
+        <h2></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+        <p>Now that we have covered all the basic and complex weave types, let's see how much you remember. </p>
+				<p>In this activity, an image of a weave type is shown on the left. They are in a random order. Label them according to the legend shown below by selecting the correct option from the dropdown list for each sample. Check your answers as you go along. <strong>*Note:</strong> There may be some weave samples with the same answer!</p>
+        <ol type="A">
+          <li>Plain</li>
+          <li>Satin</li>
+          <li>Twill</li>
+          <li>Jacquard</li>
+          <li>Basket</li>
+					<li>Rib</li>
+					<li>Dobby</li>
+					<li>Pile</li>
+        </ol>
+        <div class="row">
+          <button class="btn btn-primary btn-check" id="submit-all" onclick="resetAll()">Reset Activity</button>
+          <table id="mi-table" class="table">
+            <tr>
+              <th id="column-question">Weave Sample</th>
+              <th id="column-input">Options</th>
+              <th id="column-feedback">Feedback</th>
+              <th id="column-feedbackicon"></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <!-- End Container -->
+    <div class="row top-space">
+      <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+        <footer> <small class="pull-right">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Conestoga College. All rights reserved.</small> </footer>
+      </div>
+    </div>
+    <!-- End Footer--> 
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="../../assets/thirdpartylib/jquery/jquery-1.11.3.min.js"><\/script>')</script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+<script src="../../assets/js/main.min.js"></script> 
+<script src="../../facilitator_tools/Multi-Dropdown/js/multi-dropdown.js"></script> 
+<script>
+	var datafilepath = "data/which_is_which_drop.txt";
+</script>
+	<script>
+		function resetAll() {
+			
+			$("#mi-table").html('<tr><th id="column-question">Weave Sample</th><th id="column-input">Options</th><th id="column-feedback">Feedback</th><th id="column-feedbackicon"></th></tr>');
+			initMI(appdata);
+			
+		}
+	</script>
+</body>
+</html>

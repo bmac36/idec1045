@@ -1,0 +1,125 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Raw Materials:",
+      "Body": "<p>Raw materials are the sheep themselves.  Wool is sheared from sheep that is dirty and full of burs, grease and perspiration.  About 2/3 of the weight of sheared wool may be dirt and grease.  The fleece from one sheep can weigh from 6-18 pounds.</p><div class=\"row bottom-space\"><div class=\"col-xs-12\"><figure class=\"cap-bot top-space center-block\"><img src=\"img/sheep_shear.jpg\" alt=\" \" class=\"img-responsive center-block\"><figcaption>These sheep are ready to be sheared.<br><cite class=\"pull-right\">&copy; iStock.com/AbhijitGhate</cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "20px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Shearing:",
+      "Body": "<p>Shearing the sheep is often done by hand, however computer controlled machines can clip fleece with robot like arms.  An experienced shearer can sheer up to 200 sheep per day and still keep the fleece in one piece.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Grading and Sorting:",
+      "Body": "<p>Before processing the fleece it goes through the process of grading and sorting by being broken up according to quality.  The shoulders and sides are the highest quality of wool.  The fleece of lower legs have a lesser quality.  During this stage stained, damaged or inferior wool is removed and the rest is sorted according to the fibers quality.  Wool fibers are judged on strength and diameter as well as waviness and colour.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Cleaning and Scouring:",
+      "Body": "<p>During the cleaning and scouring steps, the wool is scoured with detergents to remove the impurities.  This creates what is called &quot;raw&quot; or &quot;greased&quot; wool that still contains dirt, sweat and contaminants that make wool heavy.  To remove this the wool is placed in a bath of alkaline bath of soap, water and soda ash.  During this process it also produces lanolin which is saved and used for other produces.  To wash the wool it is swished back and forth with wooden forks that beat it before it goes to rollers that pass from one tank to another.  In the end it is beaten into a fluffy mass which his squeezed out.  Some of the oil is put back to make it more manageable.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Carding:",
+      "Body": "<p>The fibers are then carded that straighten and blend the fibers into slivers by a metal teethed machine.  This process also removes the last of the dirt in the wool.  The wool is passed through rollers with wire teeth that untangle the fibers and arrange them into a flat sheet called a web. The web is then formed into narrow ropes knows as slivers.</p><div class=\"row bottom-space\"><div class=\"col-xs-12\"><figure class=\"cap-bot top-space center-block\"><img src=\"img/carded_wool.jpg\" alt=\" \" class=\"img-responsive center-block\"><figcaption>This photo is an example of wool that has been cleaned and carded.<br><cite class=\"pull-right\">&copy; iStock.com/KiraVolkov</cite></figcaption></figure></div></div>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "Spinning:",
+      "Body": "<p>After this stage comes spinning where the fibers are formed together to make yarn strands that are spun around cones or bobbins.  This stage prepares the wool for weaving into cloth.</p><p><strong>Lamb’s wool</strong> is fleece from young sheep before the age of 8 months old and has a softer feel.</p><p><strong>Virgin wool</strong> has never been processed in any manner before in manufacturing.</p><p>Much of the wool we use in the world is recycled and used again.  If only new wool was used, there would not be enough wool to meet the world demand.  Lamb’s wool and virgin wool explain why some wool is so expensive.</p><p><strong>Woolen yarn</strong> feels soft and fuzzy and is heavier than <strong>worsted wool</strong> which is lighter and has a high twill twist.  It is smoother than and not as bulky as woolen wool.  Worsted wool is arranged parallel using longer yarn.  Worsted wool is more durable and costly than woolens. Check out <a href=\"http://www.hilltopcloud.co.uk/blog/woolen-vs-worsted\" title=\"Link to Woolen vs Worsted article\" target=\"_blank\">Woolen vs Worsted <i class=\"glyphicon glyphicon-new-window\"></i></a> on Hilltop Cloud's website.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-arrow-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

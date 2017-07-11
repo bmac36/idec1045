@@ -1,4 +1,4 @@
-gtbody, h1 {
+tbody, h1 {
 	font-family: "Open Sans", sans-serif
 }
 .fCenterAll, .fcenterV, .list-icon img {
@@ -89,6 +89,7 @@ h1, h3 {
 	border-color: #262626
 }
 body {
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
 	overflow-x: hidden
@@ -255,7 +256,7 @@ figcaption.point-up-right {
 	height: 100%;
 	display: table-cell
 }
-.pg3-img, .pg7-img, .t1-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img {
+.pg3-img, .pg7-img, .t1-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img, .t8-wk8-img {
 	height: 350px;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -267,7 +268,7 @@ figcaption.point-up-right {
 .pg0-img.bg-alt {
 	background-image: url(../../course_01/module_01/img/new-intro.jpg)
 }
-.pg2-img, .t3-wk2-img, .t13-wk2-img, .t2-wk4-img, .t1-wk5-img, .t8-wk5-img, .t4-wk6-img, .t2-wk7-img {
+.pg2-img, .t3-wk2-img, .t13-wk2-img, .t2-wk4-img, .t1-wk5-img, .t8-wk5-img, .t4-wk6-img, .t2-wk7-img, .t2-wk8-img, .t7-wk8-img, .t11-wk8-img, .t1-wk10-img {
 	background-image: url(../img/topic2-lg.jpg);
 	background-repeat: no-repeat;
 	background-position: 50%;
@@ -301,11 +302,26 @@ figcaption.point-up-right {
 	background-position: right;
 	height: 900px;
 }
+.t2-wk8-img {
+	background-image: url(../../idec1045/week_08/img/soft_valance.jpg);
+}
+.t7-wk8-img {
+	background-image: url(../../idec1045/week_08/img/soft_shades.jpg);
+	background-position: left;
+}
+.t11-wk8-img {
+	background-image: url(../../idec1045/week_08/img/layering.jpg);
+	background-position: right;
+}
 .t6-wk7-img {
 	background-image: url(../../idec1045/week_07/img/cornice.jpg);
 	background-position: top center;
 }
-.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img {
+.t1-wk10-img {
+	background-image: url(../../idec1045/week_10/img/label.jpg);
+	background-position: center;
+}
+.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img, .t8-wk8-img, .t1-wk10-img {
 	background-image: url(../img/topic3-lg.png);
 	margin-bottom: 40px;
 }
@@ -366,6 +382,14 @@ figcaption.point-up-right {
 .t6-wk7-img {
 	background-image: url(../../idec1045/week_07/img/cornice.jpg);
 	background-position: top;
+}
+.t8-wk8-img {
+	background-image: url(../../idec1045/week_08/img/flat_roman.jpg);
+	background-position: left;
+}
+.t1-wk10-img {
+	background-image: url(../../idec1045/week_10/img/label.jpg);
+	background-position: center;
 }
 .t01-wk3-img, .t01-wk6-img {
 	background-image: url(../../IDEC1045/week_03/img/drawing_symbols.jpg);
@@ -479,14 +503,19 @@ background-image: url(../../IDEC1045/week_04/img/online_tools.jpg);
 	background-position: top left;
 	background-size:auto;
 }
+.t1a-wk8-img {
+	background-image: url(../../idec1045/week_08/img/valance.jpg);
+	background-position: top center;
+	background-size: cover;
+}
 .pg10-img {
 	height: 700px
 }
-.pg5a-img, .t8a-wk2-img, .t1a-wk6-img, .t8a-wk6-img, .t11a-wk6-img, .t14a-wk6-img, .t1a-wk7-img {
+.pg5a-img, .t8a-wk2-img, .t1a-wk6-img, .t8a-wk6-img, .t11a-wk6-img, .t14a-wk6-img, .t1a-wk7-img, .t1a-wk8-img {
 	height: 350px;
 	margin-bottom: 30px;
 }
-.pg5b-img, .t1b-wk4-img, .t1b-wk6-img, .t8b-wk6-img, .t11b-wk6-img, .t14b-wk6-img, .t1b-wk7-img {
+.pg5b-img, .t1b-wk4-img, .t1b-wk6-img, .t8b-wk6-img, .t11b-wk6-img, .t14b-wk6-img, .t1b-wk7-img, .t1b-wk8-img {
 	background-image: url(../../IDEC1045/week_04/img/fabric_bolts.jpg);
 	height: 300px;
 	margin-top: 30px;
@@ -518,6 +547,11 @@ background-image: url(../../IDEC1045/week_04/img/online_tools.jpg);
 	background-image: url(../../idec1045/week_07/img/hard_window_treatments.jpg);
 	background-position: center left;
 	background-size: auto;
+}
+.t1b-wk8-img {
+	background-image: url(../../idec1045/week_08/img/valance.jpg);
+	background-position: bottom center;
+	background-size: cover;
 }
 .full-bg, .full-bg-wk2, .full-bg-wk6 {
 	background-image: url(../img/HNCK8997.jpg);
@@ -624,7 +658,7 @@ footer {
 		margin-bottom: 10px;
 		min-height: 300px
 	}
-	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t14-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img {
+	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t14-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img, .t8-wk8-img {
 		height: 300px;
 		margin-bottom: 20px;
 		background-repeat: no-repeat
@@ -686,16 +720,9 @@ footer {
 	.t8-wk4-img {
 		background-image: url(../../IDEC1045/week_04/img/how_to_draw_furniture.jpg);
 	}
-	.t01-wk5-img {
-		background-img: url(../../idex1055/week_04/img/textures.jpg);
-	}
-	.t07-wk5-img {
-		background-image: url(../../IDEC1045/week_05/img/pigment_liners.jpg);
-		background-position: bottom;
-	}
-	.t01-wk6-img {
-		background-image: url(../../IDEC1045/week_06/img/vellum.jpg);
-		background-position: center;
+	.t8-wk8-img {
+		background-image: url(../../idec1045/week_08/img/flat_roman.jpg);
+		background-position: left;
 	}
 	.pg7-img {
 		background-image: url(../../IDEC1045/week_02/img/user_needs.jpg);
@@ -706,7 +733,7 @@ footer {
 		background-position: bottom;
 	}
 	.t2-wk5-img {
-		backgroung-image: url(../../idec1045/week_05/img/importance_of_lining.jpg);
+		background-image: url(../../idec1045/week_05/img/importance_of_lining.jpg);
 	}
 	.header-bg-1 {
 		height: 60px;
@@ -718,7 +745,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
-	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img {
+	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img, .t8-wk8-img {
 		background-repeat: no-repeat;
 		height: 300px;
 		margin-bottom: 30px
@@ -727,7 +754,7 @@ footer {
 		background-image: url(../../course_01/module_01/img/new-intro-2.jpg);
 		min-height: 700px
 	}
-	.pg2-img, .t3-wk2-img, .t13-wk2-img, .t2-wk4-img, .t1-wk5-img, .t8-wk5-img, .t4-wk6-img, .t2-wk7-img {
+	.pg2-img, .t3-wk2-img, .t13-wk2-img, .t2-wk4-img, .t1-wk5-img, .t8-wk5-img, .t4-wk6-img, .t2-wk7-img, .t2-wk8-img, .t7-wk8-img, .t11-wk8-img, .t1-wk10-img {
 		background-image: url(../img/topic2-lg.jpg);
 		background-position: center;
 		min-height: 800px
@@ -760,6 +787,21 @@ footer {
 		background-image: url(../../idec1045/week_07/img/blinds.jpg);
 		background-position: right;
 	}
+	.t2-wk8-img {
+		background-image: url(../../idec1045/week_08/img/soft_valance.jpg);
+	}
+	.t7-wk8-img {
+		background-image: url(../../idec1045/week_08/img/soft_shades.jpg);
+		background-position: left;
+	}
+	.t11-wk8-img {
+		background-image: url(../../idec1045/week_08/img/layering.jpg);
+		background-position: right;
+	}
+.t1-wk10-img {
+	background-image: url(../../idec1045/week_10/img/label.jpg);
+	background-position: center;
+}
 	.pg3-img {
 		background-image: url(../img/topic3-lg.png)
 	}
@@ -794,6 +836,10 @@ footer {
 	.t10-wk5-img {
 		background-image: url(../../idec1045/week_05/img/custom_vs_ready.jpg);
 		background-position: center;
+	}
+	.t8-wk8-img {
+		background-image: url(../../idec1045/week_08/img/flat_roman.jpg);
+		background-position: left;
 	}
 	.t02-wk6-img {
 		background-image: url(../../IDEC1045/week_06/img/supplies.jpg);
@@ -1101,9 +1147,12 @@ footer {
 .mod7-conclusion {
 	background-image: url(../../IDEC1045/week_07/img/7.jpg)
 }
-.mod8-t0-img {
+.mod8-t0-img, .mod8-conclusion {
 	background-image: url(../../IDEC1045/week_08/img/8.jpg);
 	background-position: top;
+}
+.mod8-conclusion {
+	background-size: cover;
 }
 .mod9-t0-img {
 	background-image: url(../../IDEC1045/week_09/img/9.jpg)
@@ -1290,7 +1339,7 @@ background-position: center;
 	margin-bottom: 15px
 }
 .full-padding {
-	padding: 10px
+	padding: 15px
 }
 .top-padding {
 	padding-top: 20px

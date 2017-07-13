@@ -256,7 +256,7 @@ figcaption.point-up-right {
 	height: 100%;
 	display: table-cell
 }
-.pg3-img, .pg7-img, .t1-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img, .t8-wk8-img {
+.pg3-img, .pg7-img, .t1-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img, .t8-wk8-img, .t3-wk10-img {
 	height: 350px;
 	background-repeat: no-repeat;
 	background-size: cover
@@ -321,7 +321,7 @@ figcaption.point-up-right {
 	background-image: url(../../idec1045/week_10/img/label.jpg);
 	background-position: center;
 }
-.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img, .t8-wk8-img, .t1-wk10-img {
+.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t17-wk6-img, .t6-wk7-img, .t8-wk8-img, .t3-wk10-img {
 	background-image: url(../img/topic3-lg.png);
 	margin-bottom: 40px;
 }
@@ -387,8 +387,8 @@ figcaption.point-up-right {
 	background-image: url(../../idec1045/week_08/img/flat_roman.jpg);
 	background-position: left;
 }
-.t1-wk10-img {
-	background-image: url(../../idec1045/week_10/img/label.jpg);
+.t3-wk10-img {
+	background-image: url(../../idec1045/week_10/img/clean_codes.jpg);
 	background-position: center;
 }
 .t01-wk3-img, .t01-wk6-img {
@@ -658,7 +658,7 @@ footer {
 		margin-bottom: 10px;
 		min-height: 300px
 	}
-	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t14-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img, .t8-wk8-img {
+	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t14-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img, .t8-wk8-img, .t3-wk10-img {
 		height: 300px;
 		margin-bottom: 20px;
 		background-repeat: no-repeat
@@ -714,6 +714,10 @@ footer {
 		background-image: url(../../idec1045/week_07/img/cornice.jpg);
 		background-position: top;
 	}
+	.t3-w10-img {
+		background-image: url(../../idec1045/week_10/img/clean_codes.jpg);
+		background-position: center;
+	}
 	.t10b-wk3-img {
 		background-image: url(../../IDEC1045/week_03/img/dining_room.jpg);
 	}
@@ -745,7 +749,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
-	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img, .t8-wk8-img {
+	.pg3-img, .pg7-img, .t1-wk2-img, .t2-wk2-img, .t14-wk2-img, .t15-wk2-img, .t1-wk3-img, .t5-wk3-img, .t7-wk3-img, .t3-wk4-img, .t4-wk4-img, .t2-wk5-img, .t3-wk5-img, .t10-wk5-img, .t6-wk7-img, .t8-wk8-img, .t3-wk10-img {
 		background-repeat: no-repeat;
 		height: 300px;
 		margin-bottom: 30px
@@ -840,6 +844,10 @@ footer {
 	.t8-wk8-img {
 		background-image: url(../../idec1045/week_08/img/flat_roman.jpg);
 		background-position: left;
+	}
+	.t3-wk10-img {
+		background-image: url(../../idec1045/week_10/img/clean_codes.jpg);
+		background-position: center;
 	}
 	.t02-wk6-img {
 		background-image: url(../../IDEC1045/week_06/img/supplies.jpg);
@@ -2151,8 +2159,8 @@ figure img {
 }
 .card {
 	perspective: 800;
-	width: 48.5%;
-	height: 400px;
+	width: 100%;
+	min-height: 400px;
 	margin: 0 10px 10px 0;
 	position: relative;
 	-ms-transition: all .5s linear;
@@ -2277,5 +2285,20 @@ figure:hover:before {
 }
 .cap-bot:hover figcaption {
 	bottom: 0;
+}
+
+ul.timeline li ul li {
+    display: block;
+}
+
+ul.timeline li ul li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
 }
 

@@ -1,0 +1,145 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "none",
+      "Title": "W:",
+      "Body": "<ul class=\"bottom-space\"> \n <li>Use water-based cleaner</li> \n <li>Spot clean with the foam only of a water-based cleaning agent like mild detergent or commercial upholstery shampoo</li> \n <li>Use sparinly to avoid over-wetting</li> \n <ul>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "WA:",
+      "Body": "<ul class=\"bottom-space\"> \n <li>Washable, consult fabric or fabric book for individual instructions about temperature and other conditions</li> \n </ul>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "S:",
+      "Body": "<ul class=\"bottom-space\"> \n <li>Use solvent cleaner</li> \n <li>Spot clean with mild water-free dry cleaning solvent available at local stores</li> \n <li>Use sparingly in well ventilated room with no sparks or flame in the room</li> \n <li><strong>Caution:</strong> Use of water-based solvent cleaners may cause spotting and/or excessive shrinking</li> \n <li>Solvent cleaning agents will not remove water stains</li> \n </ul>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "S-W:",
+      "Body": "<ul class=\"bottom-space\"> \n <li>Can use water-based or solvent cleaner</li> \n <li>Depending on the stain, spot clean with a dry cleaning solvent, mild detergent foam or upholstery shampoo</li> \n </ul>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "P:",
+      "Body": "<ul class=\"bottom-space\"> \n <li>Resistant against perchlorethene, cleaning benzene (spirit), white spirit R11 and R113</li> \n <li>\"_\" symbol under the P means limited addition of water, less mechanical treatment or lower drying temperature needed</li> \n </ul>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "F:",
+      "Body": "<ul class=\"bottom-space\"> \n <li>Resistant against cleaning benzene (spirit), white spirit and R113</li> \n </ul>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "scroll",
+      "Title": "X:",
+      "Body": "<ul class=\"bottom-space\"> \n <li>Clean by vacuuming only or light brushing to prevent accumulation of dust and grime</li> \n <li>Water-based foam or solvent-based cleaning agents of any kind may cause excessive shrinking, fading or spotting</li> \n </ul>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "67BCDB",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "30px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

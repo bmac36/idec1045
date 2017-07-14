@@ -1175,7 +1175,8 @@ footer {
 	background-image: url(../../IDEC1045/week_10/img/10.jpg)
 }
 .mod11-t0-img {
-	background-image: url(../../IDEC1045/week_11/img/11.jpg)
+	background-image: url(../../IDEC1045/week_11/img/11.jpg);
+	background-position: center;
 }
 .mod11-conclusion {
 	background-image: url(../../IDEC1045/week_11/img/11.jpg)
@@ -1268,7 +1269,8 @@ background-position: center;
 	background-image: url(../../IDEC1045/week_10/img/10m.jpg)
 }
 .mod11-t0-img {
-	background-image: url(../../IDEC1045/week_11/img/11.jpg)
+	background-image: url(../../IDEC1045/week_11/img/11.jpg);
+	background-position: center;
 }
 }
 
@@ -1340,7 +1342,8 @@ background-position: center;
 	background-image: url(../../IDEC1045/week_10/img/10.jpg)
 }
 .mod11-t0-img {
-	background-image: url(../../IDEC1045/week_11/img/11.jpg)
+	background-image: url(../../IDEC1045/week_11/img/11.jpg);
+	background-position: center;
 }
 }
 #holder, .img-circle, .img-rounded, .img-thumbnail {

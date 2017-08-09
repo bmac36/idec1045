@@ -9,7 +9,7 @@
       },
       "Content": {
         "Title": "Pinch Pleat",
-        "Body": "<p>Pinch pleat, sometimes known as a French pleat, is the most common traditional kind of pleat. This pleat can be used for all styles of décor except for ultra-modern. Pleats are often folded three times, however, there are varying styles of this pleat in drapery books that give you more individual ideas.</p>"
+        "Body": "<p class=\"card-text\">Pinch pleat, sometimes known as a French pleat, is the most common traditional kind of pleat. This pleat can be used for all styles of décor except for ultra-modern. Pleats are often folded three times, however, there are varying styles of this pleat in drapery books that give you more individual ideas.</p>"
       },
       "Navigation": {
         "Icon": "None",

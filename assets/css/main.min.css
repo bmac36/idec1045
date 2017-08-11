@@ -282,7 +282,7 @@ figcaption.point-up-right {
 	background-image: url(../img/topic2-lg.jpg);
 	background-repeat: no-repeat;
 	background-position: 50%;
-	min-height: 800px
+	height: 800px
 }
 .t3-wk2-img {
 	background-image: url(../../idec1045/week_02/img/natural_fibres.jpg);
@@ -307,6 +307,7 @@ figcaption.point-up-right {
 .t4-wk6-img {
 	background-image: url(../../idec1045/week_06/img/drapery_hardware.jpg);
 	background-position: center;
+	min-height: 600px;
 }
 .t2-wk7-img {
 	background-image: url(../../idec1045/week_07/img/blinds.jpg);
@@ -800,6 +801,7 @@ footer {
 	.t4-wk6-img {
 		background-image: url(../../idec1045/week_06/img/drapery_hardware.jpg);
 		background-position: center;
+		min-height: 600px;
 	}
 	.t2-wk7-img {
 		background-image: url(../../idec1045/week_07/img/blinds.jpg);

@@ -10,7 +10,7 @@
         "AddCircle": true,
         "BadgeColor1": "67BCDB",
         "BadgeColor2": "000000",
-        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
         "BadgeText": "",
         "BadgeTextMargin": "10px",
         "BadgeFontSize": "30px"
@@ -23,14 +23,14 @@
     },
     {
       "Inverted": false,
-      "RevealType": "none",
+      "RevealType": "scroll",
       "Title": "Medium Weight",
       "Body": "<p class=\"bottom-space\">Medium weight fabrics are very common in window treatments as they are very pliable and adapt to most window treatment options.  They can drape well depending on their fiber content, can open and close with more ease.  Medium weight fabrics are generally not as stiff as heavy weight fabrics and have a better “hand”.  They come in all fibers from natural to synthetic and all blends and some examples are satin, some velvets, and taffeta. </p>\n <div class=\"row bottom-space\">\n<div class=\"col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1\">\n<figure class=\"cap-bot\"> <img src=\"img/medium_weight.jpg\" class=\"img-responsive\" alt=\" \" /><figcaption>This medium weight fabric treatment pleats well and has nice drape on these windows.  Notice that it is also using three different fabrics on this one window.<br /><cite>© iStock.com/zhudlfeng</cite></figcaption>\n        </figure>\n                  </div>\n                </div>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "67BCDB",
         "BadgeColor2": "000000",
-        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
         "BadgeText": "",
         "BadgeTextMargin": "10px",
         "BadgeFontSize": "30px"
@@ -43,14 +43,14 @@
     },
     {
       "Inverted": false,
-      "RevealType": "none",
+      "RevealType": "scroll",
       "Title": "Light Weight",
       "Body": "<p class=\"bottom-space\">Light weight fabrics are very soft, flowy and include sheer, lace linen and organza.  Often they are see through or semi-sheer though they can be opaque as well.  They come from all fabric content sources from natural to synthetic or blended fabrics.</p>\n <div class=\"row bottom-space\">\n<div class=\"col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1\">\n<figure class=\"cap-bot\"> <img src=\"img/light_weight.jpg\" class=\"img-responsive\" alt=\" \" /><figcaption>These drapes are very light and soft in appearance and allow light to pass through them into the room.<br /><cite>© iStock.com/rilueda</cite></figcaption>\n        </figure>\n                  </div>\n                </div>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "67BCDB",
         "BadgeColor2": "000000",
-        "BadgeIcon": "glyphicon glyphicon-eye-open",
+        "BadgeIcon": "glyphicon glyphicon-list-alt",
         "BadgeText": "",
         "BadgeTextMargin": "10px",
         "BadgeFontSize": "30px"

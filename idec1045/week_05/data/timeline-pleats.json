@@ -3,7 +3,7 @@
   "Events": [
     {
       "Inverted": false,
-      "RevealType": "scroll",
+      "RevealType": "none",
       "Title": "Pinch Pleat",
       "Body": "        <p class=\"bottom-padding\">Pinch pleat, sometimes known as a French pleat, is the most common traditional kind of pleat.  This pleat can be used for all styles of d&eacute;cor except for ultra-modern.  Pleats are often folded three times, however, there are varying styles of this pleat in drapery books that give you more individual ideas.</p>\n\n                <div class=\"row\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                <figure class=\"cap-bot\"> <img src=\"img/pinch_pleat.jpg\" class=\"img-responsive\" alt=\" \" />\n          <figcaption>A sample of the Pinch pleat<br><cite>© iStock.com/phototropic </cite></figcaption></figure></div></div>",
       "Badge": {

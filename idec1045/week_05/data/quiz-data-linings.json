@@ -30,7 +30,7 @@
     {
       "questionType": "Multiple Choice",
       "maxScoreValue": 1,
-      "questionText": "<img src=\"img/unity.jpg\" alt=\"house showing unity across all windows\" class=\"img-responsive\"><br>Linings are almost always used by decorators for custom window treatments.",
+      "questionText": "<div class=\"col-sm-10 col-sm-offset-1\"> \n <img src=\"img/unity.jpg\" alt=\"house showing unity across all windows\" class=\"img-responsive\"> \n </div> \n <div class=\"clearfix\"></div> <br>Linings are almost always used by decorators for custom window treatments.",
       "hintText": "none",
       "hintMedia": "none",
       "answers": [
@@ -48,7 +48,7 @@
     {
       "questionType": "All That Apply",
       "maxScoreValue": 4,
-      "questionText": "<img src=\"img/lining.jpg\" alt=\"lined window treatment in family room\" class=\"img-responsive\"><br>Which of the following are benefits of using linings on a window treatment?",
+      "questionText": "<div class=\"col-sm-10 col-sm-offset-1\"> \n <img src=\"img/lining.jpg\" alt=\"lined window treatment in family room\" class=\"img-responsive\"> \n </div> \n <div class=\"clearfix\"></div> <br>Which of the following are benefits of using linings on a window treatment? <em>Select all that apply</em>",
       "hintText": "none",
       "hintMedia": "none",
       "answers": [
@@ -81,7 +81,7 @@
     {
       "questionType": "Multiple Choice",
       "maxScoreValue": 1,
-      "questionText": "<img src=\"img/stone_home.jpg\" alt=\"150 year old stone home\" class=\"img-responsive\"><br>Your client has just moved into a 150 year old stone house and would like you to decorate the main floor, starting with window treatments. Which lining would work best for this type of home?",
+      "questionText": "<div class=\"col-sm-10 col-sm-offset-1\"> \n <img src=\"img/stone_home.jpg\" alt=\"150 year old stone home\" class=\"img-responsive\"> \n </div> \n <div class=\"clearfix\"></div> <br>Your client has just moved into a 150 year old stone house and would like you to decorate the main floor, starting with window treatments. Which lining would work best for this type of home?",
       "hintText": "none",
       "hintMedia": "none",
       "answers": [

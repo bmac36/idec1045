@@ -3,7 +3,7 @@
   "Events": [
     {
       "Inverted": false,
-      "RevealType": "scroll",
+      "RevealType": "none",
       "Title": "Cleaning:",
       "Body": "<p>In the first step of cleaning the cotton balls are vacuumed into tubes and carried to a dryer to reduce the moisture from the cotton and to improve the fiber quality.  Cleaning removes the leaf trash, sticks and other foreign matter found when picked.  It then goes to a machine called a cotton gin where the fibers are separated from the seeds.  There are different kinds of gins to help pull away the seed.</p>",
       "Badge": {

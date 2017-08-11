@@ -897,11 +897,14 @@ MatchingApp.buildQuestionCols = function() {
    }
 
    if (MatchingApp.AppData.Randomize === true) {
-      tempArr.sort(function() {
-         return 0.5 - Math.random();
-      });
+      tempArr = shuffle(tempArr);
    }
-
+	
+	if(MatchingApp.AppData.ShowMax < tempArr.length) {
+		var maxadjust = MatchingApp.AppData.ShowMax - tempArr.length;
+		tempArr.splice(maxadjust);
+	}
+	
    for (j = 0; j < MatchingApp.questionData.length; j++) {
       if (MatchingApp.curQCol > MatchingApp.qCols) {
          MatchingApp.curQCol = 1;
@@ -996,7 +999,19 @@ MatchingApp.buildAnswerSlots = function() {
             style: style
          }).appendTo(tempContDiv);
 
-         $('#MAT_ansSlotContainer').append(tempContDiv);
+		  
+		  if(!MatchingApp.AppData.ExtraAnswers) {
+			  for(var j=0; j<tempArr.length; j++) {
+				  var dragind = tempArr[j].indexOf('id="drag');
+				  var dragnum = parseInt(tempArr[j].slice(dragind+8));
+				  if(MatchingApp.questionData[dragnum].answer == MatchingApp.AnsSlotData[c].key) {
+					  $('#MAT_ansSlotContainer').append(tempContDiv);
+				  }
+			  }
+		  }
+		  else {
+			  $('#MAT_ansSlotContainer').append(tempContDiv);
+		  }
 
          if (MatchingApp.mobileDevice === true) {
             $('.dropzone').each(function() {
@@ -1125,11 +1140,19 @@ MatchingApp.buildInstructions = function() {
  * @method assignOrigPos
  */
 MatchingApp.assignOrigPos = function() {
+	
    for (i = 0; i < MatchingApp.questionData.length; i++) {
-      temp = document.getElementById('drag' + i);
-      var tempPos = temp.parentNode;
+	   
+	   for(j = 0; j < tempArr.length; j++) {
+		   if(tempArr[j].indexOf('id="drag'+i+'"') > -1) {
+				  temp = document.getElementById('drag' + i);
+				  var tempPos = temp.parentNode;
 
-      MatchingApp.origPos.splice(i, 1, tempPos);
+				  MatchingApp.origPos.splice(i, 1, tempPos);
+		   }
+	   }
+	   
+
    }
 };
 
@@ -1315,7 +1338,6 @@ MatchingApp.drop = function(ev) {
       }
 
       if (MatchingApp.ActivityType === 'match') {
-				console.log("in");
          if ($($_this).is(':empty')) {
             if ($(dropItem).hasClass('collapsed') === true) {
                $(dropItem).removeClass('collapsed');
@@ -1437,39 +1459,46 @@ MatchingApp.evaluateScore = function() {
 
    if (MatchingApp.AppData.FeedbackType === 'continuous') {
       for (i = 0; i < MatchingApp.questionData.length; i++) {
-         temp = document.getElementById('drag' + i);
-         tempPar = temp.parentNode.parentNode;
-         tempComp = tempPar.id;
-         ans = parseInt(tempComp.substr(10));
+		  
+	   for(j = 0; j < tempArr.length; j++) {
+		   if(tempArr[j].indexOf('id="drag'+i+'"') > -1) {
+			 temp = document.getElementById('drag' + i);
+			 tempPar = temp.parentNode.parentNode;
+			 tempComp = tempPar.id;
+			 ans = parseInt(tempComp.substr(10));
 
-         if (tempPar.getAttribute('class') === 'MI_aSlot') {
-            if (MatchingApp.qMatch[i] === MatchingApp.aMatch[ans]) {
-               MatchingApp.scoreEval.push(1);
-               if ($(temp.firstChild).hasClass('MAT_expand') === true) {
-                  $(temp.firstChild).remove();
-               }
-               // if ($(temp).hasClass('collapsed') === true) {
-               //     $(temp).removeClass('collapsed');
-               // }
-               $(temp).prepend(correct);
+			 if (tempPar.getAttribute('class') === 'MI_aSlot') {
+				if (MatchingApp.qMatch[i] === MatchingApp.aMatch[ans]) {
+				   MatchingApp.scoreEval.push(1);
+				   if ($(temp.firstChild).hasClass('MAT_expand') === true) {
+					  $(temp.firstChild).remove();
+				   }
+				   // if ($(temp).hasClass('collapsed') === true) {
+				   //     $(temp).removeClass('collapsed');
+				   // }
+				   $(temp).prepend(correct);
 
-               $(temp).css('background-color', '#EFE');
-               $(temp).disabled = true;
-               if ($(temp).hasClass('dropped') === false) {
-                  $(temp).toggleClass('dropped');
-               }
-            } else {
-               MatchingApp.scoreEval.push(0);
-               if ($(temp.firstChild).hasClass('MAT_expand') === true) {
-                  $(temp.firstChild).remove();
-               }
-               // if ($(temp).hasClass('collapsed') === true) {
-               //     $(temp).removeClass('collapsed');
-               // }
-               $(temp).prepend(wrong);
+				   $(temp).css('background-color', '#EFE');
+				   $(temp).disabled = true;
+				   if ($(temp).hasClass('dropped') === false) {
+					  $(temp).toggleClass('dropped');
+				   }
+				} else {
+				   MatchingApp.scoreEval.push(0);
+				   if ($(temp.firstChild).hasClass('MAT_expand') === true) {
+					  $(temp.firstChild).remove();
+				   }
+				   // if ($(temp).hasClass('collapsed') === true) {
+				   //     $(temp).removeClass('collapsed');
+				   // }
+				   $(temp).prepend(wrong);
 
-            }
-         }
+				}
+			 }
+		   }
+	   }
+		  
+
       }
    } else {
       for (i = 0; i < MatchingApp.questionData.length; i++) {
@@ -1543,7 +1572,11 @@ MatchingApp.checkAnswers = function() {
 
    var total = 0;
    for (var i = 0; i < MatchingApp.matchAmount.length; i++) {
-      total += MatchingApp.matchAmount[i];
+	   for(j = 0; j < tempArr.length; j++) {
+		   if(tempArr[j].indexOf('id="drag'+i+'"') > -1) {
+      				total += MatchingApp.matchAmount[i];
+		   }
+	   }
    }
 
    if (score === total) {
@@ -1653,57 +1686,9 @@ MatchingApp.checkForCollapse = function() {
  * @method reset
  */
 MatchingApp.reset = function() {
-   if (MatchingApp.notifications === true) {
-      PNotify.removeAll();
-   }
-   MatchingApp.ti = 1;
-
-   $('.correct').remove();
-   $('.wrong').remove();
-
-   MatchingApp.scoreEval = [];
-
-   for (i = 0; i < MatchingApp.questionData.length; i++) {
-      temp = document.getElementById('drag' + i);
-
-      if ($(temp).hasClass('dropped') === true) {
-         $(temp).toggleClass('dropped');
-         $(temp).css('background-color', 'none');
-      }
-
-      if ($(temp).hasClass('collapsed') === true) {
-         $(temp).removeClass('collapsed');
-      }
-
-      if ($(temp.firstChild).hasClass('MAT_expand') === true) {
-         $(temp.firstChild).remove();
-      }
-
-      $(temp).hide().appendTo(MatchingApp.origPos[i]).fadeIn(500);
-      // MatchingApp.origPos[i].appendChild(temp);
-   }
-
-   $('.draggableTextNode').each(function() {
-      this.setAttribute('tabindex', MatchingApp.ti);
-      MatchingApp.ti++;
-   });
-
-   $('#MAT_progress').html('Click the "Check Answers" button to check your progress.');
-   $('#MAT_progress').css('color', 'black');
-   MatchingApp.HandleMobileDrop();
-
-   if (MatchingApp.AppData.FeedbackType === 'continuous') {
-      MatchingApp.finishedQuiz = false;
-      $('#MAT_resetButton').fadeOut(500, function() {
-         $('#MAT_resetButton').remove();
-      });
-      $('#MAT_buttonSet').append(MatchingApp.resetWrongButton);
-      MatchingApp.sessionTimer = 0;
-      MatchingApp.currentAttempts++;
-      MatchingApp.onComplete();
-   }
-
-   $('[tabindex=1]').focus();
+   $("#dbox").html("");
+	MatchingApp.resetQuizData();
+	MatchingApp.buildApp();
 };
 
 /**
@@ -1717,32 +1702,39 @@ MatchingApp.resetWrong = function() {
    MatchingApp.scoreEval = [];
 
    for (i = 0; i < MatchingApp.questionData.length; i++) {
-      temp = document.getElementById('drag' + i);
+	   
+	   for(j = 0; j < tempArr.length; j++) {
+		   if(tempArr[j].indexOf('id="drag'+i+'"') > -1) {
+			  temp = document.getElementById('drag' + i);
 
-      var children = $(temp).children();
+			  var children = $(temp).children();
 
-      if ($(temp.firstChild).hasClass('MAT_expand') === true) {
-         $(temp.firstChild).remove();
-         $(temp).removeClass('collapsed');
-      }
+			  if ($(temp.firstChild).hasClass('MAT_expand') === true) {
+				 $(temp.firstChild).remove();
+				 $(temp).removeClass('collapsed');
+			  }
 
-      if ($(temp.firstChild).hasClass('wrong') === true) {
+			  if ($(temp.firstChild).hasClass('wrong') === true) {
 
-         $(temp).hide().appendTo(MatchingApp.origPos[i]).fadeIn(500);
-         // MatchingApp.origPos[i].appendChild(temp);
-      }
+				 $(temp).hide().appendTo(MatchingApp.origPos[i]).fadeIn(500);
+				 // MatchingApp.origPos[i].appendChild(temp);
+			  }
 
-      //FIX MEEEEEEEEE
-      // if ($(children[1]).hasClass('wrong')) {
-      //     $(temp).removeClass('collapsed');
+			  //FIX MEEEEEEEEE
+			  // if ($(children[1]).hasClass('wrong')) {
+			  //     $(temp).removeClass('collapsed');
 
-      //     if ($(temp.firstChild).hasClass('MAT_expand') === true) {
-      //         $(temp.firstChild).remove();
-      //     }
+			  //     if ($(temp.firstChild).hasClass('MAT_expand') === true) {
+			  //         $(temp.firstChild).remove();
+			  //     }
 
-      //     $(temp).hide().appendTo(MatchingApp.origPos[i]).fadeIn(500);
-      //     // MatchingApp.origPos[i].appendChild(temp);
-      // }
+			  //     $(temp).hide().appendTo(MatchingApp.origPos[i]).fadeIn(500);
+			  //     // MatchingApp.origPos[i].appendChild(temp);
+			  // }
+		   }
+	   }
+	   
+
    }
 
    $('.draggableTextNode').each(function() {
@@ -2536,4 +2528,24 @@ function d2log(m) {
          console.log(m);
       }
    }
+}
+
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
 }

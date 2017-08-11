@@ -588,7 +588,7 @@ MatchingApp.buildActivity = function() {
    $('[tabindex=1]').focus();
 
    if (MatchingApp.mobileDevice === false) {
-      MatchingApp.checkCollapse = setInterval('MatchingApp.checkForCollapse();', 100);
+      //MatchingApp.checkCollapse = setInterval('MatchingApp.checkForCollapse();', 100);
    }
 
    if ($('.d2l-page-title', window.parent.document).length > 0) {

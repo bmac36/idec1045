@@ -45,7 +45,7 @@
       "Inverted": false,
       "RevealType": "scroll",
       "Title": "Cinch Pleat",
-      "Body": "    <p class=\"bottom-padding\">This pleat style is a more modern pleat style where the pleat starts at the very top of the treatment and gives the treatment great folds and a fuller look.  For this treatment you must use a decorative rod.  This is a wonderful pleat style for all styles.</p>\n                <div class=\"row bottom-space\">\n                  <div class=\"col-xs-12 col-sm-10 col-sm-offset-1\">\n                    <figure class=\"cap-bot no-padding\"> <img src=\"img/cinch_pleat.jpg\" alt=\" \" class=\"img-responsive center-block\">\n                      <figcaption>An example of a Cinch pleat<br>\n                        <cite>&copy; Conestoga College</cite></figcaption>\n                    </figure>\n                  </div>\n                </div>",
+      "Body": "    <p class=\"bottom-padding\">This pleat style is a more modern pleat style where the pleat starts at the very top of the treatment and gives the treatment great folds and a fuller look.  For this treatment you must use a decorative rod.  This is a wonderful pleat style for all styles.</p>\n   <p>There is an example of a cinch pleat in the video below. </p> \n         ",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "67BCDB",
